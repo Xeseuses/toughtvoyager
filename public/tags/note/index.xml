@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on Thought Voyager</title>
-    <link>http://localhost:1313/tags/note/</link>
+    <link>http://thoughtvoyager.com/tags/note/</link>
     <description>Recent content in Note on Thought Voyager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://thoughtvoyager.com/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Case For Anarchy</title>
-      <link>http://localhost:1313/posts/the-case-for-anarchy/</link>
+      <link>http://thoughtvoyager.com/posts/the-case-for-anarchy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-case-for-anarchy/</guid>
+      <guid>http://thoughtvoyager.com/posts/the-case-for-anarchy/</guid>
       <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The failure of modern day democracy]] I already have argued I don´t believe in (modern day) democracy any more. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
     </item>
   </channel>
