@@ -18,10 +18,10 @@ style = "github-dark"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = false  # Enables raw HTML if needed
+      unsafe = true # Enables raw HTML if needed
 
 [params]
-  summaryLength = 2000  # Set the desired summary length in words
+  summaryLength = 70  # Set the desired summary length in words
 
 
 #[params]
