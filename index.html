@@ -194,8 +194,8 @@ Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot 
    
   .container {
     max-width: 100%;
-    padding: 0;
     margin: 0 auto;
+    padding: 0 10px;  
   }
 
    
@@ -203,19 +203,24 @@ Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot 
     text-align: center;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100%;  
+    display: block;
   }
 
+   
   .post-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
+    width: 100%;
   }
 
   article {
-    max-width: 800px;  
+    max-width: 750px;  
     width: 100%;
     padding: 1rem;
+    box-sizing: border-box;
+    margin: 1rem 0;
   }
 </style>
 
