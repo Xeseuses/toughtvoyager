@@ -1,41 +1,41 @@
 import os
 import re
 
-# Function to convert Obsidian links to Hugo links
-def convert_to_hugo_link(text):
-    # Regular expression to match Obsidian-style links [[filename]]
-    obsidian_link_pattern = r'\[\[(.*?)\]\]'
-    
-    # Function to replace each link with Hugo-style link
+# Function to replace Obsidian-style links with Hugo-style links
+def convert_obsidian_links(file_path, base_url):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    # Regular expression to find Obsidian-style links (e.g., [[Title]])
+    pattern = r'\[\[(.*?)\]\]'
+
+    # Function to replace each found link with the Hugo-style link
     def replace_link(match):
-        filename = match.group(1)
-        # Hugo URL format for posts (correcting the `post/` to `posts/`)
-        return f'[{filename}](/posts/{filename.lower().replace(" ", "-")}/)'
+        title = match.group(1).strip()
+        # Create the Hugo URL (adjust this part based on your folder structure if needed)
+        hugo_url = f"{base_url}/{title.replace(' ', '-').lower()}/"
+        return f"[{title}]({hugo_url})"
 
-    # Replace all Obsidian links with Hugo-style links
-    return re.sub(obsidian_link_pattern, replace_link, text)
+    # Replace all Obsidian-style links with Hugo-style links
+    updated_content = re.sub(pattern, replace_link, content)
 
-# Function to process each markdown file in the given directory
-def process_files(vault_dir):
-    for root, _, files in os.walk(vault_dir):
+    # Write the updated content back to the file
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(updated_content)
+
+# Function to process all Markdown files in a directory
+def process_directory(directory, base_url):
+    for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith('.md'):
                 file_path = os.path.join(root, file)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
+                convert_obsidian_links(file_path, base_url)
+                print(f"Processed: {file_path}")
 
-                # Convert links in the content
-                updated_content = convert_to_hugo_link(content)
+# Set the directory containing your .md files and the base URL for your Hugo site
+directory = '/home/ruben/Documents/thoughtvoyager/content/posts/Posts'
+base_url = 'https://thoughtvoyager.com/posts/posts'
 
-                # If content has changed, write it back to the file
-                if content != updated_content:
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(updated_content)
-                    print(f"Updated: {file_path}")
-
-# Hugo posts directory
-hugo_posts_directory = '/home/xeseuses/thoughtvoyager/content/posts'
-
-# Run the script
-process_files(hugo_posts_directory)
+# Process all files in the specified directory
+process_directory(directory, base_url)
 
