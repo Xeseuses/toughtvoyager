@@ -2,18 +2,382 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on Thought Voyager</title>
-    <link>http://thoughtvoyager.com/tags/note/</link>
+    <link>http://localhost:1313/tags/note/</link>
     <description>Recent content in Note on Thought Voyager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://thoughtvoyager.com/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Case For Anarchy</title>
-      <link>http://thoughtvoyager.com/posts/the-case-for-anarchy/</link>
+      <title>Library Economy</title>
+      <link>http://localhost:1313/posts/posts/library-economy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/the-case-for-anarchy/</guid>
-      <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The failure of modern day democracy]] I already have argued I don´t believe in (modern day) democracy any more. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
+      <guid>http://localhost:1313/posts/posts/library-economy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solarpunk</title>
+      <link>http://localhost:1313/posts/solarpunk/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/solarpunk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shadow Work</title>
+      <link>http://localhost:1313/posts/shadow-work/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/shadow-work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/alter-ego/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/alter-ego/</guid>
+      <description>Name: Age: Background:&#xA;Where work or study Who are family and friends? What challenges or dreams? Hobbies: Favorites: Food: Place: Music: Personality: </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/budgeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/budgeting/</guid>
+      <description>Create simple categories &amp;gt; simplify them as good as you can.&#xA;Essentials: needs to be paid every month, usally same price every month Variables: Necessary for survival, vary widely in price month to month Emergency fund:&#xA;3-6 months expenses Start with a small saving goal Round up &amp;amp; down:&#xA;Round up bills to nearest tenth/hunderd Round down paychecks to tenth/hunderd How to Stop Wanting to Buy Stuff Link to heading Wait it out -&amp;gt; 30 day waiting period Pros &amp;amp; Cons list </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/cash-stuffing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cash-stuffing/</guid>
+      <description> Zero Based Budgeting: Link to heading Income - Expense = 0 Link to heading </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/conlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/conlang/</guid>
+      <description> Goal: Naturalism Link to heading Basque-style auxiliaries Link to heading Vowel Harmony Link to heading </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-archives/my-archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-archives/my-archives/</guid>
+      <description>Archiving is a bit complicated with links, so at the moment it&amp;rsquo;s only set to notes that are in the actual folder&#xA;To archive a note, give it the #archive tag&#xA;Query Link to heading table Created from &amp;#34;Hidden/My Archives&amp;#34; OR #archive sort file.mtime desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/notes/note-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/notes/note-template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/how-to-use-daily-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-use-daily-notes/</guid>
+      <description>Reminders Link to heading After filling out journal and looking at tasks, you can fill this out so on opening daily note you&amp;rsquo;re reminded.&#xA;Highlight: Looking forward to today&#xA;The big three are the three most important tasks you need to do today.&#xA;Remember to review yesterday&amp;rsquo;s improvement point.&#xA;Tasks Link to heading Today Link to heading A place to journal the day&#xA;Journals Link to heading To implement High performance habits</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-files/my-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-files/my-files/</guid>
+      <description>For other kinds of files:&#xA;Canvas Excalidraw </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-greenhouse/a-seedling-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-greenhouse/a-seedling-note/</guid>
+      <description>![[Example note callout]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-greenhouse/a-sprout-note/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-greenhouse/a-sprout-note/</guid>
+      <description>![[Example note callout]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/psalm-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/psalm-categories/</guid>
+      <description>Levenswandel:&#xA;Psalm 1: Levenswandel op den rechtvaardige weg Psalm 5: Roep tot God, Roep tegen de onrechtvaardigen en verklaring over de weg die gegaan wordt Psalm 15: De rechtvaardige levenswandel Roep tot God: Psalm 4: Roep tot God en vertrouwen Psalm 5: Roep tot God, Roep tegen de onrechtvaardigen en verklaring over de weg die gegaan wordt Psalm 10: Roep om God en contrast Goddelozen Psalm 13: Roep naar God Psalm 17: Roep tot God God vs onrechtvaardige wereld: Psalm 2: Gods strijd tegen de Goddeloze wereld Psalm 10: Roep om God en contrast Goddelozen Psalm 11: Vertrouwen op God en Gods strijd tegen de Goddelozen Psalm 12: Gods strijd tegen de Goddelozen Psalm 14: Gods strijd tegen de Goddelozen Troost/Vertrouwen Psalm 3: Troost in vluchten Psalm 7: Vertrouwen op God Psalm 11: Vertrouwen op God en Gods strijd tegen de Goddelozen Psalm 16: Vertrouwen op God en lofprijzing Boetepsalm: Psalm 6: Boetepsalm Lofprijzing: Psalm 8: Lofprijzing op de schepping Psalm 9: Lofprijzing vanwege Gods winst op heidenen Psalm 16: Vertrouwen op God en lofprijzing Psalm 19: Gods heerlijkheid in de schepping en in de Schrift Danklied: Psalm 18: Danklied na redding Wens/Gebed: Psalm 20: Zegenbede Psalm 21 Psalm 22 Psalm 23 Psalm 24 Psalm 25 Psalm 26 Psalm 27 Psalm 28 Psalm 29 Psalm 30 Psalm 31 Psalm 32 Psalm 33 Psalm 34 Psalm 35 Psalm 36 Psalm 37 Psalm 38 Psalm 39 Psalm 40 Psalm 41 Psalm 42 Psalm 43 Psalm 44 Psalm 45 Psalm 46 Psalm 47 Psalm 48 Psalm 49 Psalm 50 Psalm 51 Psalm 52 Psalm 53: Gods strijd tegen de Goddelozen Psalm 54 Psalm 55 Psalm 56 Psalm 57 Psalm 58 Psalm 59 Psalm 60 Psalm 61 Psalm 62 Psalm 63 Psalm 64 Psalm 65 Psalm 66 Psalm 67 Psalm 68 Psalm 69 Psalm 70 Psalm 71 Psalm 72 Psalm 73 Psalm 74 Psalm 75 Psalm 76 Psalm 77 Psalm 78 Psalm 79 Psalm 80 Psalm 81 Psalm 82 Psalm 83 Psalm 84 Psalm 85 Psalm 86 Psalm 87 Psalm 88 Psalm 89 Psalm 90 Psalm 91 Psalm 92 Psalm 93 Psalm 94 Psalm 95 Psalm 96 Psalm 97 Psalm 98 Psalm 99 Psalm 100 Psalm 101 Psalm 102 Psalm 103 Psalm 104 Psalm 105 Psalm 106 Psalm 107 Psalm 108 Psalm 109 Psalm 110 Psalm 111 Psalm 112 Psalm 113 Psalm 114 Psalm 115 Psalm 116 Psalm 117 Psalm 118 Psalm 119 Psalm 120 Psalm 121 Psalm 122 Psalm 123 Psalm 124 Psalm 125 Psalm 126 Psalm 127 Psalm 128 Psalm 129 Psalm 130 Psalm 131 Psalm 132 Psalm 133 Psalm 134 Psalm 135 Psalm 136 Psalm 137 Psalm 138 Psalm 139 Psalm 140 Psalm 141 Psalm 142 Psalm 143 Psalm 144 Psalm 145 Psalm 146 Psalm 147 Psalm 148 Psalm 149 Psalm 150</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/roadmap/</guid>
+      <description>Email: Proton Browser: multiple -&amp;gt; threat risk Photo&amp;rsquo;s: Immich Maps: OsmAnd Phone OS: Graphene OS</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/untitled/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/backlinks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/backlinks/</guid>
+      <description>Notes that have outgoing links to the note you are currently on.&#xA;You can see this two ways:&#xA;Pane in [[Obsidian Layout]] Can enable in settings to show under a note I currently have it enabled but this can get laggy if you have hundreds of backlinks to a note, so once that time comes you can disable it I do think it&amp;rsquo;s useful to have it enabled now just so you reinforce the idea of links being one of the most important [[Organization methods in Obsidian]] </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/best-way-to-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/best-way-to-use/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/command-palette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/command-palette/</guid>
+      <description>Command palette Link to heading Search and run any existing command or hotkey from anywhere.&#xA;name Open command palette (Ctrl/Cmd+o) type command action Command palette: Open command palette After hotkeys, I feel this is the most efficient way to navigate and use your vault:&#xA;Instead of having to move your mouse to click a button, you can just open this then type the command you want to run 🤩 Almost anything can be turned into a command (note creation, opening a pane So, to slowly encourage point out which commands are most important to using the vault (which you probably have already seen), I will be including buttons in these notes when relevant like the one above to let you know that there&amp;rsquo;s almost always a command for something 🤩</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/creating-and-modifying-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/creating-and-modifying-notes/</guid>
+      <description>A way to access notes and create new ones.&#xA;If I know the title of the note, this is my main method of opening it.&#xA;To open, hit Ctrl/Cmd+o&#xA;name Quick switcher: Open quick switcher type command action Quick switcher: Open quick switcher Once you find the note in the results, there are ways you can open it:&#xA;On current tab, Enter On new tab, Ctrl/Cmd+Enter On new view and tab, Ctrl/Cmd+Alt/Opt+Enter If you need to quickly rename the title, you can run the command:</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/custom-frames-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/custom-frames-plugin/</guid>
+      <description> Use Cases Link to heading Import any relevant personal knowledge management apps like Google Keep or ChatGPT [[AI in Obsidian]] Link to heading We can use AI for free in our vault by creating an embed for ChatGPT, which is available on the sidebar&#xA;name Custom Frames: Open ChatGPT type command action Custom Frames: Open ChatGPT </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/dataview-queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/dataview-queries/</guid>
+      <description>What Link to heading A code block used to display specific notes and their [[Metadata]] based on criteria you set.&#xA;I use this since it adds more organization beyond the traditional Backlinks view.&#xA;Query Anatomy Link to heading When there is a Dataview query in a note, you can hover over it and look to the left of it for a &amp;lt;/&amp;gt; icon that you can click to view the code.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/embedding-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/embedding-notes/</guid>
+      <description>Principles Link to heading Instead of having two copies of the same text, you can embed a note or parts of it into another note.&#xA;To embed a note, add ! before the link, like ![[🏠 My Home]], which shows the following:&#xA;![[My Home]]&#xA;Embed Parts Link to heading To embed only a header of a note, add a # after the title of the note in the link and it will give you all possible options</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/implementing-future-updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/implementing-future-updates/</guid>
+      <description>This vault is a continuous project of mine to improve my own life, learning, and productivity.&#xA;As new practices and Obsidian features emerge, I will be updating the USV to continue improving it.&#xA;If you want in-progress updates and give suggestions, then you can [[Join the community]]!&#xA;Otherwise, I will just send you emails with new versions whenever they come out (as long as you are still subscribed to my newsletter) 😊</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/join-the-community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/join-the-community/</guid>
+      <description>Although this product is highly opinionated, I want to best accommodate your use cases and needs to use the vault to it&amp;rsquo;s fullest potential.&#xA;I&amp;rsquo;m always willing to listen to your suggestions, and want you to be an influential part in future updates 🤩&#xA;To chat, ask for help, give suggestions, and be notified of any work-in-progress updates, I highly recommend you to join my Discord by following the instructions video to get access to the exclusive USV channel.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/managing-appearance-and-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/managing-appearance-and-theme/</guid>
+      <description>CSS Snippets Link to heading Custom stylings you can add to your notes.&#xA;If you go to Settings -&amp;gt; Appearance and scroll down to CSS snippets you can see which ones are in this vault like:&#xA;[[Minimal Cards Styling]] Plugins Link to heading ![[My Plugins#Appearance]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/metadata/</guid>
+      <description>Information about a note.&#xA;For example, In [[Building a Second Brain]](which is the example I&amp;rsquo;ll be using for the rest of this note), there are fields about the note like Created, Author, Finished, Rating&#xA;Types of Metadata Link to heading Frontmatter Metadata Link to heading If I wanted to add the data hoursSlept with a value of 8, I can add a property at the top of my note:&#xA;type command name Add file property (Ctrl/Cmd+;) action Add file property Frontmatter usually looks something like this:</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/minimal-cards-styling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/minimal-cards-styling/</guid>
+      <description>Some notes like [[My Vision Board]] have the cards class added in the metadata to turn Dataview table queries into cards instead.&#xA;I personally think this is useful if you have lots of fields you need to show&#xA;You can see the other classes you can add to a note with cards here&#xA;If you want to only apply it to a single query, you will have to turn it into a dataviewjs query (source):</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/module---learn-the-vault-philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/module---learn-the-vault-philosophy/</guid>
+      <description>Can be seen online as part of [[My published notes#Documentation]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/module---set-up-the-vault/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/module---set-up-the-vault/</guid>
+      <description>Can be seen online as part of [[My published notes#Documentation]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/my-plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/my-plugins/</guid>
+      <description>I try to explain what plugins I use and for what purpose in each workflow, but if you want to modify them then I&amp;rsquo;d recommend reading their respective documentations or external tutorials.&#xA;If you want to explore any plugins further, Each plugin has a documentation page, go to Settings &amp;gt; Community Plugins &amp;gt; Click on the plugin title&#xA;Required Link to heading ![[Obsidian Community Plugins#Dedicated Notes]]&#xA;Appearance Link to heading If you&amp;rsquo;re a fan of customizing your own theme, then the Minimal Theme is all you need.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/my-published-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/my-published-notes/</guid>
+      <description>![[Missing link callout]]&#xA;To see all notes mentioned in the vault, you can visit https://notes.johnmavrick.com&#xA;I recommend you create your own notes based on any personal understandings or customizations, which you can keep track of by linking them to [[My Second Brain]].&#xA;Documentation Link to heading Or more specifically for the USV documentation, https://notes.johnmavrick.com/USV+Documentation. There are three main types of notes there:&#xA;Philosophy Link to heading For understanding the why, the overall systems and structure of the vault 🤔</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/my-values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/my-values/</guid>
+      <description>[!TODO]&#xA;Add your own values #hidden You can see mine as an example at https://notes.johnmavrick.com/values and can find your own core ones using The Values Game mentioned in the note.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-bookmarks/</guid>
+      <description>Obsidian Bookmarks are an easy way to access the frequently visited notes in the vault like [[My Home]], [[My Projects]].&#xA;I personally just use quick switcher to access my notes though 😅&#xA;But one benefit is being able to assign hotkeys for bookmarks.&#xA;If you want to add a bookmark, simply run the following command to do so:&#xA;name Bookmarks: Bookmark... (Ctrl/Cmd+Y) type command action Bookmarks: Bookmark... I&amp;rsquo;ve provided a basic structure for the most essential notes you may find yourself revisiting, but feel free to customize it for your own needs!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-callouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-callouts/</guid>
+      <description>https://help.obsidian.md/Editing+and+formatting/Callouts&#xA;I don&amp;rsquo;t use callouts for organizational purposes, since they aren&amp;rsquo;t supported when making links to notes or [[Embedding notes]].&#xA;Much like you have probably seen in [[My Digital Galaxy]], I use them at the top of notes to indicate any important information.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-canvas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-canvas/</guid>
+      <description>What Link to heading The biggest benefit I see from canvas is the ability to create dashboards in 2D that surpass a linear note document&amp;rsquo;s capabilities.&#xA;For example, [[My Habits]] can be shown horizontally like [[My Habits Board.canvas|♻️ My Habits Board]]&#xA;[[My Vision Board]] can be shuffled around in [[My Canvas Vision Board.canvas|My Canvas Vision Board]]&#xA;How Link to heading I personally don&amp;rsquo;t use canvas for thinking much so I would recommend visiting another resource in https://obsidian.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-commands/</guid>
+      <description>Methods Link to heading There are two main ways you can run commands in Obsidian:&#xA;[[Command Palette]] [[Obsidian Hotkeys]] Your Turn Link to heading Visit [[Obsidian Commands]]&#xA;Then go back to [[Module - Learn Obsidian]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-community-plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-community-plugins/</guid>
+      <description>[!TIP] Community Plugins I would suggest you make a back-up of the vault before updating plugins in case a new update breaks something&#xA;Principles Link to heading See [[My Plugins]] for the ones used in this vault.&#xA;You can see all the plugins used in this vault by going into Settings &amp;gt; Community Plugins&#xA;Modification Link to heading Most plugins have a settings page you can access in&#xA;Dedicated Notes Link to heading table Description from #plugin sort file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-features/</guid>
+      <description>[[Obsidian Canvas]] [[Obsidian Bookmarks]] [[Obsidian Callouts]] [[Embedding notes]] You already learned about the following in [[Module - Learn Obsidian]]:&#xA;[[Creating and modifying notes|Quick Switcher]] [[Command Palette]] [[Obsidian Community Plugins]] [[Obsidian Layout]] [[Obsidian Templates]] Your Turn Link to heading Visit [[Lesson Action Items#Obsidian Features]]&#xA;Then go back to [[Module - Learn Obsidian]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-hotkeys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-hotkeys/</guid>
+      <description>If you want to change a hotkey but don&amp;rsquo;t know the name of it, the hotkeys settings page lets you find a hotkey based on the keystrokes.&#xA;Whenever you find friction in doing something or are doing something frequently, try to consider whether you want to make a hotkey for it to make it easier (ex. opening a specific pane on the [[Obsidian Layout#Sidebars]])&#xA;[!TIP] Train yourself When you run a command with [[Command Palette]] that has a hotkey, train yourself to close the palette and use the hotkey instead.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-layout/</guid>
+      <description>Sidebars Link to heading Open and close using the two commands:&#xA;name Toggle Left Sidebar type command action Toggle left sidebar name Toggle Right Sidebar type command action Toggle Right sidebar Features Link to heading You can drag notes into the sidebar, and you can organize them vertically too like you should be seeing right now If you want to save layouts, consider using [[Obsidian Workspaces]] Left Sidebar Link to heading You can add more panes vertically if you squeeze em in between existing ones</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-markdown/</guid>
+      <description>You can view all of the important markdown in the official Obsidian site.&#xA;If you prefer having a menu to access the different syntax, you can look into the cMenu [[Obsidian Community Plugins]].&#xA;My markdown philosophy Link to heading In my personal vault and published notes I also have a different color for bold and italics to make them further stand out.&#xA;Bold Link to heading Important terms or points.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-templates/</guid>
+      <description>[!INFO] Template Explanations Learn the structure of each template in https://notes.johnmavrick.com/USV+Glossary&#xA;This vault uses the [[Templater Plugin]] to allow for extreme customization using code snippets which look like `&amp;lt;% bla bla bla %&amp;gt;&#xA;You can learn more in [[Templater Plugin#Variables]]&#xA;Why Link to heading Two main use cases:&#xA;Creating structure for different [[Note types]] in your vault Creating &amp;ldquo;add-ons&amp;rdquo; you can use, [[My Addons]] Frequently Asked Questions Link to heading How to create new notes with templates Link to heading Creating ordinary notes was covered in [[Creating and modifying notes]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-video-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-video-script/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-workspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-workspaces/</guid>
+      <description>Workspaces can help save [[Obsidian Layout|layouts]] of your interface, to allow for quick switching between use cases&#xA;You can have workspaces for:&#xA;Each project you&amp;rsquo;re working on to save related notes and views Different use cases for your vault ex) One for a certain project, for taking book notes, for doing a weekly review, etc To view your workspaces, click the icon on the sidebar, or ![[Obsidian Hotkeys#^ec631a]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/onboarding/create-a-new-note-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/onboarding/create-a-new-note-type/</guid>
+      <description>[!TIP] Video Example I removed Make.md from the vault because it was buggy. Instead of making a new space, make a folder instead in the proper place, and feel free to skip changes related to contexts.&#xA;Watch this video to see how I implemented [[My Meetings]] and [[My Social Circle]] notes into the vault&#xA;Steps Link to heading Create a new folder for the note type Create Template Link to heading Create a new template for the note using the [[New Note Type Template]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/onboarding/lesson-action-items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/onboarding/lesson-action-items/</guid>
+      <description>[!INFO] This is in the Hidden folders so all the tasks do not show up in [[My Tasks]] 😅&#xA;After doing a lesson, I recommend you answer the questions and complete the action items in here. For questions, you can just answer directly below.&#xA;[[Module - Learn Obsidian]] Link to heading [[Obsidian Markdown]] Link to heading [!question] What is your syntax philosophy? Does it conflict with any of mine?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/onboarding/module---learn-obsidian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/onboarding/module---learn-obsidian/</guid>
+      <description>[!TODO] Do the action items! Each lesson below will have a complementary set of action items in [[Lesson Action Items#Module - Learn Obsidian]] to help you further understand and implement what was talked about&#xA;Basics Link to heading If you&amp;rsquo;re completely new to Obsidian, watch my intro guide to Obsidian The examples given in the video are for school, but almost everything is applicable to the foundational principles and usage of the app Learn about [[Obsidian Markdown]] for the different ways you can format your notes Realize the power of [[Metadata]] Understand the nuances between the [[Organization methods in Obsidian]] [[Creating and modifying notes]] Learn the different ways you can run [[Obsidian Commands]] Read [[Obsidian Layout]] to learn about the user interface of the app and how I personally have it set up Advanced Link to heading This is where the nerdy customization and fun stuff begins 😎</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/onboarding/module---learn-vault-systems-and-workflows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/onboarding/module---learn-vault-systems-and-workflows/</guid>
+      <description>Can be seen online as part of [[My published notes#Documentation]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/organization-methods-in-obsidian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/organization-methods-in-obsidian/</guid>
+      <description>There are three main ways to organize notes in Obsidian:&#xA;[[#Folders]] [[#Links]] [[#Tags]] Folders Link to heading Using folders promotes [[Top-Down Thinking]] as a note can only be in one folder.&#xA;View Link to heading name Files: Show File Explorer type command action Files: Show File Explorer There is also a more functional folder view using the File Tree Alternative Plugin that you might enjoy more. This lets you better navigate your folders with things like:</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/usv-change-log-and-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/usv-change-log-and-documentation/</guid>
+      <description>Head to the Notion page to see current tasks, previous updates, and access&#xA;[!INFO] Video </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/wheel-of-life-manual-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/wheel-of-life-manual-chart/</guid>
+      <description>Just click the copy icon on the top right, then manually change the numbers in the data list so you can visualize your current ratings.&#xA;```chart type: polarArea labels: [Body, Mind, Soul, Mission, Money, Growth, Romance, Family, Friends, Joy] series: - title: data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] tension: 0.2 width: 80% labelColors: true fill: true beginAtZero: true rMax: 10 bestFit: false bestFitTitle: undefined bestFitNumber: 0 legendPosition: right ``` </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workflow/</guid>
+      <description>Fill out year note -&amp;gt; Fill-out goals -&amp;gt; Fill-out habits -&amp;gt;</description>
     </item>
   </channel>
 </rss>

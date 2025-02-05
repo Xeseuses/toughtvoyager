@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moc on Thought Voyager</title>
+    <link>http://localhost:1313/tags/moc/</link>
+    <description>Recent content in Moc on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/moc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/notes/moc-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/notes/moc-template/</guid>
+      <description>Notes Link to heading Queries Link to heading To Develop Link to heading list !&amp;#34;Hidden&amp;#34; where contains(Links, this.file.link) and contains(file.frontmatter.Status, &amp;#34;🌱&amp;#34;) sort file.mtime desc Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/commonplace-books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/commonplace-books/</guid>
+      <description>Notes Link to heading Queries Link to heading To Develop Link to heading list !&amp;#34;Hidden&amp;#34; where contains(Links, this.file.link) and contains(file.frontmatter.Status, &amp;#34;🌱&amp;#34;) sort file.mtime desc Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/life-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/life-design/</guid>
+      <description>Notes Link to heading Queries Link to heading To Develop Link to heading list !&amp;#34;Hidden&amp;#34; where contains(Links, this.file.link) and contains(file.frontmatter.Status, &amp;#34;🌱&amp;#34;) sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/obsidian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/obsidian/</guid>
+      <description>Notes Link to heading [[Obsidian Features]] Personal use cases Link to heading [[My Plugins]] [[Obsidian Hotkeys]] Queries Link to heading Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !&amp;#34;Hidden&amp;#34; sort file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/parknotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/parknotes/</guid>
+      <description>Notes Link to heading Queries Link to heading To Develop Link to heading list !&amp;#34;Hidden&amp;#34; where contains(Links, this.file.link) and contains(file.frontmatter.Status, &amp;#34;🌱&amp;#34;) sort file.mtime desc Notes Link to heading list from [[pn]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/privacy-roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/privacy-roadmap/</guid>
+      <description>Notes Link to heading Queries Link to heading To Develop Link to heading list !&amp;#34;Hidden&amp;#34; where contains(Links, this.file.link) and contains(file.frontmatter.Status, &amp;#34;🌱&amp;#34;) sort file.mtime desc Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/productivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/productivity/</guid>
+      <description> Notes Link to heading Queries Link to heading Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/personal-knowledge-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/personal-knowledge-management/</guid>
+      <description> Notes Link to heading Queries Link to heading Notes Link to heading list from [[]] AND !outgoing([[]]) AND !#input AND !#thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Inputs Link to heading table tags as Type, Links, Created from [[]] AND #input AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc Thoughts Link to heading table Created from [[]] AND #thought AND !&amp;#34;Hidden&amp;#34; sort file.mtime desc </description>
+    </item>
+  </channel>
+</rss>

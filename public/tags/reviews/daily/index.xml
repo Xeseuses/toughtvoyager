@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews/Daily on Thought Voyager</title>
+    <link>http://localhost:1313/tags/reviews/daily/</link>
+    <description>Recent content in Reviews/Daily on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/reviews/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/periodic/daily-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/periodic/daily-template/</guid>
+      <description>[[How to use daily notes?]]&#xA;&amp;laquo; [[My Calendar/My Daily Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;]] | [[My Calendar/My Weekly Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;]] | [[My Calendar/My Daily Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;#Improvements]]&#xA;Tasks Link to heading not done ((due on &amp;lt;%tp.file.title%&amp;gt;) OR (scheduled on &amp;lt;%tp.file.title%&amp;gt;)) OR (((scheduled before &amp;lt;%tp.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/0002-10-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/0002-10-06/</guid>
+      <description>[[How to use daily notes?]]&#xA;&amp;laquo; [[My Calendar/My Daily Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;]] | [[My Calendar/My Weekly Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;]] | [[My Calendar/My Daily Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-MM-DD&amp;rsquo;).add(-1,&amp;lsquo;days&amp;rsquo;).format(&amp;ldquo;YYYY-MM-DD&amp;rdquo;) %&amp;gt;#Improvements]]&#xA;Tasks Link to heading not done ((due on &amp;lt;%tp.file.title%&amp;gt;) OR (scheduled on &amp;lt;%tp.file.title%&amp;gt;)) OR (((scheduled before &amp;lt;%tp.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2023-12-31/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2023-12-31/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2023-12-30|2023-12-30]] | [[My Calendar/My Weekly Notes/2023-W52|2023-W52]] | [[My Calendar/My Daily Notes/2024-01-01|2024-01-01]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2023-12-30#Improvements]]&#xA;Tasks Link to heading not done ((due on 2023-12-31) OR (scheduled on 2023-12-31)) OR (((scheduled before 2023-12-31) OR (due before 2023-12-31)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-01/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2023-12-31|2023-12-31]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-02|2024-01-02]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2023-12-31#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-01) OR (scheduled on 2024-01-01)) OR (((scheduled before 2024-01-01) OR (due before 2024-01-01)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-02/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-01-01|2024-01-01]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-03|2024-01-03]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-01-01#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-02) OR (scheduled on 2024-01-02)) OR (((scheduled before 2024-01-02) OR (due before 2024-01-02)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-03/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-01-02|2024-01-02]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-04|2024-01-04]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-01-02#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-03) OR (scheduled on 2024-01-03)) OR (((scheduled before 2024-01-03) OR (due before 2024-01-03)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-04/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-01-03|2024-01-03]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-05|2024-01-05]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-01-03#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-04) OR (scheduled on 2024-01-04)) OR (((scheduled before 2024-01-04) OR (due before 2024-01-04)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-05/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-01-04|2024-01-04]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-06|2024-01-06]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-01-04#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-05) OR (scheduled on 2024-01-05)) OR (((scheduled before 2024-01-05) OR (due before 2024-01-05)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-06/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-01-05|2024-01-05]] | [[My Calendar/My Weekly Notes/2024-W01|2024-W01]] | [[My Calendar/My Daily Notes/2024-01-07|2024-01-07]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-01-05#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-01-06) OR (scheduled on 2024-01-06)) OR (((scheduled before 2024-01-06) OR (due before 2024-01-06)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-01-07/</guid>
+      <description>Fulfilled, got to work on USV</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-19/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-04-18|2024-04-18]] | [[My Calendar/My Weekly Notes/2024-W16|2024-W16]] | [[My Calendar/My Daily Notes/2024-04-20|2024-04-20]] &amp;raquo; [[2024-W01]]&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-04-18#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-04-19) OR (scheduled on 2024-04-19)) OR (((scheduled before 2024-04-19) OR (due before 2024-04-19)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-28/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-28/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-04-27|2024-04-27]] | [[My Calendar/My Weekly Notes/2024-W17|2024-W17]] | [[My Calendar/My Daily Notes/2024-04-29|2024-04-29]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-04-27#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-04-28) OR (scheduled on 2024-04-28)) OR (((scheduled before 2024-04-28) OR (due before 2024-04-28)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-04-29/</guid>
+      <description>&amp;laquo; [[My Calendar/My Daily Notes/2024-04-28|2024-04-28]] | [[My Calendar/My Weekly Notes/2024-W18|2024-W18]] | [[My Calendar/My Daily Notes/2024-04-30|2024-04-30]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-04-28#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-04-29) OR (scheduled on 2024-04-29)) OR (((scheduled before 2024-04-29) OR (due before 2024-04-29)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-10-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/2024-10-07/</guid>
+      <description>[[How to use daily notes?]]&#xA;&amp;laquo; [[My Calendar/My Daily Notes/2024-10-06|2024-10-06]] | [[My Calendar/My Weekly Notes/2024-W41|2024-W41]] | [[My Calendar/My Daily Notes/2024-10-08|2024-10-08]] &amp;raquo;&#xA;Reminders Link to heading [!DANGER] Today&amp;rsquo;s Highlight %% What am I most looking forward to today? %%&#xA;Today&amp;rsquo;s Big 3&#xA;Remember [[2024-10-06#Improvements]]&#xA;Tasks Link to heading not done ((due on 2024-10-07) OR (scheduled on 2024-10-07)) OR (((scheduled before 2024-10-07) OR (due before 2024-10-07)) AND (tags does not include habit)) sort by priority Today Link to heading Morning Routine</description>
+    </item>
+  </channel>
+</rss>

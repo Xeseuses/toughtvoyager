@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · Thought Voyager
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="Turn your notes into a searachable database">
+<meta name="keywords" content="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Thought Voyager">
+  <meta name="twitter:description" content="Turn your notes into a searachable database">
+
+<meta property="og:url" content="http://localhost:1313/posts/usv/dataview-plugin/">
+  <meta property="og:site_name" content="Thought Voyager">
+  <meta property="og:title" content="Thought Voyager">
+  <meta property="og:description" content="Turn your notes into a searachable database">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:tag" content="Plugin">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/usv/dataview-plugin/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Thought Voyager
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/usv/dataview-plugin/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                January 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/plugin/">Plugin</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <blockquote>
+<p>[!INFO] Video Example
+If you want to better understand how Dataview works, check out how I use queries to sort my school notes <a href="https://youtu.be/0UTzpIdLbVo?t=98"  class="external-link" target="_blank" rel="noopener">here</a></p>
+</blockquote>
+<blockquote>
+<p>[!INFO] Documentation
+If you want to see a complete list of Dataview&rsquo;s features, you can check their <a href="https://blacksmithgu.github.io/obsidian-dataview/"  class="external-link" target="_blank" rel="noopener">documentation</a></p>
+</blockquote>
+<h2 id="why">
+  Why
+  <a class="heading-link" href="#why">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Let&rsquo;s say you had a note to keep track of all your assignments in a note like [[My Inputs]].</p>
+<p>If you were to keep track of all inputs manually, you would have to add a link to each new input, or view them all through the backlinks pane.</p>
+<p>I mean, that works fine for a couple, but what about years worth of content consumed? Would you have the patience to continue adding those links each time? And what about the other places in which you need to see them, like from a project note where you&rsquo;re following a tutorial? And what if you wanted to see them a different way, like sorting them by most recently finished or by their completion status?</p>
+<p>You would then have to manually type out these links again and again, which is a huge waste of time.</p>
+<p>Instead, we can let code automate this process for us ;) As soon as we make a note, we will be able to find it where it&rsquo;s relevant.</p>
+<p>For example, the [[MOC Template]] lets us see all related notes, inputs, and thoughts related to a course.</p>
+<h2 id="what">
+  What
+  <a class="heading-link" href="#what">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="types">
+  Types
+  <a class="heading-link" href="#types">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Dataview lets you see these notes through queries, which search through your notes based on instructions you give it.</p>
+<p>Each query is made of different expressions to help determine what notes you want to show and why.</p>
+<p>And there are two main types used throughout the course:</p>
+<h4 id="lists">
+  Lists
+  <a class="heading-link" href="#lists">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Only show a link to the queried notes, nothing else</li>
+</ul>
+<h4 id="tables">
+  Tables
+  <a class="heading-link" href="#tables">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Let you also see the [[Metadata]] of a note as columns.</p>
+<ul>
+<li>The most common type of query I use in this vault</li>
+<li>The use cases for this include
+<ul>
+<li>categorizing notes like in [[My Inputs]] based on progress, while also showing its created/finished dates</li>
+</ul>
+</li>
+<li>ex) See [[Obsidian Community Plugins#List]] and how the <code>Summary</code> value is being shown in the table</li>
+</ul>
+<h2 id="how">
+  How
+  <a class="heading-link" href="#how">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>As part of [[USV]] to prevent templates, <code>fileClass</code> notes, and other setup-related notes to be shown in these queries, we remove them by adding <code>AND !Hidden</code> to the query</p>
+<p>Used in almost every [[Note types]]</p>
+<h1 id="your-turn">
+  Your Turn
+  <a class="heading-link" href="#your-turn">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Then go back to [[USV Module - Learn Obsidian]]</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "thoughtvoyager" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

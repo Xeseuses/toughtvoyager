@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>View/Field on Thought Voyager</title>
+    <link>http://localhost:1313/tags/view/field/</link>
+    <description>Recent content in View/Field on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/view/field/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-obstacles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-obstacles/</guid>
+      <description>table obstacle as &amp;#34;Obstacles&amp;#34; from &amp;#34;&amp;#34; where obstacle sort Created desc </description>
+    </item>
+  </channel>
+</rss>

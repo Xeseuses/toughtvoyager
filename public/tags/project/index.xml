@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Thought Voyager</title>
+    <link>http://localhost:1313/tags/project/</link>
+    <description>Recent content in Project on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/projects/project-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/projects/project-template/</guid>
+      <description>Tasks Link to heading label: Add New Task hidden: false id: &amp;#34;&amp;#34; style: default actions: - type: command command: quickadd:choice:6bb9f26c-69d2-4711-978e-5325f7b4f1c5 %% Tasks Start %%&#xA;Notes Link to heading Related Notes Link to heading %% Add any non-connected notes or specific contexts here%%&#xA;Query Link to heading list from ([[]]) and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; Planning Link to heading Objective Link to heading What is the defintion of DONE? INPUT[textArea(placeholder(Description)):Description]&#xA;Why is this project personally significant to me?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-projects/create-new-obsidian-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-projects/create-new-obsidian-video/</guid>
+      <description>Tasks Link to heading label: Add New Task hidden: false id: &amp;#34;&amp;#34; style: default actions: - type: command command: quickadd:choice:6bb9f26c-69d2-4711-978e-5325f7b4f1c5 %% Tasks Start %%&#xA;[[My Kanbans/Create new Obsidian video]]&#xA;Notes Link to heading Related Notes Link to heading %% Add any non-connected notes or specific contexts here%%&#xA;Query Link to heading list from ([[]]) and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; Planning Link to heading Objective Link to heading What is the defintion of DONE?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-projects/learn-webflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-projects/learn-webflow/</guid>
+      <description>Tasks Link to heading label: Add New Task hidden: false id: &amp;#34;&amp;#34; style: default actions: - type: command command: quickadd:choice:6bb9f26c-69d2-4711-978e-5325f7b4f1c5 %% Tasks Start %%&#xA;(Example task) Find a resource to learn from Notes Link to heading Related Notes Link to heading %% Add any non-connected notes or specific contexts here%%&#xA;Query Link to heading list from ([[]]) and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; Planning Link to heading Objective Link to heading What is the defintion of DONE?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-projects/vault-onboarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-projects/vault-onboarding/</guid>
+      <description>This is a project note, one of the many types of notes in the Ultimate Starter Vault 🤩&#xA;You can use this to make progress on and keep track of your learning journey 🚀&#xA;To not feel overwhelmed and learn things one at a time, I would HIGHLY recommend reading them in order.&#xA;For a higher-order overview of the vault, you can go to [[USV]]&#xA;Modules Link to heading ![[Missing link callout]]</description>
+    </item>
+  </channel>
+</rss>

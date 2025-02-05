@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>View/Note on Thought Voyager</title>
+    <link>http://localhost:1313/tags/view/note/</link>
+    <description>Recent content in View/Note on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/view/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/workshop/folder-search-note-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/workshop/folder-search-note-template/</guid>
+      <description>[!TASK] To Do&amp;rsquo;s&#xA;Create a button to create the note Create dataview queries to sort them (use the by date example as a reference) Add the dynamic Created field as a property (can just copy the one from [[Note Template]] but I couldn&amp;rsquo;t put it in here or else it would have been triggered) Delete this task By Date Link to heading TABLE Status, tags, Links from #{{VALUE:Note Type Tag (ex.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-areas/my-areas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-areas/my-areas/</guid>
+      <description>name QuickAdd: ⛰️ Create Area Note type command action QuickAdd: ⛰️ Create Area Note Manually Organized Link to heading %% Type them out here for your own hierarchical directory %%&#xA;By File Name Link to heading table file.frontmatter.Group as Group FROM #area and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; sort file.frontmatter.Group, file.name asc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-calendar/</guid>
+      <description>To see your focus for the relevant timeframe instead, visit [[My Vision Board]]&#xA;name QuickAdd: 📆 Create Periodic Note type command action QuickAdd: 📆 Create Periodic Note Daily Notes Link to heading table Rating as ⭐, Summary, Story, headings as ✍️ from #reviews/daily AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 5 Weekly Reviews Link to heading table Total as ⭐, Summary, Personal, Career from #reviews/weekly AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 5 Monthly Reviews Link to heading table Total as ⭐, Summary, Personal, Career from #reviews/monthly AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-daily-notes/my-daily-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-daily-notes/my-daily-notes/</guid>
+      <description>table Rating as ⭐, Summary, Story, headings as ✍️ from #reviews/daily AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 50 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-monthly-notes/my-monthly-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-monthly-notes/my-monthly-notes/</guid>
+      <description>table Total as ⭐, Summary, Personal, Career from #reviews/monthly AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 12 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-quarterly-notes/my-quarterly-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-quarterly-notes/my-quarterly-notes/</guid>
+      <description>table Total as ⭐, Summary, Personal, Career from #reviews/quarterly AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 10 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-weekly-notes/my-weekly-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-weekly-notes/my-weekly-notes/</guid>
+      <description>table Total as ⭐, Summary, Personal, Career from #reviews/weekly AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 26 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-yearly-notes/my-yearly-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-yearly-notes/my-yearly-notes/</guid>
+      <description>table Total as ⭐, Summary, Personal, Career from #reviews/yearly AND !&amp;#34;Hidden&amp;#34; sort file.name desc LIMIT 10 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-files/my-canvases/my-canvases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-files/my-canvases/my-canvases/</guid>
+      <description>file:.canvas </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-goals/my-goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-goals/my-goals/</guid>
+      <description>By Status Link to heading Backlog 🟥 Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Area FROM #goal AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort file.mtime desc Active 🟨 Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Timeframe, Area FROM #goal AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort file.mtime desc Finished 🟩 Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Area FROM #goal AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-greenhouse/my-greenhouse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-greenhouse/my-greenhouse/</guid>
+      <description>The home of my [[Evergreen Notes]]&#xA;Seedlings 🌱 Link to heading Notes ready for nurturing&#xA;table date(today) - date(file.cday) as &amp;#34;Days Alive&amp;#34; from !&amp;#34;Hidden&amp;#34; where contains(file.tags, &amp;#34;note/🌱&amp;#34;) or contains(Status, &amp;#34;🌱&amp;#34;) sort Created desc Sprouts 🌿 Link to heading Notes in progress&#xA;table date(today) - date(file.cday) as &amp;#34;Days Alive&amp;#34; from !&amp;#34;Hidden&amp;#34; where contains(file.tags, &amp;#34;note/🌿&amp;#34;) or contains(Status, &amp;#34;🌿&amp;#34;) sort file.mtime desc Trees 🌲 Link to heading Notes ready to be part of the forest</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-habits/my-habits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-habits/my-habits/</guid>
+      <description>For [[Creating and tracking your own habits and metrics]]&#xA;[!TIP]+ Check my workflow Visit https://publish.obsidian.md/johnmavrick/My+habits+workflow to see how I track my workflow&#xA;Can create a holistic dashboard to track all your habits in [[My Habits Board.canvas|♻️ My Habits Board]]&#xA;Can edit the templates that create each habit by visiting: [[Task Tracker Addon]] [[Metric Tracker Addon]]&#xA;By Type Link to heading TABLE Frequency, HabitGroup, Goal, Area FROM #habitNote and !&amp;#34;Hidden&amp;#34; SORT file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-input-collections/my-input-collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-input-collections/my-input-collections/</guid>
+      <description>name QuickAdd: 🗄️ Create Input Collection Note type command action QuickAdd: 🗄️ Create Input Collection Note By Type Link to heading Turn into their own notes when they get bigger&#xA;None Link to heading TABLE Status, tags, Links from #inputCollection AND !&amp;#34;Hidden&amp;#34; where !contains(file.tags, &amp;#34;/&amp;#34;) sort Created desc Courses Link to heading #inputCollection/course&#xA;TABLE Status, tags, Links from #inputCollection/course AND !&amp;#34;Hidden&amp;#34; sort Created desc Series Link to heading #inputCollection/series&#xA;TABLE Status, tags, Links from #inputCollection/series AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-articles/my-articles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-articles/my-articles/</guid>
+      <description>By Status Link to heading No Status Link to heading table Created, Links, Source FROM #input/articles AND !&amp;#34;Hidden&amp;#34; WHERE !Status SORT started desc Not Started 🟥 Link to heading table Created, Links, Source FROM #input/articles AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) SORT started desc Consuming Media 🟧 Link to heading table Created, Links, Source FROM #input/articles AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟧&amp;#34;) SORT started desc Implementation 🟨 Link to heading table Created, Links, Source FROM #input/articles AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-books/my-books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-books/my-books/</guid>
+      <description>name QuickAdd: 📚 Add Book Input type command action QuickAdd: 📚 Add Book Input To make the most of your books, see [[My Book Applications]]&#xA;By Status Link to heading No Status Link to heading table Created, Links, Source FROM #input/books AND !&amp;#34;Hidden&amp;#34; WHERE !Status OR contains(Status, &amp;#34;No Status&amp;#34;) sort Created desc Not Started 🟥 Link to heading table Created, Links, Source FROM #input/books WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort Created desc Consuming Media 🟧 Link to heading table Created, Links, Source FROM #input/books WHERE contains(Status, &amp;#34;🟧&amp;#34;) sort Created desc Implementation 🟨 Link to heading table Created, Links, Source FROM #input/books WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort Created desc Finished 🟩 Link to heading table Created, Links, Source FROM #input/books WHERE contains(Status, &amp;#34;🟩&amp;#34;) sort Created desc Archived ⬛️ Link to heading table Created, Links, Source FROM #input/books WHERE contains(Status, &amp;#34;⬛️&amp;#34;) sort Created desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-inputs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-inputs/</guid>
+      <description>Refer to [[My Inputs Workflow]]&#xA;name QuickAdd: 📥 Add General Input type command action QuickAdd: 📥 Add General Input By Status Link to heading No Status Link to heading table Created, Links, Source FROM #input AND !&amp;#34;Hidden&amp;#34; WHERE !Status SORT Created desc Backlog 🟥 Link to heading table Created, Links, Source FROM #input AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) SORT Created desc Note Taking 🟧 Link to heading table Created, Links, Source FROM #input AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-podcasts/my-podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-podcasts/my-podcasts/</guid>
+      <description> By Status Link to heading No Status Link to heading table Created, Links, Source FROM #input/podcasts AND !&amp;#34;Hidden&amp;#34; WHERE !Status OR contains(Status, &amp;#34;No Status&amp;#34;) sort Created desc Not Started 🟥 Link to heading table Created, Links, Source FROM #input/podcasts WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort Created desc Consuming Media 🟧 Link to heading table Created, Links, Source FROM #input/podcasts WHERE contains(Status, &amp;#34;🟧&amp;#34;) sort Created desc Implementation 🟨 Link to heading table Created, Links, Source FROM #input/podcasts WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort Created desc Finished 🟩 Link to heading table Created, Links, Source FROM #input/podcasts WHERE contains(Status, &amp;#34;🟩&amp;#34;) sort Created desc Archived ⬛️ Link to heading table Created, Links, Source FROM #input/podcasts WHERE contains(Status, &amp;#34;🟩&amp;#34;) sort Created desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-videos/my-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-videos/my-videos/</guid>
+      <description> By Status Link to heading No Status Link to heading table Created, Links, Source FROM #input/videos AND !&amp;#34;Hidden&amp;#34; WHERE !Status OR contains(Status, &amp;#34;No Status&amp;#34;) sort Created desc Not Started 🟥 Link to heading table Created, Links, Source FROM #input/videos WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort Created desc Consuming Media 🟧 Link to heading table Created, Links, Source FROM #input/videos WHERE contains(Status, &amp;#34;🟧&amp;#34;) sort Created desc Implementation 🟨 Link to heading table Created, Links, Source FROM #input/videos WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort Created desc Finished 🟩 Link to heading table Created, Links, Source FROM #input/videos WHERE contains(Status, &amp;#34;🟩&amp;#34;) sort Created desc Archived ⬛️ Link to heading table Created, Links, Source FROM #input/videos WHERE contains(Status, &amp;#34;🟩&amp;#34;) sort Created desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-kanbans/my-kanbans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-kanbans/my-kanbans/</guid>
+      <description>See [[Kanban Plugin]] for how to use!&#xA;name Create Kanban type command action QuickAdd: 📌 Create Kanban All Link to heading table file.mtime as &amp;#34;Last Modified&amp;#34; from !&amp;#34;Hidden&amp;#34; where kanban-plugin = &amp;#34;basic&amp;#34; sort file.mtime desc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-meetings/my-meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-meetings/my-meetings/</guid>
+      <description>name QuickAdd: 🗣 Create Meeting Note type command action QuickAdd: 🗣 Create Meeting Note By Status Link to heading Not Started 🟥 Link to heading TABLE Attendees, Summary FROM #meeting AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) SORT Created DESC Processing 🟨 Link to heading TABLE Attendees, Summary FROM #meeting AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟨&amp;#34;) SORT Created DESC Completed 🟩 Link to heading TABLE Attendees, Summary FROM #meeting AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟩&amp;#34;) SORT Created DESC Archived ⬛️ Link to heading TABLE Attendees, Summary FROM #meeting AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-outputs/my-book-applications/my-book-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-outputs/my-book-applications/my-book-applications/</guid>
+      <description>name QuickAdd: 💪 Create Book Application Note type command action QuickAdd: 💪 Create Book Application Note By Status Link to heading No Status Link to heading table Created FROM #output/bookapplications AND !&amp;#34;Hidden&amp;#34; WHERE !Status OR contains(Status, &amp;#34;No Status&amp;#34;) sort file.mtime desc Backlog 🟥 Link to heading table Created FROM #output/bookapplications AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort file.mtime desc Active 🟨 Link to heading table Created FROM #output/bookapplications AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-outputs/my-brainstorms/my-brainstorms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-outputs/my-brainstorms/my-brainstorms/</guid>
+      <description>name QuickAdd: 💡 Create Brainstorm Note type command action QuickAdd: 💡 Create Brainstorm Note By Status Link to heading No Status Link to heading table Created, Links FROM #output/brainstorm AND !&amp;#34;Hidden&amp;#34; WHERE !Status sort file.mtime desc Backlog 🟥 Link to heading table Created, Links FROM #output/brainstorm AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) sort file.mtime desc Active 🟨 Link to heading table Created, Links FROM #output/brainstorm AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟨&amp;#34;) sort file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-outputs/my-outputs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-outputs/my-outputs/</guid>
+      <description>No button for this one whoops&#xA;All Link to heading By Date Link to heading table Status, Created from #output AND !&amp;#34;Hidden&amp;#34; sort Created desc By Type Link to heading [[My Brainstorms]] Link to heading [[My Book Applications]] Link to heading </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-projects/my-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-projects/my-projects/</guid>
+      <description>name QuickAdd: 🚧 Create Project Note type command action QuickAdd: 🚧 Create Project Note By Status Link to heading No Status Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Deadline, Goal, Area FROM #project AND !&amp;#34;Hidden&amp;#34; WHERE !Status SORT Deadline asc Elaboration 🟥 Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Deadline, Goal, Area FROM #project AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟥&amp;#34;) SORT Deadline asc Upcoming 🟧 Link to heading table list(&amp;#34;🎯 &amp;#34; + Description, &amp;#34;💡 &amp;#34; + Why) as &amp;#34;Details&amp;#34;, Deadline, Goal, Area FROM #project AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/my-maps-of-content-mocs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-maps-of-content-mocs/my-maps-of-content-mocs/</guid>
+      <description>name QuickAdd: 🗺️ Create MOC Note type command action QuickAdd: 🗺️ Create MOC Note Manually Organized Link to heading %% Type them out here for your own hierarchical directory %%&#xA;By Last Modified Link to heading table file.mday from #moc and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; sort file.mday desc limit 10 By Alphabetical Link to heading list from #moc and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; sort file.name asc By Amount of Links Link to heading TABLE length(file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-resources/my-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-resources/my-resources/</guid>
+      <description>Create a MOC then tag it with #resource to show up here&#xA;Manually Organized Link to heading %% Type them out here for your own hierarchical directory %%&#xA;By Last Created Link to heading list from #resource and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; sort file.mtime desc limit 10 By Alphabetical Link to heading list from #resource and !outgoing([[]]) and !&amp;#34;Hidden&amp;#34; sort file.name asc </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/my-social-circle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/my-social-circle/</guid>
+      <description>name QuickAdd: 👤 Create Person Note type command action QuickAdd: 👤 Create Person Note By Relationship Link to heading None Link to heading TABLE MBTI, Sentence from #person AND !&amp;#34;Hidden&amp;#34; where !contains(file.tags, &amp;#34;/&amp;#34;) sort file.ctime desc Family Link to heading TABLE MBTI, Sentence from #person/family AND !&amp;#34;Hidden&amp;#34; sort file.name asc Work Link to heading TABLE MBTI, Sentence from #person/work AND !&amp;#34;Hidden&amp;#34; sort file.name asc Friend Link to heading TABLE MBTI, Sentence from #person/friend AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-thoughts/my-thoughts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-thoughts/my-thoughts/</guid>
+      <description>Categories Link to heading None Link to heading table Created, Links from #thought AND !&amp;#34;Hidden&amp;#34; where !contains(file.tags, &amp;#34;/&amp;#34;) sort file.ctime desc Memories Link to heading #thought/memories Anecdotes, stories and experiences&#xA;table Created, tags, Links from #thought/memories AND !&amp;#34;Hidden&amp;#34; sort Created desc Reflections Link to heading #thought/reflections Personal lessons and observations&#xA;table Created, tags, Links from #thought/reflections AND !&amp;#34;Hidden&amp;#34; sort Created desc Musings Link to heading #thought/musings Random shower ideas and observations</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-views/my-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-views/my-views/</guid>
+      <description>To manually organize them beyond just queries you can just modify [[My Home]]&#xA;By Type Link to heading Custom Link to heading Views that facilitate workflows or are a mix of note types.&#xA;list Description from #view/custom sort file.name Note Type Link to heading Views that organize a note type. For descriptions, see USV Glossary [[My published notes]]&#xA;list from #view/note and !&amp;#34;Hidden&amp;#34; sort file.name Fields Link to heading list Description from #view/field and !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/my-trackers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/my-trackers/</guid>
+      <description>For all things that use [[Obsidian Tracker Plugin]] but are not tracked in [[My Habits]]&#xA;Trackers Link to heading Energies Link to heading searchType: frontmatter searchTarget: Physical, Mental, Emotional, Spiritual folder: /My Calendar/My Daily Notes summary: template: &amp;#34;AVERAGES\nPhysical: {{average(dataset(0))}}\nMental: {{average(dataset(1))}}\nEmotional: {{average(dataset(2))}}\nSpiritual: {{average(dataset(3))}}\n&amp;#34; searchType: frontmatter searchTarget: Physical, Mental, Emotional, Spiritual datasetName: Physical, Mental, Emotional, Spiritual folder: /My Calendar/My Daily Notes month: mode: annotation startWeekOn: &amp;#39;Sun&amp;#39; threshold: 7, 7, 7, 7 color: white dimNotInMonth: false annotation: 💪,🧠,😊,🙏 showAnnotationOfAllTargets: true </description>
+    </item>
+  </channel>
+</rss>

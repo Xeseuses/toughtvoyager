@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · Thought Voyager
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="description" content="Make metadata in your notes trackable">
+<meta name="keywords" content="">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Thought Voyager">
+  <meta name="twitter:description" content="Make metadata in your notes trackable">
+
+<meta property="og:url" content="http://localhost:1313/posts/usv/obsidian-tracker-plugin/">
+  <meta property="og:site_name" content="Thought Voyager">
+  <meta property="og:title" content="Thought Voyager">
+  <meta property="og:description" content="Make metadata in your notes trackable">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:tag" content="Plugin">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/usv/obsidian-tracker-plugin/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Thought Voyager
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/usv/obsidian-tracker-plugin/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                January 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/plugin/">Plugin</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <blockquote>
+<p>[!TIP]+ Check my workflow
+Visit <a href="https://publish.obsidian.md/johnmavrick/My&#43;habit&#43;tracking&#43;workflow"  class="external-link" target="_blank" rel="noopener">https://publish.obsidian.md/johnmavrick/My+habit+tracking+workflow</a> to see how I track my workflow</p>
+</blockquote>
+<h2 id="errors">
+  Errors
+  <a class="heading-link" href="#errors">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/pyrochlore/obsidian-tracker/blob/master/examples/ErrorMessages.md"  class="external-link" target="_blank" rel="noopener">https://github.com/pyrochlore/obsidian-tracker/blob/master/examples/ErrorMessages.md</a></li>
+<li>Make sure you have data or else some views might not load
+<ul>
+<li>Also might not work if not all notes in the timeframe are Created for non-calendar views</li>
+</ul>
+</li>
+</ul>
+<h2 id="implementation">
+  Implementation
+  <a class="heading-link" href="#implementation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>[[My Habits]]</p>
+<ul>
+<li>Calendar overviews</li>
+<li>Lifetime statistics on habits</li>
+</ul>
+<p>[[My Calendar]]</p>
+<ul>
+<li>[[Weekly Review Template]]
+<ul>
+<li>Line graph and summary details for each statistic</li>
+<li>Habits are best viewed through the monthly view and would be redundant if put here so I only have them in monthly reviews</li>
+</ul>
+</li>
+<li>[[Monthly Review Template]]
+<ul>
+<li>Statistics (energy level) tracking + averages</li>
+<li>Habits</li>
+</ul>
+</li>
+</ul>
+<h2 id="principles">
+  Principles
+  <a class="heading-link" href="#principles">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Can download the <a href="https://github.com/pyrochlore/obsidian-tracker"  class="external-link" target="_blank" rel="noopener">github repository</a> and open the <code>/Examples</code> folder as an Obsidian vault to see examples</p>
+<ul>
+<li>Will have to manually install the tracker plugin though</li>
+</ul>
+<p>The tracker plugin lets you visualize metadata and other content of a folder&rsquo;s notes, which is commonly used for daily notes and habits (but can also be used for analyzing other things as well like the time you spend writing each article, keeping track of task completion, etc)</p>
+<h3 id="changing-existing-graphs-and-values">
+  Changing existing graphs and values
+  <a class="heading-link" href="#changing-existing-graphs-and-values">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>For the most part, you will just need to add new [[Metadata]] fields in your templates (see [[Daily Template#Energies]] as an example, and you will have to adjust all tracker views in templates to look for them as well by changing <code>searchTarget</code></p>
+<h3 id="essentials">
+  Essentials
+  <a class="heading-link" href="#essentials">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<pre tabindex="0"><code>startDate: YYYY-MM-DD
+endDate: YYYY-MM-DD
+</code></pre><ul>
+<li>For time-bound statistics inside [[My Calendar]]
+<ul>
+<li>For [[Monthly Review Template]]</li>
+</ul>
+</li>
+</ul>
+<h3 id="line-graph">
+  Line Graph
+  <a class="heading-link" href="#line-graph">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<blockquote>
+<p>[!INFO] Example
+Used in [[Weekly Review Template#Energy]]</p>
+</blockquote>
+<p>Pros</p>
+<ul>
+<li>Identifying patterns in short timeframes</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Not good for large timeframes, [[#Calendar View]] is better for monthly onwards</li>
+</ul>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: frontmatter
+searchTarget: Physical, Mental, Emotional, Spiritual
+folder: /My Calendar/My Daily Notes
+startDate: 2022-07-04
+endDate: 2022-07-10
+datasetName: Physical, Mental, Emotional, Spiritual
+line:
+    title: Energy
+    yMax: 10
+    yAxisLabel: Phys (R) / Ment (B) Emot (Y) / Spir (G)
+    lineColor: red, blue, yellow, green
+    showLegend: true
+    legendOrientation: vertical
+    fillGap: true
+</code></pre><ul>
+<li><code>dataSetName</code> sets the names of the values on the legend</li>
+</ul>
+<p><strong>Explanations</strong></p>
+<pre tabindex="0"><code>searchType: frontmatter
+- frontmatter means that the value it is looking for in the note is an in-line metadata field, like Physical:: 9
+
+searchTarget: Physical, Mental, Emotional, Spiritual
+- the metadata fields you want to display
+
+datasetName: Physical, Mental, Emotional, Spiritual
+- The names to be used in the legend at the bottom
+
+line:
+
+	title: Energy
+    yMax: 10
+    yAxisLabel: Phys (R) / Ment (B) Emot (Y) / Spir (G)
+
+    showLegend: true
+    legendOrientation: vertical
+    - used to show legends
+
+    fillGap: true
+    - so the lines don&#39;t discontinue when you forget to put in values for a day
+</code></pre><h3 id="calendar-view">
+  Calendar View
+  <a class="heading-link" href="#calendar-view">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<blockquote>
+<p>[!INFO] Example
+Used in:</p>
+<ul>
+<li>[[My Habits]]</li>
+<li>[[Monthly Review Template#Key Metrics]]</li>
+</ul>
+</blockquote>
+<p>Pros</p>
+<ul>
+<li>To see lots of values at once</li>
+<li>Good for summaries</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Can&rsquo;t see multiple specific values on a certain day</li>
+<li>Can&rsquo;t put too much on one line</li>
+</ul>
+<h4 id="summary">
+  Summary
+  <a class="heading-link" href="#summary">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Useful for a quick view on a group of habits or statistics</p>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: frontmatter
+searchTarget: Physical, Mental, Emotional, Spiritual
+datasetName: Physical, Mental, Emotional, Spiritual
+folder: /My Calendar/My Daily Notes
+month:
+    mode: annotation
+    startWeekOn: &#39;Mon&#39;
+    threshold: 7, 7, 7, 7
+    color: white
+    dimNotInMonth: false
+    annotation: 💪,🧠,😊,🙏
+    showAnnotationOfAllTargets: true
+</code></pre><p><strong>Explanations</strong></p>
+<pre tabindex="0"><code>month:
+    mode: annotation
+    - Allows for the summary view
+    startWeekOn: &#39;Mon&#39;
+    threshold: 7, 7, 7, 7
+    - Must match or be avbo
+    color: white
+    dimNotInMonth: false
+    annotation: 💪,🧠,😊,🙏
+    - set in same order
+    showAnnotationOfAllTargets: true
+    - set false to be able to toggle between by clicking on the field label at the top
+</code></pre><h4 id="single-view">
+  Single View
+  <a class="heading-link" href="#single-view">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: frontmatter
+searchTarget: Physical, Mental, Emotional, Spiritual
+datasetName: Physical, Mental, Emotional, Spiritual
+folder: /My Calendar/My Daily Notes
+month:
+    startWeekOn: &#39;Mon&#39;
+    threshold: 7, 7, 7, 7
+    color: green
+    dimNotInMonth: false
+    todayRingColor: white
+    selectedRingColor: steelblue
+    circleColorByValue: true
+    showSelectedValue: true
+</code></pre><ul>
+<li>A dot will only be connected if it is past the threshold and the dots it is connecting to are also above. the threshold</li>
+<li>Green is apparently the color with <a href="https://www.quora.com/Why-does-the-human-eye-see-more-shades-of-green-than-any-other-colour"  class="external-link" target="_blank" rel="noopener">the most differentiable shades</a>, so consider using it</li>
+</ul>
+<h4 id="extra-information">
+  Extra Information
+  <a class="heading-link" href="#extra-information">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><code>initMonth</code> to initially set what month</p>
+<ul>
+<li>ex) <code>initMonth: 2022-09</code></li>
+</ul>
+<h3 id="summary-view">
+  Summary View
+  <a class="heading-link" href="#summary-view">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<blockquote>
+<p>[!INFO] Example
+Used in:</p>
+<ul>
+<li>[[Weekly Review Template#Energy]]</li>
+<li>[[Monthly Review Template#Key Metrics]]</li>
+<li>[[My Habits]]</li>
+</ul>
+</blockquote>
+<p>Pros</p>
+<ul>
+<li>Easy to glance at and understand</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Should be supported with another visual graph</li>
+</ul>
+<h4 id="summary-of-physical-energy">
+  Summary of Physical Energy
+  <a class="heading-link" href="#summary-of-physical-energy">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: frontmatter
+searchTarget: Physical
+folder: /My Calendar/My Daily Notes
+summary:
+    template: &#34;Minimum: {{min()}}\nMaximum: {{max()}}\nMedian: {{median()}}\nAverage: {{average()}}\nSum: {{sum()}}&#34;
+</code></pre><ul>
+<li>Can cut off with specific date ranges as well</li>
+<li>Wrap the variables in <code>{{}}</code> tags</li>
+</ul>
+<h4 id="combining-multiple-energies">
+  Combining Multiple Energies
+  <a class="heading-link" href="#combining-multiple-energies">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: frontmatter
+searchTarget: Physical, Mental, Emotional, Spiritual
+folder: /My Calendar/My Daily Notes
+summary:
+    template: &#34;AVERAGES\nPhysical: {{average(dataset(0))}}\nMental: {{average(dataset(1))}}\nEmotional: {{average(dataset(2))}}\nSpiritual: {{average(dataset(3))}}\n&#34;
+</code></pre><ul>
+<li><code>dataset(x)</code> where x is the index of the field in <code>searchTarget</code>, starting from 0</li>
+<li>Can perform basic arithmetic using symbols</li>
+<li>Use functions to calculate average-related stuff</li>
+</ul>
+<h3 id="task-view">
+  Task View
+  <a class="heading-link" href="#task-view">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Pros</p>
+<ul>
+<li>Track basic markdown checkboxes, works with tasks plugin</li>
+<li>If using todoist, can use completed tasks plugin</li>
+</ul>
+<pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: task.done, task.all
+searchTarget: Meditate, Meditate
+folder: /My Calendar/My Daily Notes
+summary:
+    template: &#34;Read - {{sum(dataset(0))/sum(dataset(1))*100}}% - {{sum(dataset(0))}}/{{sum(dataset(1))}} Days Completed&#34;
+</code></pre><p>Explanations</p>
+<pre tabindex="0"><code>searchType: task.done, task.all
+- can also use task.notdone
+searchTarget: Read, Read
+- Value should be the content on the same line as the task checkbox, which is duplicated since we need both done and all values
+folder: /My Calendar/My Daily Notes
+summary:
+    template: &#34;Read - {{sum(dataset(0))/sum(dataset(1))*100}}% - {{sum(dataset(0))}}/{{sum(dataset(1))}} Days Completed&#34;
+    -
+</code></pre><pre tabindex="0"><code class="language-tracker" data-lang="tracker">searchType: task.done, task.notdone
+searchTarget: Meditate, Meditate
+folder: /My Calendar/My Daily Notes
+datasetName: Read, Not Read
+month:
+    color: green
+    todayRingColor: white
+    selectedRingColor: steelblue
+    showSelectedValue: false
+</code></pre>
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "thoughtvoyager" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

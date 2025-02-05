@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Output/Brainstorm on Thought Voyager</title>
+    <link>http://localhost:1313/tags/output/brainstorm/</link>
+    <description>Recent content in Output/Brainstorm on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/output/brainstorm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/output/brainstorming-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/output/brainstorming-template/</guid>
+      <description>Get the right kind of music going, it&amp;rsquo;s time to focus 😎&#xA;Brainstorming Link to heading Topic Link to heading %%What is the big idea you&amp;rsquo;re thinking about? Why are you writing this? %%&#xA;References Link to heading %%Are there any existing notes, resources, or experiences that come to mind related to the topic? For each thing, why is it related and how can it be helpful? %%&#xA;Brain Dump Link to heading %% Write out any other thoughts that come to mind, then create a cognitive scaffolding that combines your references and brain dump.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-outputs/my-brainstorms/video-outline-for-new-obsidian-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-outputs/my-brainstorms/video-outline-for-new-obsidian-video/</guid>
+      <description>Get the right kind of music going, it&amp;rsquo;s time to focus 😎&#xA;Brainstorming Link to heading Topic Link to heading %%What is the big idea you&amp;rsquo;re thinking about? Why are you writing this? %% Building a second brain in Obsidian&#xA;References Link to heading %%Are there any existing notes, resources, or experiences that come to mind related to the topic? For each thing, why is it related and how can it be helpful?</description>
+    </item>
+  </channel>
+</rss>

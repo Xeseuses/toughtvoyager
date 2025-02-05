@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kanbans on Thought Voyager</title>
+    <link>http://localhost:1313/tags/kanbans/</link>
+    <description>Recent content in Kanbans on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/kanbans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/projects/kanban-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/projects/kanban-template/</guid>
+      <description>Backlog Link to heading In Progress Link to heading Finished Link to heading Complete&#xA;%% kanban:settings&#xA;{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;basic&amp;#34;} %%</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-kanbans/create-new-obsidian-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-kanbans/create-new-obsidian-video/</guid>
+      <description>Backlog Link to heading Complete&#xA;[[Obsidian video script|Creating script]] test task 2 In Progress Link to heading Finished Link to heading Complete&#xA;Archive Link to heading 2022-07-24 17:38 Brainstorming test task %% kanban:settings&#xA;{&amp;#34;kanban-plugin&amp;#34;:&amp;#34;basic&amp;#34;} %%</description>
+    </item>
+  </channel>
+</rss>

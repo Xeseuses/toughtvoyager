@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Input/Books on Thought Voyager</title>
+    <link>http://localhost:1313/tags/input/books/</link>
+    <description>Recent content in Input/Books on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/input/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/inputs/book-notes-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/inputs/book-notes-template/</guid>
+      <description> [!INFO] Application Note [[&amp;lt;%tp.file.title%&amp;gt; Application]]&#xA;Notes Link to heading Highlights Link to heading </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-books/building-a-second-brain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-books/building-a-second-brain/</guid>
+      <description>Info Link to heading [!INFO] Application Note [[Building a Second Brain Application]]&#xA;%% NOTE: I mostly took highlights to try out his summarization method, which can be found at [[Building a Second Brain Highlights]] %%&#xA;1 - Tiago&amp;rsquo;s Story Link to heading Used it to complement his medical treatment of chronic illness Turned ideas and synthesized them into actionable advice 3 - How it works Link to heading Benefits Link to heading Makes our ideas concrete Link to heading Reveal New Associations Link to heading Let the most varying inputs interact with eachother From a tweet to an official research paper From a TikTok to a book Incubating our ideas over time Link to heading Slow burn Sharpening our unique perspectives Link to heading Most jobs don&amp;rsquo;t require knowledge, they require the application and perspective of knowledte Stages of PKM Link to heading Remember things they may have trouble with retaining The first way that people tend to use their Second Brain is as a memory aid.</description>
+    </item>
+  </channel>
+</rss>
