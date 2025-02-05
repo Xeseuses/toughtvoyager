@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Input/Articles on Thought Voyager</title>
+    <link>http://localhost:1313/tags/input/articles/</link>
+    <description>Recent content in Input/Articles on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/input/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-articles/konik-method-for-making-useful-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-articles/konik-method-for-making-useful-notes/</guid>
+      <description>Summary Link to heading An overview of her input and knowledge management process&#xA;Notes Link to heading Useful notes are messy, and time is valuable. A sense of completionism is nice for some things but mostly just gets in the way when it comes to learning. I read about 10% of the articles that show up in my feed. I take highlight about 50% of those, and affirmatively take notes on about 10% of those.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-inputs/my-articles/the-3-part-daily-routine-for-maximum-productivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-inputs/my-articles/the-3-part-daily-routine-for-maximum-productivity/</guid>
+      <description>Notes Link to heading Fill your mind&#xA;Consume in a non-distracted environment Listen while on a walk or read outdoors Empty your mind&#xA;Mindfulness Gym experience Nature Meditation Brain dump journalling Use your mind&#xA;Have a routine to expend less mental energy Start with a mini walk to practice setting intention Highlights Link to heading I pick up gold nuggets here and there from what I am consuming, but the real magic happens when I hear the right word that triggers a waterfall of insight.</description>
+    </item>
+  </channel>
+</rss>

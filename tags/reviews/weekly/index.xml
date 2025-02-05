@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews/Weekly on Thought Voyager</title>
+    <link>http://localhost:1313/tags/reviews/weekly/</link>
+    <description>Recent content in Reviews/Weekly on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/reviews/weekly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/periodic/weekly-review-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/periodic/weekly-review-template/</guid>
+      <description>[[My Calendar/My Weekly Notes/&amp;lt;% moment(tp.file.title, &amp;ldquo;YYYY-[W]WW&amp;rdquo;).add(-1, &amp;lsquo;weeks&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title, &amp;ldquo;YYYY-[W]WW&amp;rdquo;).add(-1, &amp;lsquo;weeks&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;]] ⬅️ [[My Calendar/My Monthly Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-[W]WW&amp;rsquo;).format(&amp;lsquo;YYYY-[M]MM&amp;rsquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY-[W]WW&amp;rsquo;).format(&amp;lsquo;YYYY-[M]MM&amp;rsquo;) %&amp;gt;]] ➡️ [[My Calendar/My Weekly Notes/&amp;lt;% moment(tp.file.title, &amp;ldquo;YYYY-[W]WW&amp;rdquo;).add(1, &amp;lsquo;weeks&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title, &amp;ldquo;YYYY-[W]WW&amp;rdquo;).add(1, &amp;lsquo;weeks&amp;rsquo;).format(&amp;ldquo;YYYY-[W]WW&amp;rdquo;) %&amp;gt;]]&#xA;[!TIP]+ Follow my weekly review workflow Visit https://publish.obsidian.md/johnmavrick/My+weekly+review+workflow for a guide on how to use this template&#xA;Plan Link to heading Action Items Link to heading All the unfinished tasks/reminders from last review:&#xA;task where file.name = &amp;#34;&amp;lt;% moment(tp.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-weekly-notes/2024-w01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-weekly-notes/2024-w01/</guid>
+      <description>Summary</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-weekly-notes/2024-w17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-weekly-notes/2024-w17/</guid>
+      <description>[[My Calendar/My Weekly Notes/2024-W16|2024-W16]] ⬅️ [[My Calendar/My Monthly Notes/2024-M04|2024-M04]] ➡️ [[My Calendar/My Weekly Notes/2024-W18|2024-W18]]&#xA;[!TIP]+ Follow my weekly review workflow Visit https://publish.obsidian.md/johnmavrick/My+weekly+review+workflow for a guide on how to use this template&#xA;Plan Link to heading Action Items Link to heading All the unfinished tasks/reminders from last review:&#xA;task where file.name = &amp;#34;2024-W16&amp;#34; AND !completed Projects Link to heading Look at My Vision Board to remember what your vision is #hidden Visit My Projects note and update the status of your desired projects in Backlog 🟥 or Upcoming 🟧 to In Progress 🟨 #hidden For each project you want to work on this week, go to the project&amp;rsquo;s ## Weekly Progress header and create a new weekly progress for the same week number as this weekly note.</description>
+    </item>
+  </channel>
+</rss>

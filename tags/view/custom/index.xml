@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>View/Custom on Thought Voyager</title>
+    <link>http://localhost:1313/tags/view/custom/</link>
+    <description>Recent content in View/Custom on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/view/custom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-daily-logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-daily-logs/</guid>
+      <description>[!INFO] For the different [[Metadata#Inline Metadata Fields]] you might have in the Today log of your daily notes&#xA;Types Link to heading [[My Obstacles]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-views/my-home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-views/my-home/</guid>
+      <description>[[Workflow]]&#xA;[!INFO] Info For information about the USV, visit [[USV]] To learn more about each note, visit [[My published notes]]&#xA;[[My Views]] Link to heading Knowledge Link to heading PARA Method Link to heading 🚧 [[My Projects]] ⛰ [[My Areas]] 📝 [[My Resources]] 🗺️ [[My Maps of Content (MOCs)]] 📁 [[My Archives]] Inputs Link to heading [!TIP] Want to process sources to extract ideas and notes? See [[My Input Processing Station]]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-views/my-input-processing-station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-views/my-input-processing-station/</guid>
+      <description>To keep track of all notes that are still in progress.&#xA;For notes in progress of being developed:&#xA;Inputs Link to heading [[My Inputs]]&#xA;table Created, rating, source FROM #input AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟧&amp;#34;) OR contains(Status, &amp;#34;🟨&amp;#34;) SORT Created desc Meetings Link to heading [[My Meetings]]&#xA;TABLE Attendees, Summary FROM #meeting AND !&amp;#34;Hidden&amp;#34; WHERE contains(Status, &amp;#34;🟨&amp;#34;) SORT Created DESC Evergreen Notes Link to heading [[My Greenhouse]]&#xA;table Created from !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-views/my-tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-views/my-tasks/</guid>
+      <description>Inbox Link to heading %% Tasks with no due date %%&#xA;not done (no due date) AND (no scheduled date) AND (tags does not include habit) sort by priority By Due Date Link to heading Overdue Link to heading not done (((due before today) OR (scheduled before today)) AND (tags does not include habit)) sort by priority Due Today Link to heading not done (due today) OR (scheduled today) sort by priority Due In 7 Days Link to heading not done ((due on or before in 7 days) OR (scheduled on or before in 7 days) AND (tags does not include habit)) sort by priority By Type Link to heading Waiting For #waiting Link to heading not done tags include waiting sort by priority Someday/Maybe #someday Link to heading not done tags include someday sort by priority Completed Link to heading %% Last 20 completed tasks %%</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/my-vision-board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/my-vision-board/</guid>
+      <description>[!INFO]+ Used as a quick daily reminder for your higher-order projects, goals, and visions from [[My Calendar]]&#xA;[!TIP]+ If you want a more customizable dashboard, you can build off of [[My Canvas Vision Board.canvas|My Canvas Vision Board]]&#xA;To see an example on what this board looks like when full, see [[My Vision Board Example]]&#xA;Values Link to heading ![[My Values]]&#xA;Year Link to heading Wheel of life Link to heading %% Based on the values of your current yearly review %%</description>
+    </item>
+  </channel>
+</rss>

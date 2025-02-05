@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usv/Note on Thought Voyager</title>
+    <link>http://localhost:1313/tags/usv/note/</link>
+    <description>Recent content in Usv/Note on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/usv/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-views/my-addons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-views/my-addons/</guid>
+      <description>For when you want to embed something in an already existing note :)&#xA;To add, simply move the file into Hidden/My Templates/addons&#xA;Query Link to heading list from &amp;#34;Hidden/My Templates/addons&amp;#34; </description>
+    </item>
+  </channel>
+</rss>

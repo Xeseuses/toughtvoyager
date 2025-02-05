@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Person on Thought Voyager</title>
+    <link>http://localhost:1313/tags/person/</link>
+    <description>Recent content in Person on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/person/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/notes/person-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/notes/person-template/</guid>
+      <description>Details Link to heading Events Link to heading Conversations Link to heading %% Feel free to just make a link to this header if you had a quick conversation with someone that you logged in the Conversations part of your daily template %%&#xA;TABLE Created, tags FROM [[]] AND #meeting AND !&amp;#34;Hidden&amp;#34; SORT Created desc Thoughts Link to heading TABLE Created, tags FROM [[]] AND #thought AND !&amp;#34;Hidden&amp;#34; SORT Created desc Questions To Ask Link to heading %% For next time you chat with them %%</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/ard-jan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/ard-jan/</guid>
+      <description>Good friend and future business partner</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/carolien/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/carolien/</guid>
+      <description>Good friend from Soli</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/my-dad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/my-dad/</guid>
+      <description>My biological father who I love</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/my-mom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/my-mom/</guid>
+      <description>My biological mother who I love</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/nathan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/nathan/</guid>
+      <description>Good friend from Soli</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-social-circle/pieter-van-lagen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-social-circle/pieter-van-lagen/</guid>
+      <description>Good friend from Soli</description>
+    </item>
+  </channel>
+</rss>

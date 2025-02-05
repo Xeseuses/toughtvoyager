@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Thought Voyager</title>
+    <link>http://localhost:1313/tags/plugin/</link>
+    <description>Recent content in Plugin on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/auto-note-mover-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/auto-note-mover-plugin/</guid>
+      <description>What Link to heading Go to the plugin&amp;rsquo;s settings to set up which tags should be moved to which folders&#xA;Uses Link to heading Specifying type of input Link to heading When you add a subtag to [[My Inputs]] note like #input/video, the note will automatically move to the new folder using (but this is only if you have a new file type for that subtag set up. A subtag like #thought/musings does not get moved into it&amp;rsquo;s own note)</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/buttons-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/buttons-plugin/</guid>
+      <description>Sometimes buttons are also made with [[Obsidian Meta Bind Plugin]] When you click one of the create buttons with something in your clipboard, it uses it as the title example use case: after creating a project, copy header title then click on create kanban If the name of the command changes, be sure to modify any related buttons to ensure they continue working Warnings Link to heading If you look into the code block, it knows what command to run based on the title.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/daily-note-outline-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/daily-note-outline-plugin/</guid>
+      <description>Part of [[Obsidian Layout#Sidebars]], lets you quickly access different sections of your daily note from the sidebar, which is useful for quick capture:&#xA;name Daily Note Outline: Open Outline type command action Daily Note Outline: Open Outline </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/dataview-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/dataview-plugin/</guid>
+      <description>[!INFO] Video Example If you want to better understand how Dataview works, check out how I use queries to sort my school notes here&#xA;[!INFO] Documentation If you want to see a complete list of Dataview&amp;rsquo;s features, you can check their documentation&#xA;Why Link to heading Let&amp;rsquo;s say you had a note to keep track of all your assignments in a note like [[My Inputs]].&#xA;If you were to keep track of all inputs manually, you would have to add a link to each new input, or view them all through the backlinks pane.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/folder-note-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/folder-note-plugin/</guid>
+      <description>For notes where they are in the same folder as their name like [[My Projects]] , clicking on the My Projects folder in the default files view will open the note.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/journals-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/journals-plugin/</guid>
+      <description>[!info] Video Part of [[Obsidian Layout#Sidebars]], I use this instead of the Calendar Plugin since it also supports all [[Periodic reviews]] like yearly, quarterly, monthly, etc.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/metadata-menu-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/metadata-menu-plugin/</guid>
+      <description>[!INFO] An outdated video showcasing the plugin&amp;rsquo;s features Why I&amp;rsquo;m using this plugin Link to heading See my reasons in [[Metadata#Why to use one over the other]]&#xA;FileClasses Link to heading The usefulness of this plugin comes from the main feature, fileClasses.&#xA;A fileClass outlines the [[Metadata]] fields of a note, and to apply this structure, you can add a tag with the fileClass name&#xA;Whenever you add the tag (ex.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-meta-bind-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-meta-bind-plugin/</guid>
+      <description>I&amp;rsquo;m still slowly incorporating this into the rest of the vault, as it will help me start transitioning to normal Properties to prepare for Obsidian revamp.&#xA;Learning Link to heading Tutorial Link to heading The documentation is so good I do not have much to add except for the ways I&amp;rsquo;m personally using it. You can check out the following:&#xA;https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/&#xA;Example vault Link to heading To download the example vault, you can use use another website to download the zipped subdirectory like so: https://download-directory.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-strange-new-worlds-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-strange-new-worlds-plugin/</guid>
+      <description>Principles Link to heading Adds badges to links to show how many times it is linked Hovering over it will show all backlinks Clicking on it will open it in a new pane Unlike the traditional backlinks pane which shows backlinks based on the note you are on, this pane will stay until you click onto another Strange New Worlds badge Includes the context of the link (children tags, the header it is in, etc) If a note in your header has a link to it, it will show beside the header 🤯 Check the header above and beside the link itself after linking it [[Obsidian Strange New Worlds Plugin#Principles]] Uses Link to heading With the ability to link to headers, you can use it to collect sections of a note For example, when I take notes on a conversation in [[Daily Template#Conversations]], at the top of the conversation I can make a link to [[Person Template#Conversations]] so if I visit that header and hover over the badge I can see all the conversations I had with that person.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/obsidian-tracker-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/obsidian-tracker-plugin/</guid>
+      <description>[!TIP]+ Check my workflow Visit https://publish.obsidian.md/johnmavrick/My+habit+tracking+workflow to see how I track my workflow&#xA;Errors Link to heading https://github.com/pyrochlore/obsidian-tracker/blob/master/examples/ErrorMessages.md Make sure you have data or else some views might not load Also might not work if not all notes in the timeframe are Created for non-calendar views Implementation Link to heading [[My Habits]]&#xA;Calendar overviews Lifetime statistics on habits [[My Calendar]]&#xA;[[Weekly Review Template]] Line graph and summary details for each statistic Habits are best viewed through the monthly view and would be redundant if put here so I only have them in monthly reviews [[Monthly Review Template]] Statistics (energy level) tracking + averages Habits Principles Link to heading Can download the github repository and open the /Examples folder as an Obsidian vault to see examples</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/quickadd-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/quickadd-plugin/</guid>
+      <description>Principles Link to heading A centralized command palette for custom workflows Tons of customizability, especially if you inject your own scripts, so let your imagination run wild 😎 I just mainly use it to organize the different templates and use cases of the vault, like creating the different relevant notes Each command you see in the QuickAdd command pallete (Ctrl+Shift+P) are called choices I think you need to disable and enable the command palette action (click lightning bolt twice) to make changes effective, or else embedded buttons won&amp;rsquo;t work Palette Link to heading To access all choices you have, you can run:</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/smart-connections-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/smart-connections-plugin/</guid>
+      <description>[!WARNING] Setup Required I disabled the plugin in the vault for now, if you want to use it just enable it in the settings&#xA;[!TIP] Video Example How it works Link to heading First, the notes in your vault get broken up into different blocks based on its headings. Next, to determine the relevance of each block, each one is sent to OpenAI, which generates an embedding for that particular block, a set of values that describe its characteristics across different dimensions.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/supercharged-links-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/supercharged-links-plugin/</guid>
+      <description>[!WARNING] Title If you are using a previous version of the vault, you can remove the existing emojis with Bulk Rename Plugin.&#xA;I added this plugin so I could get rid of the emoji prefixes inside the note titles because:&#xA;they would sometimes change to be the same emoji but be technically different, so previously existing links to them would be removed be corrupted upon unzipping and opening a vault make obsidian publish links bloated because of having to URL encode any emojis So, with this plugin, you can now still see the prefixes to identify text, but it won&amp;rsquo;t be an actual part of the title!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/tasks-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/tasks-plugin/</guid>
+      <description>Whether you&amp;rsquo;re wanting to save money from a monthly subscription or want all your digital stuff in one place, I hope the implementation of this plugin can be helpful for you :)&#xA;Just like how [[Dataview Plugin]] turns your notes into a searchable database, you can search through all your notes to find and organize the different types of tasks in your vault.&#xA;If you want, you can consider combining it with the [[Kanban Plugin]] for a more visual layout.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/usv/templater-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/usv/templater-plugin/</guid>
+      <description>Create powerful templates with variables</description>
+    </item>
+  </channel>
+</rss>

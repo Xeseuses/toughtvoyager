@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews/Yearly on Thought Voyager</title>
+    <link>http://localhost:1313/tags/reviews/yearly/</link>
+    <description>Recent content in Reviews/Yearly on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/reviews/yearly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/hidden/my-templates/periodic/yearly-review-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hidden/my-templates/periodic/yearly-review-template/</guid>
+      <description>[[My Calendar/My Yearly Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY&amp;rsquo;).subtract(1, &amp;lsquo;year&amp;rsquo;).format(&amp;lsquo;YYYY&amp;rsquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY&amp;rsquo;).subtract(1, &amp;lsquo;year&amp;rsquo;).format(&amp;lsquo;YYYY&amp;rsquo;) %&amp;gt;]] ⬅️ This Year ➡️ [[My Calendar/My Yearly Notes/&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY&amp;rsquo;).add(1, &amp;lsquo;year&amp;rsquo;).format(&amp;lsquo;YYYY&amp;rsquo;) %&amp;gt;|&amp;lt;% moment(tp.file.title,&amp;lsquo;YYYY&amp;rsquo;).add(1, &amp;lsquo;year&amp;rsquo;).format(&amp;lsquo;YYYY&amp;rsquo;) %&amp;gt;]]&#xA;“Your decisions about allocating your personal time, energy, and talent ultimately shape your life’s strategy.”&#xA;[!TIP]+ Follow my workflow Go to my published notes for my updated workflow https://publish.obsidian.md/johnmavrick/My+yearly+review+workflow&#xA;Plan Link to heading Action Items Link to heading All the uncompleted tasks from last review. Keep these as food for thought when planning your goals:</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-yearly-notes/2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-yearly-notes/2024/</guid>
+      <description>[[My Calendar/My Yearly Notes/2023|2023]] ⬅️ This Year ➡️ [[My Calendar/My Yearly Notes/2025|2025]]&#xA;“Your decisions about allocating your personal time, energy, and talent ultimately shape your life’s strategy.”&#xA;[!TIP]+ Follow my workflow Go to my published notes for my updated workflow https://publish.obsidian.md/johnmavrick/My+yearly+review+workflow&#xA;Plan Link to heading Action Items Link to heading All the uncompleted tasks from last review. Keep these as food for thought when planning your goals:&#xA;task where file.name = &amp;#34;2023&amp;#34; AND !</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-calendar/my-yearly-notes/invalid-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-calendar/my-yearly-notes/invalid-date/</guid>
+      <description>[[My Calendar/My Yearly Notes/Invalid date|Invalid date]] ⬅️ This Year ➡️ [[My Calendar/My Yearly Notes/Invalid date|Invalid date]]&#xA;“Your decisions about allocating your personal time, energy, and talent ultimately shape your life’s strategy.”&#xA;[!TIP]+ Follow my workflow Go to my published notes for my updated workflow https://publish.obsidian.md/johnmavrick/My+yearly+review+workflow&#xA;Plan Link to heading Action Items Link to heading All the uncompleted tasks from last review. Keep these as food for thought when planning your goals:</description>
+    </item>
+  </channel>
+</rss>
