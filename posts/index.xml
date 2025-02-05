@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Thought Voyager</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://thoughtvoyager.com/posts/</link>
     <description>Recent content in Posts on Thought Voyager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://thoughtvoyager.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Library Economy</title>
-      <link>http://localhost:1313/posts/posts/library-economy/</link>
+      <link>http://thoughtvoyager.com/posts/posts/library-economy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/library-economy/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/library-economy/</guid>
       <description></description>
     </item>
     <item>
       <title>The Better Way Of Economics</title>
-      <link>http://localhost:1313/posts/posts/the-better-way-of-economics/</link>
+      <link>http://thoughtvoyager.com/posts/posts/the-better-way-of-economics/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/the-better-way-of-economics/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/the-better-way-of-economics/</guid>
       <description> What is the Austrian Economics School? Link to heading </description>
     </item>
     <item>
       <title>The Case For Anarchy</title>
-      <link>http://localhost:1313/posts/posts/the-case-for-anarchy/</link>
+      <link>http://thoughtvoyager.com/posts/posts/the-case-for-anarchy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/the-case-for-anarchy/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/the-case-for-anarchy/</guid>
       <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The failure of modern day democracy]] I already have argued I don´t believe in (modern day) democracy any more. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
     </item>
     <item>
       <title>The failure of modern day democracy</title>
-      <link>http://localhost:1313/posts/posts/the-failure-of-modern-day-democracy/</link>
+      <link>http://thoughtvoyager.com/posts/posts/the-failure-of-modern-day-democracy/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/the-failure-of-modern-day-democracy/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/the-failure-of-modern-day-democracy/</guid>
       <description>In this note i want to explore the thought that modern day democracy has failed. I think modern day democracy doesn&amp;rsquo;t have a future. I will explain why and propose a new form of government that i think is the better option.&#xA;Why democracy doesn&amp;rsquo;t work in its current form Link to heading Most western countries have a democracy as government. The people choose who they want to represent them. This sounds good in practice, because if a lot of people vote who they want, the government will do anything that&amp;rsquo;s in the best interest of the people right?</description>
     </item>
     <item>
       <title>The Way of the Essentialist</title>
-      <link>http://localhost:1313/posts/posts/the-way-of-the-essentialist/</link>
+      <link>http://thoughtvoyager.com/posts/posts/the-way-of-the-essentialist/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/the-way-of-the-essentialist/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/the-way-of-the-essentialist/</guid>
       <description>Mantra: Less, but better Mindset: It is about pausing constantly to ask: &amp;ldquo;Am I investing in the right activity?&amp;rdquo; Rejects: The idea we can fit all in To reach it: Distinguish the vital few from the trivial many, eliminate the non-essentials and then removing obstacles so the essential things have a clear, smooth passage&#xA;If you don&#39;t prioritize your life someone else will Why should we design our life? Because when we don&amp;rsquo;t purposefully and deliberately choose where to focus our energies and time, other people will choose for us, and before long we&amp;rsquo;ll have lose sight of everything that is meaningful and important</description>
     </item>
     <item>
       <title>Welcome-Welkom</title>
-      <link>http://localhost:1313/posts/posts/welcome-welkom/</link>
+      <link>http://thoughtvoyager.com/posts/posts/welcome-welkom/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/posts/welcome-welkom/</guid>
+      <guid>http://thoughtvoyager.com/posts/posts/welcome-welkom/</guid>
       <description>This is my digital garden where you can explore my thoughts, as they grow to form fully fledged ideas. This site uses the concept of public learning. Go and explore the path you want!&#xA;Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot volledig vormgegeven gedachten vormen. Deze site maakt gebruik van het concept van publiek leren. Ga en verken het pad dat jij wil!</description>
     </item>
   </channel>
