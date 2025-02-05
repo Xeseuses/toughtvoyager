@@ -9,8 +9,8 @@ defaultcontentlanguage = "en"
 pagerSize = 20
 
 [services]
-[services.disqus]
-shortname ="thoughtvoyager"
+#[services.disqus]
+#shortname ="thoughtvoyager"
 
 [markup.highlight]
 style = "github-dark"
