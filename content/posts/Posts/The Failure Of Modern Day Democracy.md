@@ -4,10 +4,10 @@ tags:
   - Liberarianism
 Links: 
 Created: 2024-12-11T22:08:19
-Title: The failure of modern day democracy
+Title: The Failure Of Modern Day Democracy
 date: 2024-12-11
 ---
-In this note i want to explore the thought that modern day democracy has failed. I think modern day democracy doesn't have a future. I will explain why and propose a new form of government that i think is the better option.
+In this post I want to explore the thought that modern day democracy has failed. I think modern day democracy doesn't have a future. I will explain why and propose a new form of government that i think is the better option.
 
 ## Why democracy doesn't work in its current form
 
