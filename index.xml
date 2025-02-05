@@ -6,8 +6,15 @@
     <description>Recent content on Thought Voyager</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://thoughtvoyager.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://thoughtvoyager.com/about/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://thoughtvoyager.com/about/</guid>
+      <description>This site uses what is called public learning. Feel free to look around!</description>
+    </item>
     <item>
       <title>Library Economy, A Working Solution?</title>
       <link>http://thoughtvoyager.com/posts/posts/library-economy-a-working-solution/</link>
