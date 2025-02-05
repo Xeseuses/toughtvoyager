@@ -5,9 +5,19 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-# Set variables for Obsidian to Hugo copy
-sourcePath="/home/ruben/Documents/Extended Brain/Posts"
-destinationPath="/home/ruben/Documents/thoughtvoyager/content/posts"
+# Determine hostname and set source and destination paths
+hostname=$(hostname)
+
+if [ "$hostname" = "fedora" ]; then
+    sourcePath="/home/ruben/Documents/Extended Brain/Posts"
+    destinationPath="/home/ruben/Documents/thoughtvoyager/content/posts"
+elif [ "$hostname" = "hostlab-0" ]; then
+    sourcePath="/srv/shared"
+    destinationPath="/home/xeseuses/thoughtvoyager/content/posts"
+else
+    echo "Unknown hostname: $hostname"
+    exit 1
+fi
 
 # Step 1: Check if source and destination directories exist
 if [ ! -d "$sourcePath" ]; then
