@@ -1,0 +1,128 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "99 - Meta/Hidden/My Archives",
+      "tag": "#archive",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs/My Articles",
+      "tag": "#input/articles",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs/My Videos",
+      "tag": "#input/videos",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs/My Podcasts",
+      "tag": "#input/podcasts",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs/My Books",
+      "tag": "#input/books",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Resources/My Maps of Content (MOCs)",
+      "tag": "#resource",
+      "pattern": ""
+    },
+    {
+      "folder": "02 - My Areas",
+      "tag": "#area",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Goals",
+      "tag": "#goal",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Input Collections",
+      "tag": "#inputCollection",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Habits",
+      "tag": "#habitNote",
+      "pattern": ""
+    },
+    {
+      "folder": "01 - My Projects",
+      "tag": "#project",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs",
+      "tag": "#input",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Social Circle",
+      "tag": "#person",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Thoughts",
+      "tag": "#thought",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Daily Notes",
+      "tag": "#reviews/daily",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Weekly Notes",
+      "tag": "#reviews/weekly",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Monthly Notes",
+      "tag": "#reviews/monthly",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Quarterly Notes",
+      "tag": "#reviews/quarterly",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Yearly Notes",
+      "tag": "#reviews/yearly",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Outputs/My Book Applications",
+      "tag": "#output/bookapplications",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Resources/My Maps of Content (MOCs)",
+      "tag": "#moc",
+      "pattern": ""
+    },
+    {
+      "folder": "99 - Meta/My Outputs/My Brainstorms",
+      "tag": "#output/brainstorm",
+      "pattern": ""
+    },
+    {
+      "folder": "03 - Resources/My Inputs/My General Inputs",
+      "tag": "#input/general",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": true,
+  "excluded_folder": [
+    {
+      "folder": "99 - Meta/Hidden"
+    }
+  ]
+}

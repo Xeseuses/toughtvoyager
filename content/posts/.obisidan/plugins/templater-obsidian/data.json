@@ -1,0 +1,53 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "99 - Meta/Hidden/My Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "99 - Meta/Hidden/My Templates/notes/Note Template.md"
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Daily Notes",
+      "template": "99 - Meta/Hidden/My Templates/periodic/(TEMPLATE) Daily.md"
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Weekly Notes",
+      "template": "99 - Meta/Hidden/My Templates/periodic/Weekly Review Template.md"
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Monthly Notes",
+      "template": "99 - Meta/Hidden/My Templates/periodic/Monthly Review Template.md"
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Quarterly Notes",
+      "template": "99 - Meta/Hidden/My Templates/periodic/Quarterly Review Template.md"
+    },
+    {
+      "folder": "99 - Meta/My Calendar/My Yearly Notes",
+      "template": "99 - Meta/Hidden/My Templates/periodic/Yearly Review Template.md"
+    },
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

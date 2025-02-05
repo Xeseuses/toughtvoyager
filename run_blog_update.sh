@@ -5,7 +5,8 @@ INTERVAL=600
 
 while true; do
     echo "Running initial update script..."
-    /home/xeseuses/thoughtvoyager/updateblog.sh
+    
+    /home/ruben/Documents/thoughtvoyager/updateblog.sh
 
     # Clean up orphaned directories in public/posts
     echo "Cleaning up public/posts directory..."
@@ -20,15 +21,15 @@ while true; do
         fi
     done
 
-    python3 /home/xeseuses/thoughtvoyager/convert_obsidian_links.py
+    python3 /home/ruben/Documents/thoughtvoyager/convert_obsidian_links.py
     # Generate the static files using Hugo
     echo "Running Hugo..."
-    hugo -t paper
+    hugo --cleanDestinationDir
 
     # Check if Hugo executed successfully
     if [ $? -eq 0 ]; then
         echo "Hugo build completed successfully. Running update script again..."
-        /home/xeseuses/thoughtvoyager/updateblog.sh
+	/home/ruben/Documents/thoughtvoyager/updateblog.sh
     else
         echo "Hugo build failed. Update script will not run again."
     fi
