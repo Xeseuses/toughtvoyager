@@ -30,3 +30,15 @@ date: 2025-02-06
 - Drone & AI Logistics
 - Underground & Floating Cities
 
+## Philosophy & Core Values 
+1. Decentralization - No central authority; cities; markets, and even laws emerge through voluntary association
+2. Hyper-Entrepreneurialism - Everything is privately funded and open-source, leading to a culture of innovation and competition
+3. Self-Sovereignty - People own their bodies, data, and property, with cryptographic proof of ownership and smart contracts
+4. Tech-Driven Sustainability - Solar cities, fusion power, AI automation, and bioengineering ensure people live sustainably but independently
+5. **Voluntary Order** – **Private arbitration, competing security firms, and social contracts** replace state-enforced laws.
+
+
+
+
+
+
