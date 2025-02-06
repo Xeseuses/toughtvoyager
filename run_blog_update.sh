@@ -3,17 +3,30 @@
 # Set the interval in seconds (e.g., every 10 minutes)
 INTERVAL=600
 
+# Get the hostname
+HOSTNAME=$(hostname)
+
+# Set paths based on hostname
+if [ "$HOSTNAME" == "homelab-0" ]; then
+    BASE_DIR="/home/xeseuses/thoughtvoyager"
+elif [ "$HOSTNAME" == "fedora" ]; then
+    BASE_DIR="/home/ruben/Documents/thoughtvoyager"
+else
+    echo "Unknown hostname: $HOSTNAME"
+    exit 1
+fi
+
 while true; do
     echo "Running initial update script..."
 
     # Sync posts from Obsidian to Hugo
     echo "Syncing posts from Obsidian..."
-    /home/ruben/Documents/thoughtvoyager/sync_posts.sh
+    bash "$BASE_DIR/sync_posts.sh"
 
     # Clean up orphaned directories in public/posts
     echo "Cleaning up public/posts directory..."
-    CONTENT_DIR="/home/ruben/Documents/thoughtvoyager/content/posts"
-    PUBLIC_DIR="/home/ruben/Documents/thoughtvoyager/public/posts"
+    CONTENT_DIR="$BASE_DIR/content/posts"
+    PUBLIC_DIR="$BASE_DIR/public/posts"
 
     for dir in "$PUBLIC_DIR"/*/; do
         dir_name=$(basename "$dir")
@@ -23,9 +36,9 @@ while true; do
         fi
     done
 
-    # Process markdown files (optional step, if you want to keep it)
-    echo "Processing image links in markdown files..."
-    python3 /home/ruben/Documents/thoughtvoyager/convert_obsidian_links.py
+	    # Process markdown files (optional step, if you want to keep it)
+	    echo "Processing image links in markdown files..."
+	    python3 "$BASE_DIR/convert_obsidian_links.py"
 
     # Generate the static files using Hugo
     echo "Running Hugo..."
@@ -35,7 +48,7 @@ while true; do
     if [ $? -eq 0 ]; then
         echo "Hugo build completed successfully. Uploading to GitHub..."
         # Upload to GitHub (after Hugo build)
-        /home/ruben/Documents/thoughtvoyager/upload_to_github.sh
+       bash  "$BASE_DIR/upload_to_github.sh"
     else
         echo "Hugo build failed. Update script will not run again."
     fi

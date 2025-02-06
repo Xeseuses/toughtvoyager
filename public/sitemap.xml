@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://thoughtvoyager.com/posts/posts/a-handbook-for-revolutions/</loc>
+    <loc>http://thoughtvoyager.com/posts/a-handbook-for-revolutions/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/a-handbook-for-revolutions/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://thoughtvoyager.com/tags/liberarianism/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/luxpunk-or-anarcopunk/</loc>
+    <loc>http://thoughtvoyager.com/posts/luxpunk-or-anarcopunk/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/luxpunk-or-anarcopunk/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://thoughtvoyager.com/posts/</loc>
@@ -23,22 +29,46 @@
     <loc>http://thoughtvoyager.com/about/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/library-economy-a-working-solution/</loc>
+    <loc>http://thoughtvoyager.com/posts/library-economy/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/the-better-way-of-economics/</loc>
+    <loc>http://thoughtvoyager.com/posts/shared/library-economy/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/the-case-for-anarchy/</loc>
+    <loc>http://thoughtvoyager.com/posts/library-economy-a-working-solution/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/the-failure-of-modern-day-democracy/</loc>
+    <loc>http://thoughtvoyager.com/tags/note/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/the-better-way-of-economics/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/the-better-way-of-economics/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/the-case-for-anarchy/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/the-case-for-anarchy/</loc>
+    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/the-failure-of-modern-day-democracy/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/the-way-of-the-essentialist/</loc>
+    <loc>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/the-way-of-the-essentialist/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://thoughtvoyager.com/posts/posts/welcome-welkom/</loc>
+    <loc>http://thoughtvoyager.com/posts/the-way-of-the-essentialist/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/shared/welcome-welkom/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/welcome-welkom/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://thoughtvoyager.com/authors/</loc>

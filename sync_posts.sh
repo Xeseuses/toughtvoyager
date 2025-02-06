@@ -11,7 +11,7 @@ hostname=$(hostname)
 if [ "$hostname" = "fedora" ]; then
     sourcePath="/home/ruben/Documents/Extended Brain/Posts"
     destinationPath="/home/ruben/Documents/thoughtvoyager/content/posts"
-elif [ "$hostname" = "hostlab-0" ]; then
+elif [ "$hostname" = "homelab-0" ]; then
     sourcePath="/srv/shared"
     destinationPath="/home/xeseuses/thoughtvoyager/content/posts"
 else
