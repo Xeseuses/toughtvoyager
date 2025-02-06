@@ -15,25 +15,6 @@ When searching the genre I couldn't find a good idea for an Anarchy themed punk.
 
 Anarcopunk is a vision of a decentralized, sustainable future where voluntary cooperation, market innovation, and strong property rights foster ecological balance and community resilience without the need for centralized authority.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Daily Life:
 - Decentralized Cities
 - Eco-Tech Homes
@@ -63,9 +44,4 @@ Anarcopunk is a vision of a decentralized, sustainable future where voluntary co
 3. Self-Sovereignty - People own their bodies, data, and property, with cryptographic proof of ownership and smart contracts
 4. Tech-Driven Sustainability - Solar cities, fusion power, AI automation, and bioengineering ensure people live sustainably but independently
 5. **Voluntary Order** – **Private arbitration, competing security firms, and social contracts** replace state-enforced laws.
-
-
-
-
-
 
