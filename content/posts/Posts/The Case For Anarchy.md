@@ -13,3 +13,4 @@ I already have argued I don´t believe in (modern day) democracy anymore. In thi
 
 A political philosophy and practice that opposses ALL hierachies along with their justifying dogmas and proposes the unending pursuit of anarchy, where free association, self-determination and mutal aid form the basis of our society. 
 
+ 
