@@ -1,7 +1,7 @@
 ---
 Status: 
 tags:
-  - note
+  - Liberarianism
 Links: 
 Created: 2025-02-06T11:47:00
 Title: LuxPunk or Arganopunk
