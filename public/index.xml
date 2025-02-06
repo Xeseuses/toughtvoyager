@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://thoughtvoyager.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A handbook for revolutions</title>
+      <link>http://thoughtvoyager.com/posts/posts/a-handbook-for-revolutions/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://thoughtvoyager.com/posts/posts/a-handbook-for-revolutions/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>LuxPunk or Arganopunk</title>
       <link>http://thoughtvoyager.com/posts/posts/luxpunk-or-arganopunk/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -63,13 +70,6 @@
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://thoughtvoyager.com/posts/posts/welcome-welkom/</guid>
       <description>This is my digital garden where you can explore my thoughts, as they grow to form fully fledged ideas. This site uses the concept of public learning. Go and explore the path you want!&#xA;Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot volledig vormgegeven gedachten vormen. Deze site maakt gebruik van het concept van publiek leren. Ga en verken het pad dat jij wil!</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://thoughtvoyager.com/posts/posts/a-handbook-for-revolutions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/posts/a-handbook-for-revolutions/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
