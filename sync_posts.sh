@@ -32,6 +32,7 @@ fi
 
 # Step 2: Sync posts from Obsidian to Hugo content folder using rsync
 echo "Syncing posts from Obsidian..."
-rsync -av --delete "$sourcePath" "$destinationPath"
+# Sync only the contents inside the source directory, not the source directory itself
+rsync -av --delete "$sourcePath/" "$destinationPath/"
 echo "Posts have been successfully synced."
 
