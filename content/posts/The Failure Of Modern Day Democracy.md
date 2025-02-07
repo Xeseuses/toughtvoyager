@@ -16,26 +16,24 @@ The truth is, democracy has failed. It's time to explore a better alternative: a
 
 #### Short Overview
 
-#### Voter Incentives & Rational ignorance:
-Most voters don't have strong incentives to be well-informed
+Okay so I've made my case in short in the introduction about why I think democracy has failed. But maybe you have questions or think: surely it is not that bad? Well I want to delve deeper into seven points in which i will lay out my case. Then i propose the solution for what I think is the better way. Throughout reading this you may think: I disagree with all of that, and that's fine. I am not here to convince you about my point, only to make you think. But maybe you think: hmm, I never thought about that, maybe I need to delve deeper in these concepts. Great! I will give some references I which you can delve deeper and you can also explore other posts in my digital garden for posts about #Liberarianism or other things 
 
-#### Short-Term Thinking
-Politicians prioritize election cycles over long-term policy planning, leading to unsustainable debt, economic mismanagement, and reactionary governance.
+1. Voter Incentives & Rational ignorance: Most voters don't have strong incentives to be well-informed
+2. Short-Term Thinking - Politicians prioritize election cycles over long-term policy planning, leading to unsustainable debt, economic mismanagement, and reactionary governance.
+3. Mob Rule & The Tyranny of the Majority: Democracy often results in one group imposing its will on others rather than protecting individual rights.
+4. Crony Capitalism & Regulatory Capture The fusion of government and corporate interests leads to policies favoring established elites instead of a free market.
+5. Government Monopoly on Power  Unlike businesses, governments in democracies don’t face competition, reducing accountability an innovation
+6. Failure of Checks & Balances Even in representative systems, bureaucracies operate with little accountability, leading to inefficient and sometimes outright harmful policies.
+7. Democratic Erosion- Many democracies devolve into authoritarianism, as seen with increased surveillance, censorship, and suppression of dissent.
 
-#### Mob Rule & The Tyranny of the Majority
-Democracy often results in one group imposing its will on others rather than protecting individual rights.
 
-#### Crony Capitalism & Regulatory Capture
-The fusion of government and corporate interests leads to policies favoring established elites instead of a free market.
-
-#### Government Monopoly on Power 
-Unlike businesses, governments in democracies don’t face competition, reducing accountability and innovation.
-
-#### Failure of Checks & Balances
-Even in representative systems, bureaucracies operate with little accountability, leading to inefficient and sometimes outright harmful policies.
-
-#### Democratic Erosion
-Many democracies devolve into authoritarianism, as seen with increased surveillance, censorship, and suppression of dissent.
+### Voter Incentives & Rational ignorance
+### Short-Term Thinking
+### Mob Rule & The Tyranny of the Majority: 
+### Crony Capitalism & Regulatory Capture 
+### Government Monopoly on Power 
+### Failure of Checks & Balances 
+### Democratic Erosion
 
 ## Another way of governing
 
