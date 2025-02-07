@@ -14,6 +14,7 @@ def convert_obsidian_links(file_path, base_url):
         title = match.group(1).strip()
         # Create the Hugo URL (adjust this part based on your folder structure if needed)
         hugo_url = f"{base_url}/{title.replace(' ', '-').lower()}/"
+        print(f"Replacing: [[{title}]] -> [{title}]({hugo_url})")  # Debugging line
         return f"[{title}]({hugo_url})"
 
     # Replace all Obsidian-style links with Hugo-style links
@@ -33,7 +34,7 @@ def process_directory(directory, base_url):
                 print(f"Processed: {file_path}")
 
 # Set the directory containing your .md files and the base URL for your Hugo site
-directory = '/home/ruben/Documents/thoughtvoyager/content/posts/Posts'
+directory = '/home/ruben/Documents/thoughtvoyager/content/posts'
 base_url = 'https://thoughtvoyager.com/posts/posts'
 
 # Process all files in the specified directory

@@ -66,9 +66,6 @@ And will explain it in more detail:
 ### Encourages Innovation
 ### Respects Personal Autonomy
 
-
 Links:
 [1]: https://www.uu.nl/en/news/short-term-thinking-in-dutch-politics-comes-at-the-expense-of-the-longer-term?utm_source=chatgpt.com
-
-
 
