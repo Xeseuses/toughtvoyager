@@ -24,3 +24,11 @@ In my post [The Failure of Modern Day Democracy](https://thoughtvoyager.com/post
 
 In the future the idea of a country will be outdated. Instead we will live in private cities, see: [Private Cities, the better alternative to country's](https://thoughtvoyager.com/posts/private-cities,-the-better-alternative-to-country's/). Because today's political systems provide incentives for those in power to enrich themselves and their supporters at the expense of society.
 
+## Self-Sovereignty
+
+In his book The Law, Frédéric Bastiat argues that individuality, liberty and property are man and three gifts from God [1]
+
+
+
+
+
