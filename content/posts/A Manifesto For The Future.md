@@ -13,40 +13,14 @@ All good and well do you maybe think at this point after reading some of my idea
 
 The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.
 
-In this post I want to introduce a new genre I dubbed AnarcoPunk. The punk genre is a collection of ideas that push against the mainstream narrative and propose different solutions and worlds that they deem the future. 
-
-When searching the genre I couldn't find a good idea for an Anarchy themed punk. Yes there is cyberpunk and the like, but that is not how i envision the future. No I like to borrow things from Solarpunk and the likes, but thats to left for my liking. Thats why ive come up with a new genre: AnarcoPunk.
-
-## Definition
-
-Anarcopunk is a vision of a decentralized, sustainable future where voluntary cooperation, market innovation, and strong property rights foster ecological balance and community resilience without the need for centralized authority.
-
-## Daily Life:
-- Decentralized Cities
-- Eco-Tech Homes
-- Vertical Markets
-- Nomadic settlements
-
-## Economy & Trade
-- Crypto and Smart Contracts
-- Decentralize Energy Markets
-- Private Arbitration & Law
-- Hyper-Specialization (People don´t work 9-5m but sell niche expertise and services)
-
-## Governance & Security
-- No Centralized Goverment (city-states, co-ops, freehold settlements)
-- Competing Private Services
-- Mutal Defense Networks
-
-## Technology & Infrastructure
-- 3D printing Everything
-- Biohacking & DIY Medicine
-- Drone & AI Logistics
-- Underground & Floating Cities
-
 ## Philosophy & Core Values 
 1. **Decentralization** - No central authority; cities; markets, and even laws emerge through voluntary association
 2. **Hyper-Entrepreneurialism** - Everything is privately funded and open-source, leading to a culture of innovation and competition
 3. **Self-Sovereignty** - People own their bodies, data, and property.
 4. **Voluntary Order** – Private arbitration, competing security firms, and social contracts replace state-enforced laws.
+
+## Decentralization
+In my post [[The Failure Of Modern Day Democracy]] I already proposed the idea of Minarchy as a way of governance instead of other now mainstream ideas as democracy, monarchy, republics, etc. In short: Minarchy revers to a state which is limited and minimal, whose functions are reduces to the enforcer of the non-aggression principle by providing military, police and courts. Because why would we allow a group of people to decide what is good for us when we oftentimes don't even choose them, or for other reasons then what they end up enforcing. 
+
+In the future the idea of a country will be outdated. Instead we will live in private cities, see: [[Private Cities, the better alternative to country's]]. Because today's political systems provide incentives for those in power to enrich themselves and their supporters at the expense of society.
 
