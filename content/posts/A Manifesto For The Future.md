@@ -1,13 +1,19 @@
 ---
 Status: 
 tags:
-  - Liberarianism
+  - note
 Links: 
-Created: 2025-02-06T11:47:00
-Title: AnarcoPunk, A Vison For The Future
-date: 2025-02-06
+Created: 2025-02-07T09:28:02
+Title: A Manifesto For The Future
+date: 2025-02-07
 ---
-In this post I want to introduce a new genre I dubbed AnarcoPunk. The punk genre is a collection of ideas that push against the mainstream narrative and propose different solutions and worlds that they deem the future. Sometimes those ideas are more utopian based than grounded in reality, but ala men are allowed to dream.
+All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.
+
+## Explanation in short
+
+The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.
+
+In this post I want to introduce a new genre I dubbed AnarcoPunk. The punk genre is a collection of ideas that push against the mainstream narrative and propose different solutions and worlds that they deem the future. 
 
 When searching the genre I couldn't find a good idea for an Anarchy themed punk. Yes there is cyberpunk and the like, but that is not how i envision the future. No I like to borrow things from Solarpunk and the likes, but thats to left for my liking. Thats why ive come up with a new genre: AnarcoPunk.
 
@@ -39,9 +45,8 @@ Anarcopunk is a vision of a decentralized, sustainable future where voluntary co
 - Underground & Floating Cities
 
 ## Philosophy & Core Values 
-1. Decentralization - No central authority; cities; markets, and even laws emerge through voluntary association
-2. Hyper-Entrepreneurialism - Everything is privately funded and open-source, leading to a culture of innovation and competition
-3. Self-Sovereignty - People own their bodies, data, and property, with cryptographic proof of ownership and smart contracts
-4. Tech-Driven Sustainability - Solar cities, fusion power, AI automation, and bioengineering ensure people live sustainably but independently
-5. **Voluntary Order** – **Private arbitration, competing security firms, and social contracts** replace state-enforced laws.
+1. **Decentralization** - No central authority; cities; markets, and even laws emerge through voluntary association
+2. **Hyper-Entrepreneurialism** - Everything is privately funded and open-source, leading to a culture of innovation and competition
+3. **Self-Sovereignty** - People own their bodies, data, and property.
+4. **Voluntary Order** – Private arbitration, competing security firms, and social contracts replace state-enforced laws.
 
