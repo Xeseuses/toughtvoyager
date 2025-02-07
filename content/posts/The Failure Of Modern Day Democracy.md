@@ -30,7 +30,9 @@ Okay so I've made my case in short in the introduction about why I think democra
 ### Short-Term Thinking
 
 A study of the Utrecht University found that politicians are experiencing an increase in short-termism in Dutch politics, at the expense of essential longer-term planning [^1] 
-### Mob Rule & The Tyranny of the Majority: 
+### Mob Rule & The Tyranny of the Majority:
+
+For this point I want to draw on the thoughts of Alexis de Tocqueville's book: Democracy in America [^2]
 ### Crony Capitalism & Regulatory Capture 
 ### Government Monopoly on Power 
 ### Failure of Checks & Balances 
@@ -69,3 +71,4 @@ And will explain it in more detail:
 Links:
 
 [^1]: https://www.uu.nl/en/news/short-term-thinking-in-dutch-politics-comes-at-the-expense-of-the-longer-term?utm_source=chatgpt.com
+[^2]: 

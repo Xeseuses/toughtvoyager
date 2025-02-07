@@ -26,6 +26,6 @@ In the future the idea of a country will be outdated. Instead we will live in pr
 
 ## Self-Sovereignty
 
-In his book The Law, Frédéric Bastiat argues that individuality, liberty and property are man and three gifts from God [^1] 
+In his book The Law, Frédéric Bastiat argues that individuality, liberty and property are man and three gifts from God. [^1] Thus every person has a natural right to defend his person, his liberty and his property. These are the three basic requirements of life, and the preservation of any one of them is completely dependent upon the preservation of the other two.
 
 [^1]: http://bastiat.org/en/the_law.html
