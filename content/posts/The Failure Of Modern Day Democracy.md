@@ -29,7 +29,7 @@ Okay so I've made my case in short in the introduction about why I think democra
 ### Voter Incentives & Rational ignorance
 ### Short-Term Thinking
 
-A study of the Utrecht University found that politicians are experiencing an increase in short-termism in Dutch politics, at the expense of essential longer-term planning [1]:
+A study of the Utrecht University found that politicians are experiencing an increase in short-termism in Dutch politics, at the expense of essential longer-term planning [1]. 
 ### Mob Rule & The Tyranny of the Majority: 
 ### Crony Capitalism & Regulatory Capture 
 ### Government Monopoly on Power 
