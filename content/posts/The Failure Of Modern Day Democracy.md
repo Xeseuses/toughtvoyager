@@ -1,7 +1,7 @@
 ---
 Status: 
 tags:
-  - Liberarianism
+  - Libertarianism
 Links: 
 Created: 2024-12-11T22:08:19
 Title: The Failure Of Modern Day Democracy
@@ -16,7 +16,7 @@ The truth is, democracy has failed. It's time to explore a better alternative: a
 
 #### Short Overview
 
-Okay so I've made my case in short in the introduction about why I think democracy has failed. But maybe you have questions or think: surely it is not that bad? Well I want to delve deeper into seven points in which i will lay out my case. Then i propose the solution for what I think is the better way. Throughout reading this you may think: I disagree with all of that, and that's fine. I am not here to convince you about my point, only to make you think. But maybe you think: hmm, I never thought about that, maybe I need to delve deeper in these concepts. Great! I will give some references I which you can delve deeper and you can also explore other posts in my digital garden for posts about #Liberarianism or other things 
+Okay so I've made my case in short in the introduction about why I think democracy has failed. But maybe you have questions or think: surely it is not that bad? Well I want to delve deeper into seven points in which i will lay out my case. Then i propose the solution for what I think is the better way. Throughout reading this you may think: I disagree with all of that, and that's fine. I am not here to convince you about my point, only to make you think. But maybe you think: hmm, I never thought about that, maybe I need to delve deeper in these concepts. Great! I will give some references I which you can delve deeper and you can also explore other posts in my digital garden for posts about or other things 
 
 1. Voter Incentives & Rational ignorance: Most voters don't have strong incentives to be well-informed
 2. Short-Term Thinking - Politicians prioritize election cycles over long-term policy planning, leading to unsustainable debt, economic mismanagement, and reactionary governance.
@@ -25,7 +25,6 @@ Okay so I've made my case in short in the introduction about why I think democra
 5. Government Monopoly on Power  Unlike businesses, governments in democracies don’t face competition, reducing accountability an innovation
 6. Failure of Checks & Balances Even in representative systems, bureaucracies operate with little accountability, leading to inefficient and sometimes outright harmful policies.
 7. Democratic Erosion- Many democracies devolve into authoritarianism, as seen with increased surveillance, censorship, and suppression of dissent.
-
 
 ### Voter Incentives & Rational ignorance
 ### Short-Term Thinking

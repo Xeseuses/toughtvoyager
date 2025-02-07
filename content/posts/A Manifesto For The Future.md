@@ -1,7 +1,7 @@
 ---
 Status: 
 tags:
-  - note
+  - Libertarianism
 Links: 
 Created: 2025-02-07T09:28:02
 Title: A Manifesto For The Future

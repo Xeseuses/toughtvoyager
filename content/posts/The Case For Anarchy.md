@@ -1,7 +1,7 @@
 ---
 Status: 
 tags:
-  - Liberarianism
+  - Libertarianism
 Links: 
 Created: 2025-02-03T16:56:19
 Title: The Case For Anarchy
