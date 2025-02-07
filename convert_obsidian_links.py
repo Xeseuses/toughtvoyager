@@ -43,7 +43,6 @@ def process_directory(directory, base_url):
 # Set the directory containing your .md files and the base URL for your Hugo site
 directory = '/home/xeseuses/thoughtvoyager/content/posts'
 base_url = 'https://thoughtvoyager.com/posts/posts'
-
 # Process all files in the specified directory
 process_directory(directory, base_url)
 
