@@ -7,8 +7,8 @@ def convert_obsidian_links(file_path, base_url):
         content = file.read()
 
     # Regular expression to find Obsidian-style links (e.g., [[Title]])
-    pattern = r'\[\[(.*?)\]\]'
-
+    pattern = r'\[\[\s*(.*?)\s*\]\]'
+    
     # Function to replace each found link with the Hugo-style link
     def replace_link(match):
         title = match.group(1).strip()
