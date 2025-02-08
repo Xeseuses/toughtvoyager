@@ -204,20 +204,16 @@ I already have argued I don´t believe in (modern day) democracy anymore. In thi
         
         <div id="remark42"></div>
         <script>
-          window.remark42 = {
-            lang: 'en',  
-            site_id: 'remark42.thoughtvoyager.com',  
-            view_id: window.location.pathname,  
-            url: window.location.href,
-          };
-          (function() {
-            var script = document.createElement('script');
-            script.src = 'https://remark42.thoughtvoyager.com/web/remark.js';
-            script.async = true;
-            document.body.appendChild(script);
-          })();
-        </script>
-      </footer>
+  window.remark_config = {
+    host: "https://remark42.thoughtvoyager.com",
+    site_id: "thoughtvoyager.com", 
+    components: ["embed"],
+    theme: "light",
+  };
+</script>
+
+<script src="https://remark42.thoughtvoyager.com/web/embed.js" async></script>
+              </footer>
     </article>
 
     
