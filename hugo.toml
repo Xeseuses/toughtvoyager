@@ -23,7 +23,7 @@ style = "github-dark"
 [params]
   summaryLength = 70  # Set the desired summary length in words
   customCSS = ["css/custom.css"]
-
+  enableComments = true
 #[params]
 #  author = "Xeseuses"
 #  info = "Full Stack DevOps and Magician"
