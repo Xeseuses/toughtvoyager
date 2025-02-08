@@ -13,7 +13,7 @@ In this post will I explain what living in free private cities is like. This pos
 
 Imagine a system in which a private company as a "government service provider" offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services. And the contract can not be changed unilaterally. Disputes would be decided by independent arbitration tribunals. If the operator ignores arbitral awards or abuses their power, customers would leave and the would go bankrupt. Only by treating their customers well will they retain business.
 
-This is the concept sketched in Free Private Cities (paraphrased for the website of the Free Cities Foundation) , a place where there is no government as we know, but everything takes place by independent providers with binding contracts. Capitalism and free markets at it's finest. 
+This is the concept sketched in Free Private Cities (paraphrased for the website of the Free Cities Foundation). A Free Private City is a place where there is no government as we know, but everything the government does now is replaced by a for-profit company which can be organized as a cooperative or be wholly owned by the citizens. Capitalism and free markets at it's finest. 
 
 ###### links:
 
