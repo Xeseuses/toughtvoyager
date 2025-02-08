@@ -23,7 +23,13 @@ style = "github-dark"
 [params]
   summaryLength = 70  # Set the desired summary length in words
   customCSS = ["css/custom.css"]
-  enableComments = true
+  comments = true
+  remark42 = "https://remark42.thoughtvoyager.com"
+  remark42_locale = "en"  # Optional: change based on your preference
+
+# Optional: Set other remark42 options
+  remark42_page_title = "{{ .Title }}"
+  remark42_identifier = "{{ .Permalink }}" # Page URL used as identifier for comments
 #[params]
 #  author = "Xeseuses"
 #  info = "Full Stack DevOps and Magician"
