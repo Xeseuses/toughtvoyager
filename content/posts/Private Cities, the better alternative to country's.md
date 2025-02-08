@@ -15,6 +15,8 @@ Imagine a system in which a private company as a "government service provider" o
 
 This is the concept sketched in Free Private Cities (paraphrased for the website of the Free Cities Foundation). A Free Private City is a place where there is no government as we know, but everything the government does now is replaced by a for-profit company which can be organized as a cooperative or be wholly owned by the citizens. Capitalism and free markets at it's finest. 
 
+Citizens and companies of the private city enter into a Citizens' Contract, paying a fixed (yearly) fee for services instead of taxes. 
+
 ###### links:
 
 [^1]: https://free-cities.org/free-private-cities/#freeprivatecities
