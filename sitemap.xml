@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/a-manifesto-for-the-future/</loc>
+    <loc>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/libertarianism/</loc>
+    <loc>http://thoughtvoyager.com/tags/libertarianism/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://thoughtvoyager.com/posts/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://thoughtvoyager.com/tags/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://thoughtvoyager.com/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://thoughtvoyager.com/about/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-case-for-anarchy/</loc>
+    <loc>http://thoughtvoyager.com/posts/the-case-for-anarchy/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/the-failure-of-modern-day-democracy/</loc>
+    <loc>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome-welkom/</loc>
+    <loc>http://thoughtvoyager.com/posts/welcome-welkom/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://thoughtvoyager.com/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://thoughtvoyager.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://thoughtvoyager.com/series/</loc>
   </url>
 </urlset>
