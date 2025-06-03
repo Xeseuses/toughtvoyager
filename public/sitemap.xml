@@ -2,39 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/posts/eastern-orthodoxy/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/note/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
-    <lastmod>2025-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/a-manifesto-for-the-future/</loc>
+    <loc>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/libertarianism/</loc>
+    <loc>http://thoughtvoyager.com/tags/libertarianism/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/private-cities-the-better-alternative-to-countrys/</loc>
+    <loc>http://thoughtvoyager.com/posts/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/the-case-for-anarchy/</loc>
+    <loc>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/tags/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/about/</loc>
+    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://thoughtvoyager.com/posts/the-case-for-anarchy/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/the-failure-of-modern-day-democracy/</loc>
+    <loc>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/welcome-welkom/</loc>
+    <loc>http://thoughtvoyager.com/posts/welcome-welkom/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://thoughtvoyager.com/authors/</loc>
+  </url><url>
+    <loc>http://thoughtvoyager.com/categories/</loc>
+  </url><url>
+    <loc>http://thoughtvoyager.com/series/</loc>
   </url>
 </urlset>
