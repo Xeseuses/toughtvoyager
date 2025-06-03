@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Note on My New Hugo Site</title>
-    <link>https://example.org/tags/note/</link>
-    <description>Recent content in Note on My New Hugo Site</description>
+    <title>Note on Thought Voyager</title>
+    <link>http://thoughtvoyager.com/tags/note/</link>
+    <description>Recent content in Note on Thought Voyager</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://thoughtvoyager.com/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eastern Orthodoxy</title>
-      <link>https://example.org/posts/eastern-orthodoxy/</link>
+      <link>http://thoughtvoyager.com/posts/eastern-orthodoxy/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/eastern-orthodoxy/</guid>
+      <guid>http://thoughtvoyager.com/posts/eastern-orthodoxy/</guid>
       <description></description>
     </item>
   </channel>
