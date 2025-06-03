@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>Posts</h1>
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ else }}
+      <li>No posts found.</li>
+    {{ end }}
+  </ul>
+{{ end }}
+
