@@ -1,61 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Thought Voyager</title>
-    <link>http://thoughtvoyager.com/posts/</link>
-    <description>Recent content in Posts on Thought Voyager</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://thoughtvoyager.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Eastern Orthodoxy</title>
-      <link>http://thoughtvoyager.com/posts/eastern-orthodoxy/</link>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/eastern-orthodoxy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>A Manifesto For The Future</title>
-      <link>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</guid>
-      <description>All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.&#xA;Explanation in short Link to heading The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.</description>
-    </item>
-    <item>
-      <title>A test Post</title>
-      <link>http://thoughtvoyager.com/posts/a-test-post/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/a-test-post/</guid>
-      <description>This is a test post for testing purposes</description>
-    </item>
-    <item>
-      <title>Private Cities, the better alternative to country&#39;s</title>
-      <link>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</guid>
-      <description>In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation 1&#xA;The Next Stage of Development For Human Coexistence Link to heading Imagine a system in which a private company as a &amp;ldquo;government service provider&amp;rdquo; offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services.</description>
-    </item>
-    <item>
-      <title>The Case For Anarchy</title>
-      <link>http://thoughtvoyager.com/posts/the-case-for-anarchy/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/the-case-for-anarchy/</guid>
-      <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The Failure of Modern Day Democracy]] I already have argued I don´t believe in (modern day) democracy anymore. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
-    </item>
-    <item>
-      <title>The Failure Of Modern Day Democracy</title>
-      <link>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</guid>
-      <description>Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What&amp;rsquo;s not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of &amp;ldquo;public good.</description>
-    </item>
-    <item>
-      <title>Welcome-Welkom</title>
-      <link>http://thoughtvoyager.com/posts/welcome-welkom/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://thoughtvoyager.com/posts/welcome-welkom/</guid>
-      <description>This is my digital garden where you can explore my thoughts, as they grow to form fully fledged ideas. This site uses the concept of public learning. Go and explore the path you want!&#xA;Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot volledig vormgegeven gedachten vormen. Deze site maakt gebruik van het concept van publiek leren. Ga en verken het pad dat jij wil!</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Thought Voyager</title><link>http://thoughtvoyager.com/posts/</link><description>Recent content in Posts on Thought Voyager</description><generator>Hugo -- 0.147.0</generator><language>en</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://thoughtvoyager.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Eastern Orthodoxy</title><link>http://thoughtvoyager.com/posts/eastern-orthodoxy/</link><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/eastern-orthodoxy/</guid><description/></item><item><title>A Manifesto For The Future</title><link>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</guid><description>&lt;p>All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.&lt;/p>
+&lt;h2 id="explanation-in-short">Explanation in short&lt;/h2>
+&lt;p>The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.&lt;/p></description></item><item><title>A test Post</title><link>http://thoughtvoyager.com/posts/a-test-post/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/a-test-post/</guid><description>&lt;p>This is a test post for testing purposes&lt;/p></description></item><item><title>Private Cities, the better alternative to country's</title><link>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</link><pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</guid><description>&lt;p>In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="the-next-stage-of-development-for-human-coexistence">The Next Stage of Development For Human Coexistence&lt;/h2>
+&lt;p>Imagine a system in which a private company as a &amp;ldquo;government service provider&amp;rdquo; offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services. And the contract can not be changed unilaterally. Disputes would be decided by independent arbitration tribunals. If the operator ignores arbitral awards or abuses their power, customers would leave and the would go bankrupt. Only by treating their customers well will they retain business.&lt;/p></description></item><item><title>The Case For Anarchy</title><link>http://thoughtvoyager.com/posts/the-case-for-anarchy/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/the-case-for-anarchy/</guid><description>&lt;p>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The Failure of Modern Day Democracy]]
+I already have argued I don´t believe in (modern day) democracy anymore. In this post I will lay out why no goverment/rule (anarchy) is the better option.&lt;/p></description></item><item><title>The Failure Of Modern Day Democracy</title><link>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</link><pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</guid><description>&lt;p>Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What&amp;rsquo;s not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of &amp;ldquo;public good.&amp;rdquo; Worse, democracy incentivizes short-term thinking, economic mismanagement, and populist policies that ultimately weaken societies.&lt;/p></description></item><item><title>Welcome-Welkom</title><link>http://thoughtvoyager.com/posts/welcome-welkom/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><guid>http://thoughtvoyager.com/posts/welcome-welkom/</guid><description>&lt;p>This is my digital garden where you can explore my thoughts, as they grow to form fully fledged ideas. This site uses the concept of public learning. Go and explore the path you want!&lt;/p>
+&lt;hr>
+&lt;p>Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot volledig vormgegeven gedachten vormen. Deze site maakt gebruik van het concept van publiek leren. Ga en verken het pad dat jij wil!&lt;/p></description></item></channel></rss>
