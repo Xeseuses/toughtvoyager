@@ -1,82 +1,54 @@
 baseurl = "http://thoughtvoyager.com"
 title = "Thought Voyager"
-theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
-
-[pagination]
-pagerSize = 20
-
-[services]
-#[services.disqus]
-#shortname ="thoughtvoyager"
-
-[markup.highlight]
-style = "github-dark"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true # Enables raw HTML if needed
-
-[params]
-  summaryLength = 70  # Set the desired summary length in words
-  customCSS = ["css/custom.css"]
-  remark42_site_url = "https://remark42.thoughtvoyager.com"
-  remark42_identifier = "remark42.thoughtvoyager.com"
-#[params]
-#  author = "Xeseuses"
-#  info = "Full Stack DevOps and Magician"
-#  description = "John Doe's personal website"
-#  keywords = "blog,developer,personal"
-#  avatarurl = "images/avatar.jpg"
-#  #gravatar = "john.doe@example.com"
-
-#  faviconSVG = "/img/favicon.svg"
-#  favicon_32 = "/img/favicon-32x32.png"
-#  favicon_16 = "/img/favicon-16x16.png"
-
-#  since = 2019
-
-  enableTwemoji = true
-
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+theme = "PaperMod"
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+tag = "tags"
+category = "categories"
 
-# Social links
-#[[params.social]]
-#  name = "Github"
-#  icon = "fa-brands fa-github fa-2x"
-#  weight = 1
-#  url = "https://github.com/johndoe/"
-#[[params.social]]
-#  name = "Gitlab"
-#  icon = "fa-brands fa-gitlab fa-2x"
-#  weight = 2
-#  url = "https://gitlab.com/johndoe/"
-#[[params.social]]
-#  name = "Twitter"
-#  icon = "fa-brands fa-x-twitter fa-2x"
-#  weight = 3
-#  url = "https://twitter.com/johndoe/"
-#
-# Menu links
-[[menu.main]]
-  name = "Posts"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+[params]
+  showReadingTime = true
+  enableTagSearch = true
+
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
+
+# Markup related configuration in Hugo
+[markup]
+
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
