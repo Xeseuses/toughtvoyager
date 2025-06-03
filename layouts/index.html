@@ -1,0 +1,38 @@
+{{ define "content" }}
+<section class="container digital-garden-home">
+
+  <!-- Intro / About -->
+  <header class="garden-intro">
+    <h1>{{ .Title }}</h1>
+    <div class="intro-text">{{ .Content }}</div>
+  </header>
+
+  <!-- Recent notes -->
+  <section class="recent-notes">
+    <h2>Recent Notes</h2>
+    <ul>
+      {{ range first 10 (where .Site.RegularPages "Type" "in" (slice "posts" "notes")) }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <small class="note-date">{{ .Date.Format "Jan 2, 2006" }}</small>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <!-- Seedlings / Draft ideas -->
+  {{ $drafts := where .Site.RegularPages "Draft" true }}
+  {{ if gt (len $drafts) 0 }}
+  <section class="seedlings">
+    <h2>Seedlings (Drafts)</h2>
+    <ul>
+      {{ range $drafts }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+</section>
+{{ end }}
+

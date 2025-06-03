@@ -1,0 +1,12 @@
+<article>
+  <h1>{{ .Title }}</h1>
+  <p>Tags: 
+    {{ with .Params.tags }}
+      {{ delimit . ", " }}
+    {{ else }}
+      <em>no tags</em>
+    {{ end }}
+  </p>
+  {{ .Content }}
+</article>
+

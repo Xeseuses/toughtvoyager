@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Thought Voyager</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Thought Voyager</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eastern Orthodoxy</title>
+      <link>http://localhost:1313/posts/eastern-orthodoxy/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/eastern-orthodoxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A test Post</title>
+      <link>http://localhost:1313/posts/a-test-post/</link>
+      <pubDate>Fri, 07 Feb 2025 09:28:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-test-post/</guid>
+      <description>This is a test post for testing purposes.</description>
+    </item>
+    <item>
+      <title>A Manifesto For The Future</title>
+      <link>http://localhost:1313/posts/a-manifesto-for-the-future/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-manifesto-for-the-future/</guid>
+      <description>All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.&#xA;Explanation in short Link to heading The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.</description>
+    </item>
+    <item>
+      <title>Private Cities, the better alternative to country&#39;s</title>
+      <link>http://localhost:1313/posts/private-cities-the-better-alternative-to-countrys/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/private-cities-the-better-alternative-to-countrys/</guid>
+      <description>In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation 1&#xA;The Next Stage of Development For Human Coexistence Link to heading Imagine a system in which a private company as a &amp;ldquo;government service provider&amp;rdquo; offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services.</description>
+    </item>
+    <item>
+      <title>The Case For Anarchy</title>
+      <link>http://localhost:1313/posts/the-case-for-anarchy/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-case-for-anarchy/</guid>
+      <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The Failure of Modern Day Democracy]] I already have argued I don´t believe in (modern day) democracy anymore. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
+    </item>
+    <item>
+      <title>The Failure Of Modern Day Democracy</title>
+      <link>http://localhost:1313/posts/the-failure-of-modern-day-democracy/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-failure-of-modern-day-democracy/</guid>
+      <description>Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What&amp;rsquo;s not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of &amp;ldquo;public good.</description>
+    </item>
+    <item>
+      <title>Welcome-Welkom</title>
+      <link>http://localhost:1313/posts/welcome-welkom/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome-welkom/</guid>
+      <description>This is my digital garden where you can explore my thoughts, as they grow to form fully fledged ideas. This site uses the concept of public learning. Go and explore the path you want!&#xA;Dit is mijn digitale tuin waar je mijn gedachten kunt verkennen, terwijl ze tot volledig vormgegeven gedachten vormen. Deze site maakt gebruik van het concept van publiek leren. Ga en verken het pad dat jij wil!</description>
+    </item>
+  </channel>
+</rss>
