@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="digital-garden-home" style="padding: 2rem; font-family: sans-serif;">
+<main class="digital-garden-home" style="padding: 2rem; font-family: sans-serif; background: #f9f9f9;">
   <header style="margin-bottom: 3rem;">
     <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">🌱 Thought Voyager</h1>
     <p class="intro" style="font-size: 1.1rem; max-width: 60ch; color: #444;">
@@ -22,17 +22,29 @@
     {{ end }}
 
     {{ range sort $tags }}
-      <section class="tag-cluster" style="margin-bottom: 3rem;">
+      <section class="tag-cluster" style="margin-bottom: 4rem;">
         <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">🌿 {{ . | title }}</h2>
-        <ul style="list-style: none; padding: 0;">
+        <div style="display: grid; gap: 1.5rem;">
           {{ range sort (where $posts "Params.tags" "intersect" (slice .)) ".Date" "desc" }}
-          <li style="margin-bottom: 1.5rem;">
-            <a href="{{ .Permalink }}" style="font-weight: bold; font-size: 1.1rem; color: #2c3e50;">{{ .Title }}</a><br>
-            <small class="post-date" style="color: #666;">📅 {{ .Date.Format "Jan 2, 2006" }}</small>
-            <p class="summary" style="margin-top: 0.25rem; color: #555;">{{ .Summary | markdownify }}</p>
-          </li>
+          <div style="
+            background: white;
+            padding: 1rem 1.25rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+            cursor: pointer;
+          "
+          onmouseover="this.style.transform='scale(1.015)'"
+          onmouseout="this.style.transform='scale(1)'"
+          onclick="window.location.href='{{ .Permalink }}'">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <h3 style="margin: 0; font-size: 1.25rem; color: #2c3e50;">{{ .Title }}</h3>
+              <small style="color: #888;">{{ .Date.Format "Jan 2, 2006" }}</small>
+            </div>
+            <p style="margin: 0; color: #555;">{{ .Summary | markdownify }}</p>
+          </div>
           {{ end }}
-        </ul>
+        </div>
       </section>
     {{ end }}
   {{ end }}
