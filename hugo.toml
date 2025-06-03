@@ -12,7 +12,7 @@ theme = "PaperMod"
 [params.homeInfoParams]
   Title = "🌿 Thought Voyager"
   Content = "Welcome to my digital garden. Here I explore ideas, reflect on life, and grow thoughts one note at a time."
-
+ mainSections = ["posts"]
 
 
 [taxonomies]
