@@ -1,7 +1,8 @@
 ---
-title: "Welcome to My Site"
-description: "This is my custom homepage built with Hugo Coder."
+title: "Welcome to Thought Voyager"
 ---
 
-Welcome to my homepage! This is **custom content** written in markdown.
+> “A garden is always a series of losses set against a few triumphs, like life itself.” – May Sarton
+
+Explore notes, essays, and unfinished thoughts that may one day grow into something more.
 

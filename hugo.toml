@@ -1,17 +1,27 @@
 baseurl = "http://thoughtvoyager.com"
-title = "Thought Voyager"
 languagecode = "en"
 defaultcontentlanguage = "en"
 theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "🌿 Thought Voyager"
+  Content = "Welcome to my digital garden. Here I explore ideas, reflect on life, and grow thoughts one note at a time."
+
+
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
-[params]
-  showReadingTime = true
-  enableTagSearch = true
 
+[permalinks]
+  posts = "/posts/:slug/"
 
 # Menu config
 [menu]
@@ -45,10 +55,3 @@ category = "categories"
     title = ""
 
 
-# Markup related configuration in Hugo
-[markup]
-
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-    noClasses = false
