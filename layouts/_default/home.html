@@ -1,10 +1,87 @@
 {{ define "main" }}
-<main class="digital-garden-home" style="padding: 2rem; font-family: sans-serif; background: #f9f9f9;">
+<main style="padding: 2rem; max-width: 850px; margin: auto; font-family: sans-serif; background: #f9f9f9;">
+
+  <style>
+    .tag-cluster {
+      margin-bottom: 3rem;
+    }
+
+    .tag-title {
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .post-card {
+      background: white;
+      padding: 1.5rem 1.75rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      cursor: pointer;
+      margin-bottom: 1.5rem;
+
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+
+      /* DEBUG: Add visible border for cards */
+      border: 2px solid #ddd;
+    }
+
+    .post-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      transform: scale(1.02);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .post-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .post-title {
+      margin: 0;
+      font-size: 1.3rem;
+      color: #222;
+      flex-grow: 1;
+      flex-basis: 70%;
+      font-weight: 600;
+    }
+
+    .post-meta {
+      color: #666;
+      font-size: 0.9rem;
+      min-width: 130px;
+      text-align: right;
+      flex-shrink: 0;
+      line-height: 1.2;
+    }
+
+    .post-summary {
+      color: #444;
+      font-size: 1rem;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      /* no default indentation */
+      margin-left: 0;
+    }
+  </style>
+
   <header style="margin-bottom: 3rem;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">🌱 Thought Voyager</h1>
-    <p class="intro" style="font-size: 1.1rem; max-width: 60ch; color: #444;">
-      Welcome to my Digital Garden — a place for ideas, reflections, and exploration.  
-      Dive into topics that spark curiosity and growth. 🌿🌍
+    <h1 style="font-size: 2.75rem; margin-bottom: 0.5rem;">Thought Voyager</h1>
+    <p style="font-size: 1.15rem; color: #555;">
+      Welcome to my Digital Garden — a place for ideas, reflections, and exploration.<br>
+      Dive into topics that spark curiosity and growth.
     </p>
   </header>
 
@@ -22,32 +99,30 @@
     {{ end }}
 
     {{ range sort $tags }}
-      <section class="tag-cluster" style="margin-bottom: 4rem;">
-        <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">🌿 {{ . | title }}</h2>
-        <div style="display: grid; gap: 1.5rem;">
-          {{ range sort (where $posts "Params.tags" "intersect" (slice .)) ".Date" "desc" }}
-          <div style="
-            background: white;
-            padding: 1rem 1.25rem;
-            border-radius: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            transition: transform 0.2s ease;
-            cursor: pointer;
-          "
-          onmouseover="this.style.transform='scale(1.015)'"
-          onmouseout="this.style.transform='scale(1)'"
-          onclick="window.location.href='{{ .Permalink }}'">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-              <h3 style="margin: 0; font-size: 1.25rem; color: #2c3e50;">{{ .Title }}</h3>
-              <small style="color: #888;">{{ .Date.Format "Jan 2, 2006" }}</small>
+      <section class="tag-cluster">
+        <h2 class="tag-title">{{ partial "tag-emoji.html" . }} {{ . | title }}</h2>
+        <ul>
+          {{ $taggedPosts := where $posts "Params.tags" "intersect" (slice .) }}
+          {{ $taggedPosts = where $taggedPosts "Date" "!=" nil }}
+          {{ $taggedPosts = sort $taggedPosts "Date" "desc" }}
+          {{ range $taggedPosts }}
+          <li>
+            <div class="post-card" onclick="window.location.href='{{ .Permalink }}'">
+              <div class="post-header">
+                <h3 class="post-title">{{ .Title }}</h3>
+                <div class="post-meta">
+                  {{ .Date.Format "Jan 2, 2006" }}<br>⏱️ {{ .ReadingTime }} min read
+                </div>
+              </div>
+              <p class="post-summary">{{ .Summary | plainify }}</p>
             </div>
-            <p style="margin: 0; color: #555;">{{ .Summary | markdownify }}</p>
-          </div>
+          </li>
           {{ end }}
-        </div>
+        </ul>
       </section>
     {{ end }}
   {{ end }}
+
 </main>
 {{ end }}
 

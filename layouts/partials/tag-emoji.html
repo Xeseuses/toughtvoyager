@@ -1,0 +1,11 @@
+{{- $tag := . | lower -}}
+{{- if eq $tag "libertarianism" }}🗽
+{{- else if eq $tag "note" }}📝
+{{- else if eq $tag "history" }}📜
+{{- else if eq $tag "philosophy" }}🧠
+{{- else if eq $tag "technology" }}💻
+{{- else if eq $tag "religion" }}⛪
+{{- else if eq $tag "self" }}🌿
+{{- else }}🏷️
+{{- end -}}
+

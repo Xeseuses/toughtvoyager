@@ -1,12 +1,71 @@
-<article>
-  <h1>{{ .Title }}</h1>
-  <p>Tags: 
+{{ define "main" }}
+<main style="max-width: 750px; margin: auto; padding: 2rem; font-family: sans-serif;">
+
+  <style>
+    article {
+      animation: fadein 0.5s ease forwards;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .meta {
+      color: #888;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+    .content {
+      line-height: 1.7;
+      font-size: 1.05rem;
+      color: #333;
+    }
+    .content img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+    .content blockquote {
+      border-left: 4px solid #ccc;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      color: #555;
+      font-style: italic;
+    }
+    .taglist {
+      margin-top: 3rem;
+      color: #666;
+    }
+    .taglist span {
+      background: #eef;
+      color: #336;
+      padding: 0.25rem 0.5rem;
+      margin-right: 0.5rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    @keyframes fadein {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <article>
+    <h1>{{ .Title }}</h1>
+    <div class="meta">
+      {{ .Date.Format "Jan 2, 2006" }} &nbsp; · &nbsp; ⏱️ {{ .ReadingTime }} min read
+    </div>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
     {{ with .Params.tags }}
-      {{ delimit . ", " }}
-    {{ else }}
-      <em>no tags</em>
+    <div class="taglist">
+      <strong>Tagged:</strong>
+      {{ range . }}<span>{{ . }}</span>{{ end }}
+    </div>
     {{ end }}
-  </p>
-  {{ .Content }}
-</article>
+  </article>
+</main>
+{{ end }}
 
