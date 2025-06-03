@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Libertarianism on My New Hugo Site</title>
-    <link>https://example.org/tags/libertarianism/</link>
-    <description>Recent content in Libertarianism on My New Hugo Site</description>
+    <title>Libertarianism on Thought Voyager</title>
+    <link>http://thoughtvoyager.com/tags/libertarianism/</link>
+    <description>Recent content in Libertarianism on Thought Voyager</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/libertarianism/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://thoughtvoyager.com/tags/libertarianism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Manifesto For The Future</title>
-      <link>https://example.org/posts/a-manifesto-for-the-future/</link>
+      <link>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/a-manifesto-for-the-future/</guid>
-      <description>All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.&#xA;Explanation in short The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.</description>
+      <guid>http://thoughtvoyager.com/posts/a-manifesto-for-the-future/</guid>
+      <description>All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.&#xA;Explanation in short Link to heading The future will be decentralized and sustainable where voluntary cooperation, market innovation and strong property rights foster community resilience without the need for (a) centralized authority.</description>
     </item>
     <item>
       <title>Private Cities, the better alternative to country&#39;s</title>
-      <link>https://example.org/posts/private-cities-the-better-alternative-to-countrys/</link>
+      <link>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/private-cities-the-better-alternative-to-countrys/</guid>
-      <description>In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation 1&#xA;The Next Stage of Development For Human Coexistence Imagine a system in which a private company as a &amp;ldquo;government service provider&amp;rdquo; offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services.</description>
+      <guid>http://thoughtvoyager.com/posts/private-cities-the-better-alternative-to-countrys/</guid>
+      <description>In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation 1&#xA;The Next Stage of Development For Human Coexistence Link to heading Imagine a system in which a private company as a &amp;ldquo;government service provider&amp;rdquo; offers you protection of life, liberty and property? You would pay a contractually fixed amount for these services.</description>
     </item>
     <item>
       <title>The Case For Anarchy</title>
-      <link>https://example.org/posts/the-case-for-anarchy/</link>
+      <link>http://thoughtvoyager.com/posts/the-case-for-anarchy/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/the-case-for-anarchy/</guid>
-      <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post [[The Failure of Modern Day Democracy]] I already have argued I don´t believe in (modern day) democracy anymore. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
+      <guid>http://thoughtvoyager.com/posts/the-case-for-anarchy/</guid>
+      <description>In this post I want to defend the position for an anarchy based society. In my opinion is the concept of the state an relic from the past and do we need to go to another form of living. In my post The Failure of Modern Day Democracy I already have argued I don´t believe in (modern day) democracy anymore. In this post I will lay out why no goverment/rule (anarchy) is the better option.</description>
     </item>
     <item>
       <title>The Failure Of Modern Day Democracy</title>
-      <link>https://example.org/posts/the-failure-of-modern-day-democracy/</link>
+      <link>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/the-failure-of-modern-day-democracy/</guid>
+      <guid>http://thoughtvoyager.com/posts/the-failure-of-modern-day-democracy/</guid>
       <description>Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What&amp;rsquo;s not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of &amp;ldquo;public good.</description>
     </item>
   </channel>
