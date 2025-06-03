@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thought Voyager</title>
+    <title>Welcome to My Site on Thought Voyager</title>
     <link>http://thoughtvoyager.com/</link>
-    <description>Recent content on Thought Voyager</description>
+    <description>Recent content in Welcome to My Site on Thought Voyager</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://thoughtvoyager.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Page</title>
+      <link>http://thoughtvoyager.com/test/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://thoughtvoyager.com/test/</guid>
+      <description>This is a test page Link to heading If you&amp;rsquo;re seeing this, Hugo is rendering content correctly.</description>
+    </item>
     <item>
       <title>Eastern Orthodoxy</title>
       <link>http://thoughtvoyager.com/posts/eastern-orthodoxy/</link>
