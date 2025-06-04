@@ -1,9 +1,9 @@
 ---
-Status: 
 tags:
   - Libertarianism
 Links: 
 Created: 2025-02-07T09:28:02
+stage: 🌱Seedling
 Title: A Manifesto For The Future
 date: 2025-02-07
 ---
