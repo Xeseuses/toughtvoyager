@@ -1,5 +1,5 @@
 ---
-Status: 
+stage: "🌱 Seedling" 
 tags:
   - Libertarianism
 Links: 
