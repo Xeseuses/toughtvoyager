@@ -81,13 +81,13 @@
   </style>
 
   <header>
-    <h1 class="section-title">Thought Voyager</h1>
-    <p class="intro">
-      Welcome to my Digital Garden — a place for ideas, reflections, and exploration.<br>
-      Dive into topics that spark curiosity and growth.
-    </p>
-     <button class="wander-btn" onclick="goToRandomPost()">🌿 Wander Randomly</button>
-  </header>
+  <h1 class="section-title">Thought Voyager</h1>
+  <p class="intro">
+    This isn’t just a blog — it’s a living archive of thought. A barefoot path across philosophy, tech, community, identity, and alternative futures.<br>
+    Welcome to the place where fragments of wonder are gathered and grown — sometimes messy, always meaningful.
+  </p>
+  <button class="wander-btn" onclick="goToRandomPost()">🌿 Wander Randomly</button>
+</header>
 
   {{ $posts := where .Site.RegularPages "Type" "posts" }}
   {{ if not (len $posts) }}
