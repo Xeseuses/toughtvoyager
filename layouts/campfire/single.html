@@ -1,0 +1,73 @@
+{{ define "main" }}
+<main style="max-width: 700px; margin: auto; padding: 2rem; font-family: 'Segoe UI', sans-serif; background: #fffdf7; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.05);">
+
+  <style>
+    .campfire-title {
+      font-size: 2rem;
+      color: #d35400;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      text-align: center;
+    }
+    .campfire-content {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      color: #3b7a57;
+    }
+    .reaction-btns {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .reaction-btn {
+      background: #ff9e2c;
+      border: none;
+      border-radius: 8px;
+      padding: 0.5rem 1.2rem;
+      cursor: pointer;
+      font-size: 1.3rem;
+      color: white;
+      transition: background 0.3s;
+      user-select: none;
+    }
+    .reaction-btn:hover {
+      background: #e67e22;
+    }
+    .reaction-count {
+      margin-left: 0.4rem;
+      font-weight: 600;
+    }
+  </style>
+
+  <h1 class="campfire-title">{{ .Title }} 🔥</h1>
+  <article class="campfire-content">
+    {{ .Content | safeHTML }}
+  </article>
+
+  <div class="reaction-btns">
+    <button class="reaction-btn" onclick="incrementReaction('fire')">🔥 <span id="fire-count">0</span></button>
+    <button class="reaction-btn" onclick="incrementReaction('heart')">❤️ <span id="heart-count">0</span></button>
+    <button class="reaction-btn" onclick="incrementReaction('thumbs')">👍 <span id="thumbs-count">0</span></button>
+  </div>
+
+  <script>
+    // Simple localStorage reaction counter for demo
+    function incrementReaction(name) {
+      let countSpan = document.getElementById(name + '-count');
+      let count = parseInt(localStorage.getItem('reaction-' + name) || '0');
+      count++;
+      localStorage.setItem('reaction-' + name, count);
+      countSpan.textContent = count;
+    }
+
+    // Initialize counts on page load
+    ['fire','heart','thumbs'].forEach(name => {
+      let count = localStorage.getItem('reaction-' + name) || '0';
+      document.getElementById(name + '-count').textContent = count;
+    });
+  </script>
+
+</main>
+{{ end }}
+

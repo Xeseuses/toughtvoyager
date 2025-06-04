@@ -1,12 +1,11 @@
 ---
-stage: "🌿 Budding" 
+Status: 
 tags:
   - Libertarianism
 Links: 
 Created: 2024-12-11T22:08:19
 Title: The Failure Of Modern Day Democracy
 date: 2024-12-11
-lastmod: 2024-12-11
 ---
 Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What's not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of "public good." Worse, democracy incentivizes short-term thinking, economic mismanagement, and populist policies that ultimately weaken societies.
 
