@@ -53,6 +53,7 @@ echo "Building Hugo site..."
 if [ -n "$(git status --porcelain)" ]; then
     echo "Staging and committing changes..."
     git add .
+    git add content/ static/ layouts/ themes/hugo-papermod
     git commit -m "New Blog Post on $(date '+%Y-%m-%d %H:%M:%S')"
 else
     echo "No changes to commit."
