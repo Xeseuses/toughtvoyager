@@ -86,7 +86,7 @@
       Welcome to my Digital Garden — a place for ideas, reflections, and exploration.<br>
       Dive into topics that spark curiosity and growth.
     </p>
-    <button class="wander-btn" onclick="window.location.href='/random'">🌿 Wander Randomly</button>
+     <button class="wander-btn" onclick="goToRandomPost()">🌿 Wander Randomly</button>
   </header>
 
   {{ $posts := where .Site.RegularPages "Type" "posts" }}
@@ -120,5 +120,6 @@
   {{ end }}
 
 </main>
+{{ partial "random-script.html" . }}
 {{ end }}
 

@@ -24,3 +24,6 @@ category = "categories"
   posts = "/posts/:slug/"
   home = "/"
 
+[outputs]
+  home = ["HTML", "JSON"]
+

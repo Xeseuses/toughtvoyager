@@ -4,7 +4,7 @@ tags:
   - Libertarianism
 Links: 
 Created: 2025-02-07T09:45:20
-Title: Private Cities, the better alternative to country's
+Title: Private Cities, the better alternative to countries
 date: 2025-02-07
 lastmod: 2025-02-07
 ---

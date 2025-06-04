@@ -1,0 +1,5 @@
+{{ $content := .Content }}
+{{ $wikilinkRE := `\[\[([^\[\]|]+)(\|([^\[\]]+))?\]\]` }}
+{{ $content = replaceRE $wikilinkRE `<a href="/posts/${1 | urlize}">${3}</a>` $content }}
+{{ return $content | safeHTML }}
+

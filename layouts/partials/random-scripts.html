@@ -1,0 +1,15 @@
+<script>
+  const allPosts = [
+    {{ range $i, $p := where .Site.RegularPages "Type" "posts" }}
+      {{ if gt $i 0 }},{{ end }}
+      "{{ $p.RelPermalink }}"
+    {{ end }}
+  ];
+
+  function goToRandomPost() {
+    if (allPosts.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * allPosts.length);
+    window.location.href = allPosts[randomIndex];
+  }
+</script>
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    fetch('/index.json')
+      .then(response => response.json())
+      .then(pages => {
+        const randomPage = pages[Math.floor(Math.random() * pages.length)];
+        window.location.href = randomPage.url;
+      });
+  </script>
+</head>
+<body>
+  <p>Redirecting to a random page...</p>
+</body>
+</html>
+
