@@ -1,29 +1,23 @@
 {{ define "main" }}
-<main style="max-width: 750px; margin: auto; padding: 2rem; font-family: 'Segoe UI', sans-serif; background: #f4f8f5;">
+<main style="max-width: 750px; margin: auto; padding: 2rem; font-family: sans-serif;">
 
   <style>
     article {
       animation: fadein 0.5s ease forwards;
     }
     h1 {
-      font-size: 2.4rem;
-      margin-bottom: 0.3rem;
-      color: #2c3e50;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
     }
-    .meta, .stage {
-      color: #666;
-      margin-bottom: 0.25rem;
+    .meta {
+      color: #888;
+      margin-bottom: 2rem;
       font-size: 0.95rem;
-    }
-    .stage {
-      color: #3b7a57;
-      font-weight: 500;
     }
     .content {
       line-height: 1.7;
       font-size: 1.05rem;
       color: #333;
-      margin-top: 2rem;
     }
     .content img {
       max-width: 100%;
@@ -49,20 +43,8 @@
       border-radius: 6px;
       font-size: 0.9rem;
     }
-    .related {
-      margin-top: 3rem;
-    }
-    .related h3 {
-      font-size: 1.2rem;
-      color: #2c3e50;
-      margin-bottom: 0.75rem;
-    }
-    .related ul {
-      padding-left: 1.2rem;
-    }
-    .related li {
-      margin-bottom: 0.3rem;
-    }
+    {{ partial "related.html" . }}
+
     @keyframes fadein {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -72,15 +54,15 @@
   <article>
     <h1>{{ .Title }}</h1>
     {{ with .Params.stage }}
-      <div class="stage">{{ . }}</div>
+     <div class="meta" style="color: #4a4;">{{ . }}</div>
     {{ end }}
+
     <div class="meta">
-      {{ .Date.Format "Jan 2, 2006" }} · ⏱️ {{ .ReadingTime }} min read
+      {{ .Date.Format "Jan 2, 2006" }} &nbsp; · &nbsp; ⏱️ {{ .ReadingTime }} min read
     </div>
 
-    {{ $content := .Content | replaceRE "\\[\\[([^\\]]+)\\]\\]" "<a href=\"/$1\">$1</a>" }}
     <div class="content">
-      {{ $content | safeHTML }}
+      {{ .Content }}
     </div>
 
     {{ with .Params.tags }}
@@ -89,12 +71,6 @@
       {{ range . }}<span>{{ . }}</span>{{ end }}
     </div>
     {{ end }}
-
-    {{ partial "related.html" . }}
-
-    <p style="font-size: 0.85rem; color: #888; margin-top: 3rem;">
-      Last tended: {{ .Lastmod.Format "Jan 2, 2006" }}
-    </p>
   </article>
 </main>
 {{ end }}

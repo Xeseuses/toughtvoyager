@@ -1,0 +1,14 @@
+{{ $related := .Site.RegularPages | intersect (where .Site.RegularPages "Params.tags" "intersect" .Params.tags) }}
+{{ if gt (len $related) 1 }}
+<div class="related">
+  <h3>🔗 Connected Notes</h3>
+  <ul>
+    {{ range $rel := $related }}
+      {{ if ne $rel.Permalink .Permalink }}
+        <li><a href="{{ $rel.Permalink }}">{{ $rel.Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
