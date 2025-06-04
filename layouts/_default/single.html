@@ -55,7 +55,10 @@
   </style>
 
   <h1 class="note-title">{{ .Title }}</h1>
-  <p class="note-meta">⏱️ {{ .ReadingTime }} min read — {{ .Date.Format "January 2, 2006" }}</p>
+  <p class="post-meta">
+    🗓️ Published: {{ .Date.Format "Jan 2, 2006" }}<br>
+    🛠️ Last edited: {{ .Lastmod.Format "Jan 2, 2006" }}
+  </p>
 
   {{/* Build title-to-page map */}}
   {{ $pageMap := dict }}

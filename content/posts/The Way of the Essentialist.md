@@ -5,6 +5,7 @@ Created: 2024-12-10
 stage: 🌿 Budding
 Title: The Way of the Essentialist
 date: 2024-12-10
+lastmod: 2024-12-10
 ---
 
 Mantra: Less, but better 
