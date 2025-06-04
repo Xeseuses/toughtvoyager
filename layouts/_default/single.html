@@ -77,6 +77,9 @@
     <div class="meta">
       {{ .Date.Format "Jan 2, 2006" }} · ⏱️ {{ .ReadingTime }} min read
     </div>
+    <p style="font-size:0.85rem; color:#888; margin-top: 3rem;">
+      Last tended: {{ .Lastmod.Format "Jan 2, 2006" }}
+    </p>
 
     {{ $content := .Content | replaceRE "\\[\\[([^\\]]+)\\]\\]" "<a href=\"/$1\">$1</a>" }}
     <div class="content">
@@ -92,10 +95,7 @@
 
     {{ partial "related.html" . }}
 
-    <p style="font-size: 0.85rem; color: #888; margin-top: 3rem;">
-      Last tended: {{ .Lastmod.Format "Jan 2, 2006" }}
-    </p>
-  </article>
+ </article>
 </main>
 {{ end }}
 
