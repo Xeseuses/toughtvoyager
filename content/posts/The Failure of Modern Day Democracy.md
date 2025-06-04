@@ -3,7 +3,7 @@ tags:
   - Libertarianism
 Links: 
 Created: 2024-12-11T22:08:19
-stage: 🌱Seedling
+stage: 🌱 Seedling
 Title: The Failure Of Modern Day Democracy
 date: 2024-12-11
 ---
