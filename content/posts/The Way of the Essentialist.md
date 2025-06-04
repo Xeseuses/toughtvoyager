@@ -2,7 +2,7 @@
 tags:
   - mind
 Created: 2024-12-10
-stage: 🌱 Seedling
+stage: 🌿 Budding
 Title: The Way of the Essentialist
 date: 2024-12-10
 ---
