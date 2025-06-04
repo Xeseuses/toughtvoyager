@@ -6,11 +6,11 @@ Created: 2024-12-11T22:08:19
 stage: 🌿 Budding
 Title: The Failure Of Modern Day Democracy
 date: 2024-12-11
-lastmod: 2024-12-11
+lastmod: 2025-06-04
 ---
 Democracy, the pinnacle of governance. People choose their leaders, ensure freedom, fairness and accountability. What's not to like about that? Well, how about reality? In practice, modern democracy has devolved into a dysfunctional, corrupt and inefficient system that servers the political elites and special interests rather than the people. Elections are manipulated by lobbyists, majoritarian rule crushes minority rights, and bureaucracies expand unchecked, eroding personal freedom under the guise of "public good." Worse, democracy incentivizes short-term thinking, economic mismanagement, and populist policies that ultimately weaken societies.
 
-If democracy is the end all, be all system, then why feel voters betrayed, do elections feel meaningless and individual rights secondary to political power? Why are the so many people poor, sick, homeless, etc.? Why does the US topple democracies and install leaders that have goodwill towards them? 
+If democracy is the end all, be all system, then why feel voters betrayed, do elections feel meaningless and individual rights secondary to political power? Why are the so many people poor, sick, homeless, etc.? Why does the US topple democracies and install leaders that have goodwill towards them? Why are some democracies short lived, only for one party to decide to step out of the coalition and send the country in more uncertainty? [^3]
 
 The truth is, democracy has failed. It's time to explore a better alternative: a system that prioritizes liberty, accountability, and real governance over the illusion of choice
 ## Why democracy doesn't work in its current form
@@ -73,3 +73,5 @@ Links:
 
 [^1]: https://www.uu.nl/en/news/short-term-thinking-in-dutch-politics-comes-at-the-expense-of-the-longer-term?utm_source=chatgpt.com
 [^2]: https://www.gutenberg.org/files/815/815-h/815-h.htm
+
+[^3]: https://nos.nl/collectie/13996/artikel/2569767-wilders-breekt-met-coalitie-trekt-pvv-ers-terug-uit-kabinet-schoof
