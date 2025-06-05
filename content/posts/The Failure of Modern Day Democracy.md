@@ -71,7 +71,6 @@ And will explain it in more detail:
 
 Links:
 
+[^3]: https://nos.nl/collectie/13996/artikel/2569767-wilders-breekt-met-coalitie-trekt-pvv-ers-terug-uit-kabinet-schoof
 [^1]: https://www.uu.nl/en/news/short-term-thinking-in-dutch-politics-comes-at-the-expense-of-the-longer-term?utm_source=chatgpt.com
 [^2]: https://www.gutenberg.org/files/815/815-h/815-h.htm
-
-[^3]: https://nos.nl/collectie/13996/artikel/2569767-wilders-breekt-met-coalitie-trekt-pvv-ers-terug-uit-kabinet-schoof
