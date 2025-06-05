@@ -14,9 +14,9 @@ Rejects: The idea we can fit all in
 To reach it: Distinguish the vital few from the trivial many, eliminate the non-essentials and then removing obstacles so the essential things have a clear, smooth passage
 
 ---
-             If you don't prioritize 
-                   your life
-             someone else will
+       If you don't prioritize               
+       your life
+       someone else will
              
 -------
 
@@ -35,10 +35,10 @@ We often think of choice as a thing. But choice is not a thing. Our options may 
 The Essentialist knows that when we surrender our right to choose, we give others not just the power, but also the explicit permission to choose for us
 
 ---
-              Do we take time to
-                Stand still
-                   And
-              Take a break?
+     Do we take time to
+     Stand still
+     And
+     Take a break?
               
 ---
 # Trade-offs
@@ -87,9 +87,9 @@ How to make a selection?
 # Dare
 
 -----
-				The right "no" spoke at the
-					right time
-				can change the course of history
+	The right "no" spoke at the
+	 right time
+	 can change the course of history
 
 ---
 As hard as it can be to say no to someone, failing to do so can cause us to miss out on something far more important
@@ -107,11 +107,11 @@ Instead of trying to budget your time on the basis of existing commitments, assu
 
 # Limit
 ---
-				Boundaries are a little like
-				the walls of a sandcastle.
-				The second we let
-				one fall over,
-				the rest of them come crashing down.
+	Boundaries are a little like
+	the walls of a sandcastle.
+	The second we let
+	one fall over,
+	the rest of them come crashing down.
 
 ---
 You need to recognize that boundaries protect your time from being hijacked and free yourself from the burden of having to say no to things that father's others objectives instead of your own.
@@ -124,9 +124,9 @@ Make a list of your dealbreakers with requests or activities you simply refuse t
 
 # Buffer
 ---
-				Use the good good times
-				to create a buffer for
-				the bad.
+	Use the good good times
+	to create a buffer for			
+	the bad.
 
 ---
 How to create a buffer?:
@@ -146,7 +146,7 @@ The question is this: What is the "slowest hiker" in your life? Then focus on th
 Research has shown that all forms of human motivation the most effective one is progress.
 
 ---
-				Done is better than perfect
+	Done is better than perfect
 
 -----
 
@@ -157,7 +157,7 @@ Be in the now. Ask yourself what is most important this very second. If you're n
 Get the future out of your head by writing in a journal the following: "Whay might you want to do someday as a result of today."
 
 ---- 
-				The pause that refreshes
+	The pause that refreshes
 
 ----  
 # Be
