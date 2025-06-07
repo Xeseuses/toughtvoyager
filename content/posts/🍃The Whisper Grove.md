@@ -1,6 +1,6 @@
 ---
 tags:
-  - note
+  - privacy
 Links: 
 Created: 2025-06-07T18:29:37
 stage: 🌱 Seedling

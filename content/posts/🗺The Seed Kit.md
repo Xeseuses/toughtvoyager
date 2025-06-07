@@ -1,10 +1,10 @@
 ---
 tags:
-  - note
+  - privacy
 Links: 
 Created: 2025-06-07T21:37:30
 stage: 🌱 Seedling
-Title: The Seed Kit
+Title: 🗺The Seed Kit
 date: 2025-06-07
 lastmod: 2025-06-07
 ---
