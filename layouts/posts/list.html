@@ -2,7 +2,7 @@
 <main style="max-width: 850px; margin: auto; padding: 2rem;">
   <h1>Posts</h1>
   <ul>
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .RegularPages.ByDate.Reverse }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}</li>
     {{ else }}
       <li>No posts found.</li>
