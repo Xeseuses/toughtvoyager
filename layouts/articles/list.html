@@ -1,10 +1,25 @@
 {{ define "main" }}
-<main style="max-width: 850px; margin: auto; padding: 2rem;">
+<main style="max-width: 850px; margin: auto; padding: 2rem; font-family: 'Segoe UI', sans-serif; background: #f4f8f5;">
   <h1>{{ .Title }}</h1>
-  <ul>
+
+  {{ partial "post-card-style.html" . }}
+
+  <ul style="list-style:none; padding-left:0;">
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
-    {{ range $posts.ByDate.Reverse }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}</li>
+    {{ $filtered := where $posts "Title" "ne" "" }}
+    {{ $filtered = where $filtered "Date.Unix" "gt" 0 }}
+    {{ range $filtered.ByDate.Reverse }}
+      <li>
+        <div class="post-card" onclick="window.location.href='{{ .Permalink }}'">
+          <div class="post-header">
+            <h3 class="post-title">{{ .Title }}</h3>
+            <div class="post-meta">
+              {{ .Date.Format "Jan 2, 2006" }}<br>⏱️ {{ .ReadingTime }} min read
+            </div>
+          </div>
+          <p class="post-summary">{{ .Summary | plainify }}</p>
+        </div>
+      </li>
     {{ else }}
       <li>No posts found.</li>
     {{ end }}
