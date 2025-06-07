@@ -43,7 +43,6 @@ This is not about escaping society, but building alternative foundations. Here w
 - 🦢 Nostr for social presence
     
 - 🌱 Yggdrasil for private networking
-    
 
 > 🧭 _Not all tools are neutral. Some help you leave the empire without burning bridges._
 ### The Haven 🏡
@@ -82,7 +81,6 @@ Sometimes, all someone needs is a map and a spark. The Seed Kit offers that:
     
 - A printable zine or fieldbook  
     Everything you need to begin your own lantern-lit trail.
-    
 
 > 🧭 _This world should not depend on me. Light your own lantern._
 
