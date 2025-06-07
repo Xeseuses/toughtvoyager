@@ -1,11 +1,13 @@
 {{ define "main" }}
-  <h1>Posts</h1>
+  <h1>All Posts</h1>
   <ul>
     {{ range .Pages.ByDate.Reverse }}
       <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+        <small>🗓️ {{ .Date.Format "Jan 2, 2006" }}</small>
       </li>
+    {{ else }}
+      <li>No posts found.</li>
     {{ end }}
   </ul>
 {{ end }}
