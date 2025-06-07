@@ -1,5 +1,6 @@
 {{ define "main" }}
   <h1>All Posts</h1>
+  <p>Found {{ len .Pages }} posts in this section.</p>
   <ul>
     {{ range .Pages.ByDate.Reverse }}
       <li>
