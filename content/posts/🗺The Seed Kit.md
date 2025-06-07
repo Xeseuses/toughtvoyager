@@ -3,10 +3,10 @@ tags:
   - note
 Links: 
 Created: 2025-06-07T21:37:30
-stage: 
-Title: 
-date: 
-lastmod:
+stage: 🌱 Seedling
+Title: The Seed Kit
+date: 2025-06-07
+lastmod: 2025-06-07
 ---
 ## Introduction: Everything you need to start your own journey
 
