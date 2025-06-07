@@ -96,7 +96,8 @@ If not, leave no trace and be blessed on your path.
 ## Entry Point
 
 _A reflection on what we lose in the name of convenience — and what we might recover_  
-→ Enter via The Gate of Awareness
+→ Enter via [[The Gate of Awareness]]
+
 [^1]
 
 [^1]: This trail is quiet. It remembers no one. You are free to leave, or step further.
