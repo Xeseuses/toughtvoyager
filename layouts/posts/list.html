@@ -1,63 +1,11 @@
 {{ define "main" }}
-<main style="padding: 3rem 1.5rem; max-width: 960px; margin: auto; font-family: 'Inter', sans-serif;">
-
-  <style>
-    h1 {
-      font-size: 2.75rem;
-      margin-bottom: 1rem;
-      color: #1e293b;
-      letter-spacing: -0.5px;
-    }
-
-    ul.post-list {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-      display: grid;
-      gap: 1.25rem;
-    }
-
-    li.post-item {
-      background: white;
-      padding: 1.5rem 2rem;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      cursor: pointer;
-    }
-
-    li.post-item:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-    }
-
-    a.post-link {
-      text-decoration: none;
-      color: #1e293b;
-      font-size: 1.35rem;
-      font-weight: 600;
-      display: block;
-    }
-
-    a.post-link:hover {
-      color: #0f172a;
-    }
-  </style>
-
-  <h1>Posts</h1>
-  <p>Pages in this section: {{ len .Pages }}</p>
-  <p>RegularPages in this section: {{ len .RegularPages }}</p>
-
-<ul>
-{{ range .RegularPages.ByDate.Reverse }}
-  <li class="post-item" onclick="window.location.href='{{ .Permalink }}'">
-    <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
-  </li>
-{{ else }}
-  <p>No posts found.</p>
-{{ end }}
-
-
-</main>
+  <h1>All Posts</h1>
+  <ul>
+    {{ range .Pages.ByDate.Reverse }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a> — <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+      </li>
+    {{ end }}
+  </ul>
 {{ end }}
 
