@@ -46,9 +46,9 @@
 
   <h1>Posts</h1>
 
-  {{ if gt (len .Pages) 0 }}
+  {{ if gt (len .RegularPages) 0 }}
   <ul class="post-list">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .RegularPages.ByDate.Reverse }}
       <li class="post-item" onclick="window.location.href='{{ .Permalink }}'">
         <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
       </li>
