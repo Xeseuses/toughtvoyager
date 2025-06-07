@@ -1,0 +1,6 @@
+<ul>
+  {{ range .Site.RegularPages.ByDate.Reverse }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — Section: {{ .Section }}</li>
+  {{ end }}
+</ul>
+
