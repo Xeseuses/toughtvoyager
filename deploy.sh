@@ -49,18 +49,18 @@ fi
 echo "Building Hugo site..."
 ./hugo --cleanDestinationDir --minify
 
-# Step 5: Stage and commit changes
+# Step 5: Stage and commit changes (excluding submodules)
 if [ -n "$(git status --porcelain)" ]; then
     echo "Staging and committing changes..."
-    git add .
-    git add content/ static/ layouts/ themes/hugo-papermod
+    # Stage everything except submodules (which are tracked as commits)
+    git add --all
     git commit -m "New Blog Post on $(date '+%Y-%m-%d %H:%M:%S')"
 else
     echo "No changes to commit."
 fi
 
-# Step 6: Push to master
-echo "Pushing to master..."
+# Step 6: Push only the main repository (no submodules)
+echo "Pushing main repository to master..."
 git push origin master
 
 # Step 7: Push public folder to hostinger branch
