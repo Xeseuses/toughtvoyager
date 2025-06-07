@@ -1,10 +1,10 @@
 ---
 tags:
-  - "privacy"
+  - privacy
 Links: 
 Created: 2025-06-07T16:49:35
 stage: 🌿 Budding
-Title: The Lantern at the Edge
+Title: 🏮The Lantern at the Edge
 date: 2025-06-07
 lastmod: 2025-06-07
 ---
@@ -25,13 +25,13 @@ A personal trail into sovereignty, privacy and reconnection, guided by tools, st
 
 ## Waystones and Stations on this path:
 
-### Awakening 🕯️
+### 🕯 Awakening
 
 We’ve traded sovereignty for convenience. Few notice the cost until something breaks.  
 This station offers a reflection, a personal reckoning with surveillance, algorithmic control, and the slow erosion of inner life.
 
 > 🧭 _What do you lose when your path is chosen for you? What might awaken if you step aside?_
-### Tools of the Nomad 🛠️
+### 🛠️ The Path of Disconnection
 
 **Why these tools?**  
 This is not about escaping society, but building alternative foundations. Here we explore simple, durable, human-respecting tools:
@@ -45,14 +45,12 @@ This is not about escaping society, but building alternative foundations. Here w
 - 🌱 Yggdrasil for private networking
 
 > 🧭 _Not all tools are neutral. Some help you leave the empire without burning bridges._
-### The Haven 🏡
+### 🏡The Shelter of Haven 
 
 A world is only sovereign when you can **host it yourself**.  
 Here you’ll learn how to join my `.ygg` network — a quiet zone beyond DNS and digital IDs — and how to run your own.
 
 > 🧭 _Privacy isn’t secrecy. It’s the right to choose your audience._
-
-### The Gate ⛩
 
 ### ⛩ The Gate
 
@@ -61,14 +59,14 @@ Not all doors should swing wide. This gate offers **light verification** for tho
 
 > 🧭 _Trust is slow-grown. That’s the point._
 
-### The Echo Circle 🏕️
+### 🍃 The Whisper Grove 
 
 **Why community?**  
 Even in sovereign worlds, we need fellowship. This is an invite-only space: part-relay, part-campfire, maybe even voice chats later. A place for quiet builders, writers, wanderers.
 
 > 🧭 _A circle of trust is still possible, even online. But it must be tended._
 
-### The Seed Kit 🗺️
+### 🗺️The Seed Kit 🗺️
 
 **Why a kit?**  
 Sometimes, all someone needs is a map and a spark. The Seed Kit offers that:
@@ -84,7 +82,7 @@ Sometimes, all someone needs is a map and a spark. The Seed Kit offers that:
 
 > 🧭 _This world should not depend on me. Light your own lantern._
 
-## 🪜Why Step Forward / Who This Is For
+### 🪜Why Step Forward 
 
 This is not a project, a club, or a product. It’s a **signal**, one more fire lit along the edge.  
 It exists for those who sense something’s off but don’t yet know the way forward.
@@ -94,7 +92,7 @@ If not, leave no trace and be blessed on your path.
 ## Entry Point
 
 _A reflection on what we lose in the name of convenience — and what we might recover_  
-→ Enter via [[The Gate of Awareness]]
+→ Enter via [[🕯 Awakening]]
 
 [^1]
 
