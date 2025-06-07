@@ -45,21 +45,17 @@
   </style>
 
   <h1>Posts</h1>
+{{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+{{ if gt (len $allPosts) 0 }}
+<ul>
+{{ range $allPosts.ByDate.Reverse }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ else }}
+<p>No posts found.</p>
+{{ end }}
 
-  {{ if gt (len .RegularPages) 0 }}
-  <ul class="post-list">
-    {{ range .RegularPages.ByDate.Reverse }}
-      <li class="post-item" onclick="window.location.href='{{ .Permalink }}'">
-        <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  </ul>
-  {{ else }}
-    <p>No posts found.</p>
-  {{ end }}
-
-  <p>Found {{ len .Pages }} pages.</p>
-  <p>Found {{ len .RegularPages }} regular pages.</p>
 
 </main>
 {{ end }}
