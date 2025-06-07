@@ -1,15 +1,13 @@
 {{ define "main" }}
-  <h1>All Posts</h1>
-  <p>Found {{ len .Pages }} posts in this section.</p>
+<main style="max-width: 850px; margin: auto; padding: 2rem;">
+  <h1>Posts</h1>
   <ul>
     {{ range .Pages.ByDate.Reverse }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <small>🗓️ {{ .Date.Format "Jan 2, 2006" }}</small>
-      </li>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}</li>
     {{ else }}
       <li>No posts found.</li>
     {{ end }}
   </ul>
+</main>
 {{ end }}
 
