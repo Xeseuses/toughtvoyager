@@ -61,7 +61,7 @@ fi
 
 # Step 6: Push only the main repository (no submodules)
 echo "Pushing main repository to master..."
-git push origin master
+git push --recurse-submodules=no origin master
 
 # Step 7: Push public folder to hostinger branch
 BRANCH_EXISTS=$(git branch --list hostinger-deploy)
