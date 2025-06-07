@@ -45,15 +45,16 @@
   </style>
 
   <h1>Posts</h1>
-{{ $allPosts := where .Site.RegularPages "Type" "posts" }}
-{{ if gt (len $allPosts) 0 }}
+  <p>Pages in this section: {{ len .Pages }}</p>
+  <p>RegularPages in this section: {{ len .RegularPages }}</p>
+
 <ul>
-{{ range $allPosts.ByDate.Reverse }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>
+{{ range .RegularPages.ByDate.Reverse }}
+  <li class="post-item" onclick="window.location.href='{{ .Permalink }}'">
+    <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
 {{ else }}
-<p>No posts found.</p>
+  <p>No posts found.</p>
 {{ end }}
 
 
