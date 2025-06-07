@@ -1,58 +1,72 @@
 {{ define "main" }}
 <main style="padding: 2rem; max-width: 850px; margin: auto; font-family: 'Segoe UI', sans-serif; background: #fffdf7;">
 
-  <style>
-    .note-title {
-      font-size: 2.25rem;
-      font-weight: bold;
-      color: #2e4d3a;
-      margin-bottom: 0.5rem;
-    }
+<style>
+  .note-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #2e4d3a;
+    margin-bottom: 0.75rem; /* a bit more space */
+  }
 
-    .note-meta {
-      font-size: 0.9rem;
-      color: #777;
-      margin-bottom: 2rem;
-    }
+  .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 2rem; /* keep this */
+  }
 
-    .content a[href^="/"] {
-      color: #3b7a57;
-      text-decoration: underline dotted;
-      transition: color 0.2s;
-    }
+  .content p {
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
 
-    .content a[href^="/"]:hover {
-      color: #2e4d3a;
-    }
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 
-    .related {
-      background: #f4f8f5;
-      padding: 1.5rem;
-      border-radius: 12px;
-      margin-top: 3rem;
-      border-left: 5px solid #cfe3d8;
-    }
+  .content a[href^="/"] {
+    color: #3b7a57;
+    text-decoration: underline dotted;
+    transition: color 0.2s;
+  }
 
-    .related h3 {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      color: #3b7a57;
-    }
+  .content a[href^="/"]:hover {
+    color: #2e4d3a;
+  }
 
-    .related ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
-    }
+  .related {
+    background: #f4f8f5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+    border-left: 5px solid #cfe3d8;
+  }
 
-    .related a {
-      text-decoration: none;
-      color: #2f5c45;
-    }
+  .related h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #3b7a57;
+  }
 
-    .related a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  .related ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+
+  .related a {
+    text-decoration: none;
+    color: #2f5c45;
+  }
+
+  .related a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 
   <h1 class="note-title">{{ .Title }}</h1>
   <p class="post-meta">
