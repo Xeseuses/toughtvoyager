@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main style="max-width: 850px; margin: auto; padding: 2rem;">
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ range $posts.ByDate.Reverse }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}</li>
+    {{ else }}
+      <li>No posts found.</li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
+

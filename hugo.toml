@@ -37,4 +37,8 @@ category = "categories"
     name = "Posts"
     url = "/posts/"
     weight = 2
+[[menu.main]]
+  name = "Articles"
+  url = "/articles/"
+  weight = 3
 
