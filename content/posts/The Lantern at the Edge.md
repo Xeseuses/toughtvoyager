@@ -17,37 +17,86 @@ Only trails. Chosen, not pushed.
 
 Step carefully. And with intent.
 
+This is the first page of a quite digital garden and a trail into a sovereign, human-scaled world.
+
 ## 🗺What This is. 
+
+A personal trail into sovereignty, privacy and reconnection, guided by tools, stories and symbolic waystations.
 
 ## Waystones and Stations on this path:
 
 ### Awakening 🕯️
 
-Intro to digital overreach and the need to disconnect
+We’ve traded sovereignty for convenience. Few notice the cost until something breaks.  
+This station offers a reflection, a personal reckoning with surveillance, algorithmic control, and the slow erosion of inner life.
+
+> 🧭 _What do you lose when your path is chosen for you? What might awaken if you step aside?_
 ### Tools of the Nomad 🛠️
 
-BTC, Monero, Logseq, Nostr, Yggdrasil
+**Why these tools?**  
+This is not about escaping society, but building alternative foundations. Here we explore simple, durable, human-respecting tools:
+
+- 🪙 Bitcoin & Monero for value
+    
+- 📒 Logseq for knowledge
+    
+- 🦢 Nostr for social presence
+    
+- 🌱 Yggdrasil for private networking
+    
+
+> 🧭 _Not all tools are neutral. Some help you leave the empire without burning bridges._
 ### The Haven 🏡
 
-How to join the .ygg world
+A world is only sovereign when you can **host it yourself**.  
+Here you’ll learn how to join my `.ygg` network — a quiet zone beyond DNS and digital IDs — and how to run your own.
+
+> 🧭 _Privacy isn’t secrecy. It’s the right to choose your audience._
 
 ### The Gate ⛩
 
-Light verification
+### ⛩ The Gate
+
+**Why not open everything?**  
+Not all doors should swing wide. This gate offers **light verification** for those who wish to enter deeper, to reach the Nostr relay, the inner trails, or the Elder Key guide.
+
+> 🧭 _Trust is slow-grown. That’s the point._
 
 ### The Echo Circle 🏕️
 
-Invite-only Nostr relay, chat, or even group calls
+**Why community?**  
+Even in sovereign worlds, we need fellowship. This is an invite-only space: part-relay, part-campfire, maybe even voice chats later. A place for quiet builders, writers, wanderers.
+
+> 🧭 _A circle of trust is still possible, even online. But it must be tended._
 
 ### The Seed Kit 🗺️
 
-USB starter kit, Git repo, printed booklet
+**Why a kit?**  
+Sometimes, all someone needs is a map and a spark. The Seed Kit offers that:
 
-## 🪜Why Step Forward
+- A preloaded USB
+    
+- Setup scripts
+    
+- A Git repo
+    
+- A printable zine or fieldbook  
+    Everything you need to begin your own lantern-lit trail.
+    
 
+> 🧭 _This world should not depend on me. Light your own lantern._
+
+## 🪜Why Step Forward / Who This Is For
+
+This is not a project, a club, or a product. It’s a **signal**, one more fire lit along the edge.  
+It exists for those who sense something’s off but don’t yet know the way forward.
+
+If you're one of them, maybe this is your sign.  
+If not, leave no trace and be blessed on your path.
 ## Entry Point
 
-Step One: The Path of Disconnection:
-*A reflection on what we lose in the name of convenience and what we might recover*
--> [[The Gate of Awareness]]
+_A reflection on what we lose in the name of convenience — and what we might recover_  
+→ Enter via The Gate of Awareness
+[^1]
 
+[^1]: This trail is quiet. It remembers no one. You are free to leave, or step further.
