@@ -5,7 +5,7 @@
   {{ partial "post-card-style.html" . }}
 
   <ul style="list-style:none; padding-left:0;">
-    {{ $posts := where (where .Site.RegularPages "Section" "posts") "Params.showOnHomepage" "true" }}
+    {{ $posts := where (where .Site.RegularPages "Section" "posts") "Params.trail" "false" }}
     {{ $filtered := where $posts "Title" "ne" "" }}
     {{ $filtered = where $filtered "Date.Unix" "gt" 0 }}
     {{ range $filtered.ByDate.Reverse }}

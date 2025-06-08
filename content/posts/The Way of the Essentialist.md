@@ -7,6 +7,7 @@ Title: The Way of the Essentialist
 date: 2024-12-10
 lastmod: 2025-06-05
 showOnHomepage: "true"
+trail: "false"
 ---
 
 Mantra: Less, but better 

@@ -9,4 +9,5 @@ Title:
 date: 
 lastmod: 
 showOnHomepage: "true"
+trail: "false"
 ---
