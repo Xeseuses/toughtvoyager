@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T18:29:37
-stage: 🌱 Seedling
+stage: 
 Title: 🍃The Whisper Grove
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🏞 Vista
+trail: "true"
 ---
 
 ## Introduction:

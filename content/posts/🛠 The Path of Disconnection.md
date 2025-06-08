@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T18:19:03
-stage: 🌱 Seedling
+stage: 
 Title: 🛠 The Path of Disconnection
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🪜 Ascent
+trail: "true"
 ---
 ## Why choose privacy-respecting tools?
 

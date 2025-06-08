@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T18:22:26
-stage: 🌱 Seedling
+stage: 
 Title: 🏡 The Shelter of Haven
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🏞 Vista
+trail: "true"
 ---
 ## What is a sovereign home online?
 

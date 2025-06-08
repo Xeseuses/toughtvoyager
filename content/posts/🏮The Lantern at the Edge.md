@@ -3,12 +3,13 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T16:49:35
-stage: 🌿 Budding
+stage: 
 Title: 🏮The Lantern at the Edge
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "true"
-trailStage: 🚪 Threshold
+trail: "true"
+showontrail: "true"
 ---
 ## 🔥Welcome...
 You have found the lantern at the edge.

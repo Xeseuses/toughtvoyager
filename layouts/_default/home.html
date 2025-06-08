@@ -67,34 +67,25 @@
   {{ end }}
 
   {{/* --- Trails Section --- */}}
-  {{ $trailStages := slice "🚪 Threshold" "🪧 Waymark" "🪜 Ascent" "🏞 Vista" "🏁 Arrival" }}
-  {{ $trails := where $allPosts "Params.trailStage" "!=" nil }}
+  {{ $trails := where $allPosts "Params.trail" "true" }}
   {{ if gt (len $trails) 0 }}
     <section>
       <h2 class="stage-title">🛤 Trails</h2>
-      {{ range $stage := $trailStages }}
-        {{ $filtered := where $trails "Params.trailStage" $stage }}
-        {{ if gt (len $filtered) 0 }}
-          <div class="stage-cluster">
-            <h3 class="stage-title">{{ $stage }}</h3>
-            <ul style="list-style: none; padding-left: 0;">
-              {{ range sort $filtered "Date" "desc" }}
-              <li>
-                <div class="post-card" onclick="window.location.href='{{ .Permalink }}'">
-                  <div class="post-header">
-                    <h3 class="post-title">{{ .Title }}</h3>
-                    <div class="post-meta">
-                      {{ .Date.Format "Jan 2, 2006" }}<br>⏱️ {{ .ReadingTime }} min read
-                    </div>
-                  </div>
-                  <p class="post-summary">{{ .Summary | plainify }}</p>
-                </div>
-              </li>
-              {{ end }}
-            </ul>
+      <ul style="list-style: none; padding-left: 0;">
+        {{ range sort $trails "Date" "desc" }}
+        <li>
+          <div class="post-card" onclick="window.location.href='{{ .Permalink }}'">
+            <div class="post-header">
+              <h3 class="post-title">{{ .Title }}</h3>
+              <div class="post-meta">
+                {{ .Date.Format "Jan 2, 2006" }}<br>⏱️ {{ .ReadingTime }} min read
+              </div>
+            </div>
+            <p class="post-summary">{{ .Summary | plainify }}</p>
           </div>
+        </li>
         {{ end }}
-      {{ end }}
+      </ul>
     </section>
   {{ end }}
 

@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T21:37:30
-stage: 🌱 Seedling
+stage: 
 Title: 🗺The Seed Kit
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🏞 Vista
+trail: "true"
 ---
 ## Introduction: Everything you need to start your own journey
 

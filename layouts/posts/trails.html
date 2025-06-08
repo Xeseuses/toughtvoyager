@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main style="padding: 2rem; max-width: 850px; margin: auto; font-family: 'Segoe UI', sans-serif; background: #f4f8f5;">
+
+  <style>
+    .section-title { font-size: 2.75rem; margin-bottom: 1rem; color: #2e4d3a; }
+    .post-card {
+      background: #fff; padding: 1.5rem 1.75rem; border-radius: 12px;
+      border: 1.5px solid #ddeedd; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      cursor: pointer; margin-bottom: 1.5rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .post-card:hover { transform: scale(1.02); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+    .post-header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .post-title { font-size: 1.3rem; color: #222; font-weight: 600; margin: 0; flex-grow: 1; }
+    .post-meta { color: #666; font-size: 0.9rem; min-width: 130px; text-align: right; }
+    .post-summary { color: #444; font-size: 1rem; margin: 0.75rem 0 0 0; }
+  </style>
+
+  <header>
+    <h1 class="section-title">🛤 Trails</h1>
+    <p>Explore the curated trail articles, a journey through connected ideas and pathways.</p>
+  </header>
+
+  {{ $trailPosts := where (where .Site.RegularPages "Type" "posts") "Params.showontrail" "true" }}
+
+  {{ if not (len $trailPosts) }}
+    <p>No trails found yet. Check back soon!</p>
+  {{ else }}
+    <ul style="list-style: none; padding-left: 0;">
+      {{ range sort $trailPosts "Date" "desc" }}
+      <li>
+        <div class="post-card" onclick="window.location.href='{{ .Permalink }}'">
+          <div class="post-header">
+            <h3 class="post-title">{{ .Title }}</h3>
+            <div class="post-meta">
+              {{ .Date.Format "Jan 2, 2006" }}<br>⏱️ {{ .ReadingTime }} min read
+            </div>
+          </div>
+          <p class="post-summary">{{ .Summary | plainify }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+</main>
+{{ end }}
+

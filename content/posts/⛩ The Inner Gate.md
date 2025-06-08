@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T18:24:33
-stage: 🌱 Seedling
+stage: 
 Title: ⛩ The Inner Gate
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🏞 Vista
+trail: "true"
 ---
 ## Why verification matters on a sovereign trail
 

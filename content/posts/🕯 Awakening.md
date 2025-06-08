@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T18:20:43
-stage: 🌱 Seedling
+stage: 
 Title: 🕯 Awakening
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🪧 Waymark
+trail: "true"
 ---
 Privacy loss, DSA, CBDCs, Planatir
 

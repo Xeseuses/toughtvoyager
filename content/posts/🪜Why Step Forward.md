@@ -3,12 +3,12 @@ tags:
   - privacy
 Links: 
 Created: 2025-06-07T21:40:08
-stage: 🌱 Seedling
+stage: 
 Title: 🪜Why Step Forward
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
-trailStage: 🏁 Arrival
+trail: "true"
 ---
 ## Introduction: 
 What this trail means; invitation to deeper awareness
