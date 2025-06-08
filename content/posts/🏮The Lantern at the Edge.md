@@ -10,7 +10,7 @@ lastmod: 2025-06-09
 showOnHomepage: "true"
 trail: "true"
 showontrail: "true"
-layout: lantern
+layout:
 ---
 🔥 **Welcome, wanderer.**
 
@@ -54,79 +54,73 @@ But if something stirs you… keep going.
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🕯 Awakening  
-A quiet realization. Why life online feels more tiring than it used to — and how we ended up here.
-</div>
+A quiet realization. Why life online feels more tiring than it used to—and how we ended up here.
+{{< /trail-step >}}
 
 _A quiet realization_  
 Why life online feels more tiring than it used to—and how we ended up here.
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🛠 The Path of Disconnection  
 Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
+{{< /trail-step >}}
 
-_Small choices, real change_  
-Easy, approachable tools to regain privacy and peace—without becoming a tech wizard.
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🏡 **The Shelter of Haven** 
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
-
-
 _A new kind of digital gathering_  
 Where we meet outside the public internet, on a hidden, human-scale network.
+{{< /trail-step >}}
+
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### ⛩ **The Inner Gate**  
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
-
-
 _Entry with intent_  
 Why this isn’t open to the whole internet—and how you can receive your invitation.
+{{< /trail-step >}}
+
+
+
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🍃 **The Whisper Grove** 
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
-
-
 _Where we talk again_  
 A gentle chat space, powered by people not platforms. Peaceful by default.
+{{< /trail-step >}}
+
+
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🗺 **The Seed Kit** 
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
-
-
 _Want to go deeper?_  
 Resources, guides, and a USB pack for those ready to grow something of their own.
+{{< /trail-step >}}
+
+
+
 
 ---
 
-<div class="trail-step">
+{{< trail-step >}}
 ### 🪜 **Why Step Forward**
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-</div>
-
-
 _A new story_  
 This isn’t about escaping the world.  
 It’s about choosing the part of it worth tending.
+{{< /trail-step >}}
+
+
 
 ---
 
