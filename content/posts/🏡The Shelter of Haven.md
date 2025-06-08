@@ -8,6 +8,7 @@ Title: 🏡 The Shelter of Haven
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
+trailStage: 🏞 Vista
 ---
 ## What is a sovereign home online?
 

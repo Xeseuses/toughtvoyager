@@ -8,6 +8,7 @@ Title: ⛩ The Inner Gate
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "false"
+trailStage: 🏞 Vista
 ---
 ## Why verification matters on a sovereign trail
 

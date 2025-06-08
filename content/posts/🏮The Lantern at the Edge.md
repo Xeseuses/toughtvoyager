@@ -8,6 +8,7 @@ Title: 🏮The Lantern at the Edge
 date: 2025-06-07
 lastmod: 2025-06-07
 showOnHomepage: "true"
+trailStage: 🚪 Threshold
 ---
 ## 🔥Welcome...
 You have found the lantern at the edge.
