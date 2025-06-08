@@ -1,7 +1,5 @@
 ---
-tags:
-  - ct-2
-  - ct-3
+tags: []
 Links: 
 Created: 2025-06-07T18:19:03
 stage: 
