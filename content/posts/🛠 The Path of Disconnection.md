@@ -7,7 +7,7 @@ Created: 2025-06-07T18:19:03
 stage: 
 Title: 🛠 The Path of Disconnection
 date: 2025-06-07
-lastmod: 2025-06-07
+lastmod: 2025-06-09
 showOnHomepage: "false"
 trail: "true"
 ---
@@ -64,27 +64,17 @@ Here are some gentle first steps anyone can take:
 
 - **Browser**: Brave or Firefox
     
-- **Search**: DuckDuckGo or Brave Search
+- **Search**: DuckDuckGo or Brave Search or even Kagi
     
 - **Email**: ProtonMail or Tutanota
     
 - **Messenger**: Signal or SimpleX
 
-#### 🧭 Begin the Journey Inward
+Each small change is a key.  
+Each step gives you a bit of yourself back.
 
-Start a journal (paper or digital), and ask:
-
-- What _feeds_ me?
-    
-- What _drains_ me?
-    
-- Where do I feel watched?
-    
-- Where do I feel free?
-
-Let those questions guide your next steps.
-
----
+You don’t need to do everything.  
+Just do _something_ — and keep walking.
 
 ### ✨ A New Kind of Digital Life
 
@@ -114,3 +104,17 @@ You’re **reclaiming the parts that still belong to people**.
 
 **Next: [[🏡The Shelter of Haven]]
 A glimpse into the hidden campfires we can build together.
+
+Minipages:
+
+- [[🐿“Easiest Tools to Start With”]]
+    
+    > Signal, SimpleX, Brave, ProtonMail—non-scary tools for beginners
+    
+- [[🧭“What I Actually Use Day to Day”]]
+    
+    > Your own trusted list of tools with a personal tone
+    
+- [[🧠“What Do You Lose? What Do You Gain?”]]
+    
+    > A soft reflection on values: time, trust, privacy
