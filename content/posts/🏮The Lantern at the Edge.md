@@ -130,7 +130,7 @@ It’s about choosing the part of it worth tending.
 
 ---
 
-## 🧙‍♂️ Elder Keys
+<span class="elder-key">🧙‍♂️ Elder Key</span>
 
 Some pages or spaces require a token: an **Elder Key**.  
 This is how we keep things small, intentional, and beautiful.
