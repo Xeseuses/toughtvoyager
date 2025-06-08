@@ -1,77 +1,125 @@
 {{ define "main" }}
-<main style="max-width: 750px; margin: auto; padding: 2rem; font-family: sans-serif;">
+<main style="padding: 2rem; max-width: 850px; margin: auto; font-family: 'Segoe UI', sans-serif; background: #fffdf7;">
 
-  <style>
-    article {
-      animation: fadein 0.5s ease forwards;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-    }
-    .meta {
-      color: #888;
-      margin-bottom: 2rem;
-      font-size: 0.95rem;
-    }
-    .content {
-      line-height: 1.7;
-      font-size: 1.05rem;
-      color: #333;
-    }
-    .content img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin: 1.5rem 0;
-    }
-    .content blockquote {
-      border-left: 4px solid #ccc;
-      padding-left: 1rem;
-      margin: 1rem 0;
-      color: #555;
-      font-style: italic;
-    }
-    .taglist {
-      margin-top: 3rem;
-      color: #666;
-    }
-    .taglist span {
-      background: #eef;
-      color: #336;
-      padding: 0.25rem 0.5rem;
-      margin-right: 0.5rem;
-      border-radius: 6px;
-      font-size: 0.9rem;
-    }
-    {{ partial "related.html" . }}
+<style>
+  .note-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #2e4d3a;
+    margin-bottom: 0.75rem; /* a bit more space */
+  }
 
-    @keyframes fadein {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-  </style>
+  .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 2rem; /* keep this */
+  }
 
-  <article>
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.stage }}
-     <div class="meta" style="color: #4a4;">{{ . }}</div>
+  .content p {
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .content a[href^="/"] {
+    color: #3b7a57;
+    text-decoration: underline dotted;
+    transition: color 0.2s;
+  }
+
+  .content a[href^="/"]:hover {
+    color: #2e4d3a;
+  }
+
+  .related {
+    background: #f4f8f5;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+    border-left: 5px solid #cfe3d8;
+  }
+
+  .related h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #3b7a57;
+  }
+
+  .related ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+
+  .related a {
+    text-decoration: none;
+    color: #2f5c45;
+  }
+
+  .related a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
+  <h1 class="note-title">{{ .Title }}</h1>
+  <p class="post-meta">
+    🗓️ Published: {{ .Date.Format "Jan 2, 2006" }}<br>
+    🛠️ Last edited: {{ .Lastmod.Format "Jan 2, 2006" }}
+  </p>
+
+  {{/* Build title-to-page map */}}
+  {{ $pageMap := dict }}
+  {{ range .Site.RegularPages }}
+    {{ $pageMap = merge $pageMap (dict .Title .) }}
+  {{ end }}
+
+  {{/* Replace wikilinks in already-rendered HTML (.Content) */}}
+  {{ $pattern := `\[\[([^\[\]]+)\]\]` }}
+  {{ $content := .Content }}
+
+  {{ range $match := findRESubmatch $pattern $content }}
+    {{ $linkText := index $match 1 }}
+    {{ $page := index $pageMap $linkText }}
+    {{ if $page }}
+      {{ $link := printf `<a href="%s">%s</a>` $page.RelPermalink $linkText }}
+      {{ $content = replace $content (index $match 0) $link }}
+    {{ else }}
+      {{ $slug := urlize $linkText }}
+      {{ $fallback := printf `<a href="/posts/%s/">%s</a>` $slug $linkText }}
+      {{ $content = replace $content (index $match 0) $fallback }}
     {{ end }}
+  {{ end }}
 
-    <div class="meta">
-      {{ .Date.Format "Jan 2, 2006" }} &nbsp; · &nbsp; ⏱️ {{ .ReadingTime }} min read
-    </div>
+  <div class="content">
+    {{ $content | safeHTML }}
+  </div>
 
-    <div class="content">
-      {{ .Content }}
-    </div>
+  {{/* Related Notes */}}
+  {{ $current := . }}
+  {{ $related := where .Site.RegularPages "Type" "posts" }}
+  {{ $related = where $related "Params.tags" "intersect" .Params.tags }}
+  {{ $related = where $related "Permalink" "ne" $current.Permalink }}
 
-    {{ with .Params.tags }}
-    <div class="taglist">
-      <strong>Tagged:</strong>
-      {{ range . }}<span>{{ . }}</span>{{ end }}
+  {{ if gt (len $related) 0 }}
+    <div class="related">
+      <h3>🔗 Related Notes</h3>
+      <ul>
+        {{ range $rel := $related }}
+          <li><a href="{{ $rel.RelPermalink }}">{{ $rel.Title }}</a></li>
+        {{ end }}
+      </ul>
     </div>
-    {{ end }}
-  </article>
+  {{ end }}
+  
+  {{ partial "comments.html" . }}
+
 </main>
 {{ end }}
 
