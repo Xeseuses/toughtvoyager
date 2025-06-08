@@ -1,6 +1,5 @@
 ---
 tags:
-  - privacy
   - ct-2
   - ct-3
 Links: 
