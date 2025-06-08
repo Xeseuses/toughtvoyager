@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: 🪜Why Step Forward
 date: 2025-06-07
 lastmod: 2025-06-07
+showOnHomepage: "false"
 ---
 ## Introduction: 
 What this trail means; invitation to deeper awareness

@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: ⛩ The Inner Gate
 date: 2025-06-07
 lastmod: 2025-06-07
+showOnHomepage: "false"
 ---
 ## Why verification matters on a sovereign trail
 

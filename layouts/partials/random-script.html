@@ -1,10 +1,12 @@
 <script>
-  const allPosts = [
-    {{ range $i, $p := where .Site.RegularPages "Type" "posts" }}
-      {{ if gt $i 0 }},{{ end }}
-      "{{ $p.RelPermalink }}"
-    {{ end }}
-  ];
+ const allPosts = [
+  {{ $posts := where (where .Site.RegularPages "Type" "posts") "Params.showOnHomepage" true }}
+  {{ range $i, $p := $posts }}
+    {{ if gt $i 0 }},{{ end }}
+    "{{ $p.RelPermalink }}"
+  {{ end }}
+];
+ 
 
   function goToRandomPost() {
     if (allPosts.length === 0) return;

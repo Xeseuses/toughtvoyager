@@ -89,7 +89,7 @@
   <button class="wander-btn" onclick="goToRandomPost()">🌿 Wander Randomly</button>
 </header>
 
-  {{ $posts := where .Site.RegularPages "Type" "posts" }}
+  {{ $posts := where (where .Site.RegularPages "Type" "posts") "Params.showOnHomepage" true }}
   {{ if not (len $posts) }}
     <p>No posts found yet. Stay tuned!</p>
   {{ else }}

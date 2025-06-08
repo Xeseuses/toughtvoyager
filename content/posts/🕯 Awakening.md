@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: 🕯 Awakening
 date: 2025-06-07
 lastmod: 2025-06-07
+showOnHomepage: "false"
 ---
 Privacy loss, DSA, CBDCs, Planatir
 

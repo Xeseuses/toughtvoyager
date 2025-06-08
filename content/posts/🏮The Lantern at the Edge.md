@@ -7,6 +7,7 @@ stage: 🌿 Budding
 Title: 🏮The Lantern at the Edge
 date: 2025-06-07
 lastmod: 2025-06-07
+showOnHomepage: "true"
 ---
 ## 🔥Welcome...
 You have found the lantern at the edge.

@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: 🗺The Seed Kit
 date: 2025-06-07
 lastmod: 2025-06-07
+showOnHomepage: "false"
 ---
 ## Introduction: Everything you need to start your own journey
 
