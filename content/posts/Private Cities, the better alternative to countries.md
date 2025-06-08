@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: Private Cities, the better alternative to countries
 date: 2025-02-07
 lastmod: 2025-02-07
+showOnHomepage: "true"
 ---
 In this post will I explain what living in free private cities is like. This post is based on the book Free Private Cities by Titus Gebel and the website of the Free Cities Foundation [^1]
 

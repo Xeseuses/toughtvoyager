@@ -7,6 +7,7 @@ stage: 🌱 Seedling
 Title: A Manifesto For The Future
 date: 2025-02-07
 lastmod: 2025-02-07
+showOnHomepage: "true"
 ---
 All good and well do you maybe think at this point after reading some of my ideas, but what is the way forward then? In this post I want to give a short manifesto for how I imagine the future to be.
 
