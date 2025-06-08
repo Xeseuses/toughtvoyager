@@ -1,6 +1,8 @@
 ---
 tags:
   - privacy
+  - ct-1
+  - ct-2
 Links: 
 Created: 2025-06-07T18:20:43
 stage: 
