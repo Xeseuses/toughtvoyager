@@ -12,21 +12,20 @@ trail: "true"
 showontrail: "true"
 layout:
 ---
-🔥 **Welcome, wanderer.**
+🏮 **The Lantern at the Edge**  
+🔥 Welcome, wanderer.
 
-You’ve found the lantern at the edge.
+You’ve found the lantern at the edge —  
+where the noisy, crowded internet fades,  
+and a quieter, human-scaled world begins.
 
-This is where the old internet ends —  
-and a different one begins.
+No endless feeds. No followers to tally.  
+No surveillance watching every move.  
+Just trails chosen by you, not pushed on you.
 
-No timelines. No feeds. No followers.  
-No surveillance. No noise.  
-Just trails.  
-Chosen, not pushed.
-
-If you’ve ever felt like you’re _being watched_…  
-If you’ve ever wanted to leave the algorithm…  
-If you’ve longed for a slower, quieter digital life…
+If you’ve ever felt watched...  
+If you’ve longed to step away from the algorithm...  
+If you crave a slower, quieter digital life...
 
 This is your map.
 
@@ -34,113 +33,39 @@ This is your map.
 
 ## 🧭 What is This?
 
-**The Lantern at the Edge** is a gentle guide into a hidden, human-scaled part of the internet.
-
-Built for people who want:  
+**The Lantern at the Edge** is a gentle guide to a hidden corner of the internet —  
+made for those who want:  
 ✅ More privacy  
 ✅ More trust  
 ✅ Less noise  
 ✅ Less extraction
 
-You won’t need a tech background. You won’t need a server.  
-Just a desire to reclaim a little bit of your digital life.
+No tech skills required. No servers to manage.  
+Just the will to reclaim a bit of your digital life.
 
 ---
 
 ## 🚶 The Trail Ahead
 
-Each page is a step. You can stop anytime.  
-But if something stirs you… keep going.
-
----
-
-{{< trail-step >}}
-### 🕯 Awakening  
-A quiet realization. Why life online feels more tiring than it used to—and how we ended up here.
-{{< /trail-step >}}
-
-_A quiet realization_  
-Why life online feels more tiring than it used to—and how we ended up here.
-
----
-
-{{< trail-step >}}
-### 🛠 The Path of Disconnection  
-Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.
-{{< /trail-step >}}
-
-
----
-
-{{< trail-step >}}
-### 🏡 **The Shelter of Haven** 
-_A new kind of digital gathering_  
-Where we meet outside the public internet, on a hidden, human-scale network.
-{{< /trail-step >}}
-
-
----
-
-{{< trail-step >}}
-### ⛩ **The Inner Gate**  
-_Entry with intent_  
-Why this isn’t open to the whole internet—and how you can receive your invitation.
-{{< /trail-step >}}
-
-
-
-
----
-
-{{< trail-step >}}
-### 🍃 **The Whisper Grove** 
-_Where we talk again_  
-A gentle chat space, powered by people not platforms. Peaceful by default.
-{{< /trail-step >}}
-
-
-
----
-
-{{< trail-step >}}
-### 🗺 **The Seed Kit** 
-_Want to go deeper?_  
-Resources, guides, and a USB pack for those ready to grow something of their own.
-{{< /trail-step >}}
-
-
-
-
----
-
-{{< trail-step >}}
-### 🪜 **Why Step Forward**
-_A new story_  
-This isn’t about escaping the world.  
-It’s about choosing the part of it worth tending.
-{{< /trail-step >}}
-
-
-
----
+Each page is a step. Pause or proceed as you wish.  
+But if something stirs inside you...  
+keep walking.--
 
 <span class="elder-key">🧙‍♂️ Elder Key</span>
 
-Some pages or spaces require a token: an **Elder Key**.  
-This is how we keep things small, intentional, and beautiful.
-
-You’ll know when the moment comes.
+Some places here need a special token — an **Elder Key**.  
+It’s more than a password. It’s an invitation, a sign of trust and intent.  
+You’ll know when it’s time to receive yours.
 
 ---
 
 ## 💬 Final Word
 
-You don’t have to know where this leads.
+You don’t need to know exactly where this leads.  
+You only need to feel that it matters.  
+That something inside you wants to change.
 
-You just have to feel that it matters.  
-That something has to change.
-
-If you do…  
+If you do...  
 Step forward.  
 The lantern is lit.
 

@@ -1,7 +1,7 @@
 ---
 tags:
-  - ct-6
   - ct-7
+  - ct-8
 Links: 
 Created: 2025-06-07T21:37:30
 stage: 
