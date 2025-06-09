@@ -1,113 +1,120 @@
 {{ define "main" }}
-<main style="padding: 2rem; max-width: 850px; margin: auto; font-family: 'Segoe UI', sans-serif; background: #fffdf7;">
+  <style>
+    .trail-container {
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
 
-  {{/* Include Lantern CSS, minified & fingerprinted */}}
-  {{ $css := resources.Get "css/lantern.css" | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    .trail-step {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      background: #fdfdfd;
+      border-radius: 12px;
+      border-left: 5px solid #d7e7dd;
+    }
 
-  <h1 class="note-title">{{ .Title }}</h1>
-  <p class="post-meta">
-    🗓️ Published: {{ .Date.Format "Jan 2, 2006" }}<br>
-    🛠️ Last edited: {{ .Lastmod.Format "Jan 2, 2006" }}
-  </p>
+    .trail-step.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-  {{/* Build title-to-page map for wikilinks */}}
-  {{ $pageMap := dict }}
-  {{ range .Site.RegularPages }}
-    {{ $pageMap = merge $pageMap (dict .Title .) }}
-  {{ end }}
+    .elder-key {
+      display: inline-block;
+      animation: glow 2s ease-in-out infinite alternate;
+      font-weight: bold;
+      color: #4b3a00;
+      padding: 0.5rem 1rem;
+      margin-top: 2rem;
+      background: #fff8dc;
+      border-radius: 8px;
+    }
 
-  {{/* Replace wikilinks ([[title]]) in already-rendered HTML (.Content) */}}
-  {{ $pattern := `\[\[([^\[\]]+)\]\]` }}
-  {{ $content := .Content }}
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #ffd700;
+      }
+      to {
+        text-shadow: 0 0 15px #fff08a;
+      }
+    }
+  </style>
 
-  {{ range $match := findRESubmatch $pattern $content }}
-    {{ $linkText := index $match 1 }}
-    {{ $page := index $pageMap $linkText }}
-    {{ if $page }}
-      {{ $link := printf `<a href="%s">%s</a>` $page.RelPermalink $linkText }}
-      {{ $content = replace $content (index $match 0) $link }}
-    {{ else }}
-      {{ $slug := urlize $linkText }}
-      {{ $fallback := printf `<a href="/posts/%s/">%s</a>` $slug $linkText }}
-      {{ $content = replace $content (index $match 0) $fallback }}
-    {{ end }}
-  {{ end }}
+  <div class="trail-container">
+    <h1>🏮 The Lantern at the Edge</h1>
 
-  <div class="content">
-    {{ $content | safeHTML }}
+    <p><strong>🔥 Welcome, wanderer.</strong><br>
+    You’ve found the lantern at the edge.</p>
+
+    <p>This is where the old internet ends — and a different one begins.</p>
+
+    <p>No timelines. No feeds. No followers. No surveillance. No noise.<br>
+    Just trails. Chosen, not pushed.</p>
+
+    <p>If you’ve ever felt like you’re <em>being watched</em>…<br>
+    If you’ve ever wanted to leave the algorithm…<br>
+    If you’ve longed for a slower, quieter digital life…</p>
+
+    <p><strong>This is your map.</strong></p>
+
+    <hr>
+
+    <h2>🧭 What is This?</h2>
+    <p><strong>The Lantern at the Edge</strong> is a gentle guide into a hidden, human-scaled part of the internet.</p>
+    <ul>
+      <li>✅ More privacy</li>
+      <li>✅ More trust</li>
+      <li>✅ Less noise</li>
+      <li>✅ Less extraction</li>
+    </ul>
+    <p>No tech background required. Just curiosity.</p>
+
+    <hr>
+
+    <h2>🚶 The Trail Ahead</h2>
+    <p>Each page is a step. You can stop anytime.<br>But if something stirs you… keep going.</p>
+
+    <!-- TRAIL STEPS -->
+    <div class="trail-step"><h3>🕯 Awakening</h3><p>A quiet realization. Why life online feels more tiring than it used to—and how we ended up here.</p></div>
+
+    <div class="trail-step"><h3>🛠 The Path of Disconnection</h3><p>Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.</p></div>
+
+    <div class="trail-step"><h3>🏡 The Shelter of Haven</h3><p>Where we meet outside the public internet, on a hidden, human-scale network.</p></div>
+
+    <div class="trail-step"><h3>⛩ The Inner Gate</h3><p>Why this isn’t open to the whole internet—and how you can receive your invitation.</p></div>
+
+    <div class="trail-step"><h3>🍃 The Whisper Grove</h3><p>A gentle chat space, powered by people not platforms. Peaceful by default.</p></div>
+
+    <div class="trail-step"><h3>🗺 The Seed Kit</h3><p>Resources, guides, and a USB pack for those ready to grow something of their own.</p></div>
+
+    <div class="trail-step"><h3>🪜 Why Step Forward</h3><p>This isn’t about escaping the world. It’s about choosing the part of it worth tending.</p></div>
+
+    <div class="elder-key">🧙‍♂️ Elder Key</div>
+
+    <hr>
+
+    <h2>💬 Final Word</h2>
+    <p>You don’t have to know where this leads. You just have to feel that it matters.</p>
+    <p>If you do…<br><strong>Step forward. The lantern is lit.</strong></p>
+
+    <p>🪜 <a href="/posts/🕯%20Awakening">Start here → Awakening</a></p>
   </div>
 
-  {{/* Trail navigation: previous / next */}}
-  <nav class="trail-navigation" style="margin-top: 3rem; display:flex; justify-content: space-between; font-weight: 600;">
-    {{ $pages := .Site.RegularPages.ByWeight }}
-    {{ $current := . }}
-    {{ $currentIndex := -1 }}
-    {{ range $index, $page := $pages }}
-      {{ if eq $page.Permalink $current.Permalink }}
-        {{ $currentIndex = $index }}
-      {{ end }}
-    {{ end }}
-
-    {{ $prev := slice }}
-    {{ $next := slice }}
-    {{ if ge $currentIndex 1 }}
-      {{ $prev = index $pages (sub $currentIndex 1) }}
-    {{ end }}
-    {{ if lt (add $currentIndex 1) (len $pages) }}
-      {{ $next = index $pages (add $currentIndex 1) }}
-    {{ end }}
-
-    {{ if $prev }}
-      <a href="{{ $prev.RelPermalink }}" style="text-decoration:none;">← {{ $prev.Title }}</a>
-    {{ else }}
-      <span></span>
-    {{ end }}
-
-    {{ if $next }}
-      <a href="{{ $next.RelPermalink }}" style="text-decoration:none;">{{ $next.Title }} →</a>
-    {{ else }}
-      <span></span>
-    {{ end }}
-  </nav>
-
-  {{/* Related Notes section */}}
-  {{ $current := . }}
-  {{ $related := where .Site.RegularPages "Type" "posts" }}
-  {{ $related = where $related "Params.tags" "intersect" .Params.tags }}
-  {{ $related = where $related "Permalink" "ne" $current.Permalink }}
-
-  {{ if gt (len $related) 0 }}
-    <div class="related">
-      <h3>🔗 Related Notes</h3>
-      <ul>
-        {{ range $rel := $related }}
-          <li><a href="{{ $rel.RelPermalink }}">{{ $rel.Title }}</a></li>
-        {{ end }}
-      </ul>
-    </div>
-  {{ end }}
-
-  {{ partial "comments.html" . }}
-
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const trailSteps = document.querySelectorAll('.trail-step');
+    document.addEventListener("DOMContentLoaded", function () {
+      const steps = document.querySelectorAll('.trail-step');
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            const index = Array.from(trailSteps).indexOf(entry.target);
-            setTimeout(() => {
-              entry.target.classList.add('visible');
-            }, index * 150);  // stagger fade-in delay per step
+            entry.target.classList.add('visible');
           }
         });
       }, { threshold: 0.1 });
 
-      trailSteps.forEach(step => observer.observe(step));
+      steps.forEach(step => observer.observe(step));
     });
   </script>
-
-</main>
 {{ end }}
-

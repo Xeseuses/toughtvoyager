@@ -10,7 +10,7 @@ lastmod: 2025-06-09
 showOnHomepage: "true"
 trail: "true"
 showontrail: "true"
-layout:
+layout: lantern
 ---
 🔥 **Welcome, wanderer.**
 
