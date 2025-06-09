@@ -1,45 +1,20 @@
 {{ define "main" }}
   <style>
-    body {
-      background: #f8f9f8;
-      font-family: system-ui, sans-serif;
-      color: #2d2d2d;
-    }
-
     .trail-container {
-      max-width: 800px;
-      margin: 4rem auto;
-      padding: 0 1.5rem;
-    }
-
-    .trail-container h1,
-    .trail-container h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-
-    .trail-container p,
-    .trail-container ul {
-      line-height: 1.6;
-      margin-bottom: 1.2rem;
-    }
-
-    hr {
-      margin: 2.5rem 0;
-      border: none;
-      border-top: 1px solid #ddd;
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem 1rem;
     }
 
     .trail-step {
       opacity: 0;
-      transform: translateY(40px);
-      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-      margin-bottom: 2.5rem;
-      padding: 1.75rem;
-      background: #ffffff;
-      border-radius: 16px;
-      border-left: 6px solid #c8e8db;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      background: #fdfdfd;
+      border-radius: 12px;
+      border-left: 5px solid #d7e7dd;
     }
 
     .trail-step.visible {
@@ -47,46 +22,24 @@
       transform: translateY(0);
     }
 
-    .trail-step h3 {
-      margin-top: 0;
-    }
-
     .elder-key {
       display: inline-block;
       animation: glow 2s ease-in-out infinite alternate;
       font-weight: bold;
       color: #4b3a00;
-      padding: 0.6rem 1.2rem;
-      margin: 3rem auto 1rem;
+      padding: 0.5rem 1rem;
+      margin-top: 2rem;
       background: #fff8dc;
-      border-radius: 10px;
-      box-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
-      text-align: center;
+      border-radius: 8px;
     }
 
     @keyframes glow {
       from {
-        text-shadow: 0 0 6px #ffd700;
+        text-shadow: 0 0 5px #ffd700;
       }
       to {
-        text-shadow: 0 0 18px #fff08a;
+        text-shadow: 0 0 15px #fff08a;
       }
-    }
-
-    .trail-link {
-      display: inline-block;
-      margin-top: 1.5rem;
-      text-align: center;
-      font-size: 1.1rem;
-    }
-
-    .trail-link a {
-      color: #2b6cb0;
-      text-decoration: none;
-    }
-
-    .trail-link a:hover {
-      text-decoration: underline;
     }
   </style>
 
@@ -145,20 +98,18 @@
 
     <h2>💬 Final Word</h2>
     <p>You don’t have to know where this leads. You just have to feel that it matters.</p>
-    <p><strong>Step forward. The lantern is lit.</strong></p>
+    <p>If you do…<br><strong>Step forward. The lantern is lit.</strong></p>
 
-    <div class="trail-link">🪜 <a href="/posts/🕯%20Awakening">Start here → Awakening</a></div>
+    <p>🪜 <a href="/posts/🕯%20Awakening">Start here → Awakening</a></p>
   </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const steps = document.querySelectorAll('.trail-step');
       const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, idx) => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
-            setTimeout(() => {
-              entry.target.classList.add('visible');
-            }, idx * 100); // subtle stagger effect
+            entry.target.classList.add('visible');
           }
         });
       }, { threshold: 0.1 });
