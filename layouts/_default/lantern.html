@@ -1,120 +1,106 @@
-{{ define "main" }}
-  <style>
-    .trail-container {
-      max-width: 700px;
-      margin: auto;
-      padding: 2rem 1rem;
-    }
+<style>
+  .trail-container {
+    max-width: 700px;
+    margin: 5vh auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #fffef8;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(255, 215, 100, 0.2);
+  }
 
-    .trail-step {
+  .trail-step {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: all 0.6s ease;
+    margin: 3rem auto;
+    padding: 1.8rem;
+    max-width: 600px;
+    background: #fdfdf0;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 rgba(255, 223, 120, 0);
+  }
+
+  .trail-step.visible {
+    animation: riseGlow 0.9s ease forwards;
+  }
+
+  @keyframes riseGlow {
+    0% {
       opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.6s ease;
-      margin-bottom: 3rem;
-      padding: 1.5rem;
-      background: #fdfdfd;
-      border-radius: 12px;
-      border-left: 5px solid #d7e7dd;
+      transform: translateY(40px) scale(0.98);
+      border-color: transparent;
+      box-shadow: 0 0 0 rgba(255, 223, 120, 0);
     }
-
-    .trail-step.visible {
+    60% {
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(0) scale(1);
+      border-color: #ffe08a;
+      box-shadow: 0 0 10px rgba(255, 223, 120, 0.4);
     }
-
-    .elder-key {
-      display: inline-block;
-      animation: glow 2s ease-in-out infinite alternate;
-      font-weight: bold;
-      color: #4b3a00;
-      padding: 0.5rem 1rem;
-      margin-top: 2rem;
-      background: #fff8dc;
-      border-radius: 8px;
+    100% {
+      box-shadow: 0 0 25px rgba(255, 223, 120, 0.7);
     }
+  }
 
-    @keyframes glow {
-      from {
-        text-shadow: 0 0 5px #ffd700;
-      }
-      to {
-        text-shadow: 0 0 15px #fff08a;
-      }
+  .elder-key {
+    display: inline-block;
+    animation: elderGlow 2s ease-in-out infinite alternate;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #4b3a00;
+    padding: 0.8rem 1.2rem;
+    margin-top: 2rem;
+    background: #fff8dc;
+    border-radius: 12px;
+    border: 2px solid #e6c26a;
+    box-shadow: 0 0 8px #ffe97f;
+  }
+
+  @keyframes elderGlow {
+    from {
+      box-shadow: 0 0 8px #ffe97f, 0 0 2px #ffc400;
     }
-  </style>
+    to {
+      box-shadow: 0 0 16px #ffd700, 0 0 6px #ffc400;
+    }
+  }
 
-  <div class="trail-container">
-    <h1>🏮 The Lantern at the Edge</h1>
+  h1, h2, h3 {
+    color: #3c2e00;
+  }
 
-    <p><strong>🔥 Welcome, wanderer.</strong><br>
-    You’ve found the lantern at the edge.</p>
+  p {
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
 
-    <p>This is where the old internet ends — and a different one begins.</p>
+  hr {
+    margin: 3rem auto;
+    width: 50%;
+    border: none;
+    border-top: 2px dashed #d8c67a;
+  }
+</style>
 
-    <p>No timelines. No feeds. No followers. No surveillance. No noise.<br>
-    Just trails. Chosen, not pushed.</p>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const steps = document.querySelectorAll('.trail-step');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // only animate once
+        }
+      });
+    }, { threshold: 0.2 });
 
-    <p>If you’ve ever felt like you’re <em>being watched</em>…<br>
-    If you’ve ever wanted to leave the algorithm…<br>
-    If you’ve longed for a slower, quieter digital life…</p>
-
-    <p><strong>This is your map.</strong></p>
-
-    <hr>
-
-    <h2>🧭 What is This?</h2>
-    <p><strong>The Lantern at the Edge</strong> is a gentle guide into a hidden, human-scaled part of the internet.</p>
-    <ul>
-      <li>✅ More privacy</li>
-      <li>✅ More trust</li>
-      <li>✅ Less noise</li>
-      <li>✅ Less extraction</li>
-    </ul>
-    <p>No tech background required. Just curiosity.</p>
-
-    <hr>
-
-    <h2>🚶 The Trail Ahead</h2>
-    <p>Each page is a step. You can stop anytime.<br>But if something stirs you… keep going.</p>
-
-    <!-- TRAIL STEPS -->
-    <div class="trail-step"><h3>🕯 Awakening</h3><p>A quiet realization. Why life online feels more tiring than it used to—and how we ended up here.</p></div>
-
-    <div class="trail-step"><h3>🛠 The Path of Disconnection</h3><p>Small choices, real change. Easy, approachable tools to regain privacy and peace — without becoming a tech wizard.</p></div>
-
-    <div class="trail-step"><h3>🏡 The Shelter of Haven</h3><p>Where we meet outside the public internet, on a hidden, human-scale network.</p></div>
-
-    <div class="trail-step"><h3>⛩ The Inner Gate</h3><p>Why this isn’t open to the whole internet—and how you can receive your invitation.</p></div>
-
-    <div class="trail-step"><h3>🍃 The Whisper Grove</h3><p>A gentle chat space, powered by people not platforms. Peaceful by default.</p></div>
-
-    <div class="trail-step"><h3>🗺 The Seed Kit</h3><p>Resources, guides, and a USB pack for those ready to grow something of their own.</p></div>
-
-    <div class="trail-step"><h3>🪜 Why Step Forward</h3><p>This isn’t about escaping the world. It’s about choosing the part of it worth tending.</p></div>
-
-    <div class="elder-key">🧙‍♂️ Elder Key</div>
-
-    <hr>
-
-    <h2>💬 Final Word</h2>
-    <p>You don’t have to know where this leads. You just have to feel that it matters.</p>
-    <p>If you do…<br><strong>Step forward. The lantern is lit.</strong></p>
-
-    <p>🪜 <a href="/posts/🕯%20Awakening">Start here → Awakening</a></p>
-  </div>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const steps = document.querySelectorAll('.trail-step');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      }, { threshold: 0.1 });
-
-      steps.forEach(step => observer.observe(step));
+    steps.forEach((step, i) => {
+      step.style.animationDelay = `${i * 0.2}s`;
+      observer.observe(step);
     });
-  </script>
-{{ end }}
+  });
+</script>
+
